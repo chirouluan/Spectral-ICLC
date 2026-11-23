@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "previous_export": "C:\\Users\\35454\\Desktop\\llm-dl\\Spectral-ICLC\\deepseek_web_test\\four_batches_20261020T141516_0b874c03",
+  "previous_manifest_sha256": "47c59d8ef7bb183bdf37b024389d4ca92b2fa74b7f4d21f8f1ae77a7438a47f5",
+  "previous_conditions_preserved": 350,
+  "data_files_identical": 1750,
+  "full_reference_conditions_added": 85,
+  "input_features_labels_ids_and_order_unchanged": true,
+  "reference_data_equivalent_conditions": [
+    {
+      "full_reference": "batch_04_public/beef/repeat_1/full_reference",
+      "context_k": "batch_04_public/beef/repeat_1/k_5"
+    },
+    {
+      "full_reference": "batch_04_public/beef/repeat_2/full_reference",
+      "context_k": "batch_04_public/beef/repeat_2/k_5"
+    },
+    {
+      "full_reference": "batch_04_public/beef/repeat_3/full_reference",
+      "context_k": "batch_04_public/beef/repeat_3/k_5"
+    },
+    {
+      "full_reference": "batch_04_public/beef/repeat_4/full_reference",
+      "context_k": "batch_04_public/beef/repeat_4/k_5"
+    },
+    {
+      "full_reference": "batch_04_public/beef/repeat_5/full_reference",
+      "context_k": "batch_04_public/beef/repeat_5/k_5"
+    }
+  ],
+  "equivalent_condition_note": "Identical references and queries are not a reference-count contrast; prompts still explicitly distinguish main and supplementary roles.",
+  "prompt_note": "Current v3 Prompts require context-only prediction and scoring with no tools. Data comparisons remain unchanged; experiment IDs fingerprint the new Prompt version."
+}

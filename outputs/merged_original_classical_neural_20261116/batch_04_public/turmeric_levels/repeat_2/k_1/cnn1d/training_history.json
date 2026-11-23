@@ -1,0 +1,156 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 2.438324451446533,
+    "validation_loss": 1.9424737691879272,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 1
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.7342693209648132,
+    "validation_loss": 1.9418776035308838,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 2
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.36977869272232056,
+    "validation_loss": 1.9460241794586182,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 3
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.2764207422733307,
+    "validation_loss": 1.9573861360549927,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 4
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.3641156554222107,
+    "validation_loss": 1.9792672395706177,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 5
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.323941707611084,
+    "validation_loss": 2.017228364944458,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 6
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.20523925125598907,
+    "validation_loss": 2.0780866146087646,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 7
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.15179741382598877,
+    "validation_loss": 2.16717267036438,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 8
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.35522785782814026,
+    "validation_loss": 2.287168502807617,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 9
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.09901054948568344,
+    "validation_loss": 2.441869020462036,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 10
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.06090029329061508,
+    "validation_loss": 2.6287381649017334,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 11
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.0656469538807869,
+    "validation_loss": 2.842270612716675,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 12
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.05851445719599724,
+    "validation_loss": 3.077375650405884,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 13
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.08048621565103531,
+    "validation_loss": 3.329710006713867,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 14
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.05688830092549324,
+    "validation_loss": 3.5907669067382812,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 15
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.01294373907148838,
+    "validation_loss": 3.8575689792633057,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 16
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.12405365705490112,
+    "validation_loss": 4.121205806732178,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 17
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.05676081404089928,
+    "validation_loss": 4.3842453956604,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 18
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.020314741879701614,
+    "validation_loss": 4.6331305503845215,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 19
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.0887952372431755,
+    "validation_loss": 4.873814105987549,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 20
+  },
+  {
+    "epoch": 21,
+    "train_loss": 0.011115600354969501,
+    "validation_loss": 5.090453624725342,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 21
+  },
+  {
+    "epoch": 22,
+    "train_loss": 0.02633458562195301,
+    "validation_loss": 5.277687072753906,
+    "validation_accuracy": 0.1428571492433548,
+    "optimizer_steps": 22
+  }
+]

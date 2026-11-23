@@ -1,0 +1,4 @@
+﻿y_true,Chicken,Pork,Turkey,__invalid__
+Chicken,9,0,1,0
+Pork,0,10,0,0
+Turkey,1,0,9,0

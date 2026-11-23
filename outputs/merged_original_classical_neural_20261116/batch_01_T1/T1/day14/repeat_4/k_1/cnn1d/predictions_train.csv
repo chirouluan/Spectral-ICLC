@@ -1,0 +1,10 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-E7A1EEC47F1147DFE3EF,15-a_R07_D14,15-a_R07,15,15,True,in_sample_on_reference_records
+ID-A4C8F5D3038CCAD81F0C,1-b_R05_D14,1-b_R05,1,1,True,in_sample_on_reference_records
+ID-AEE26A41BD3A99377C85,10-a_R06_D14,10-a_R06,10,10,True,in_sample_on_reference_records
+ID-D365C6967E9567080227,30-a_R06_D14,30-a_R06,30,30,True,in_sample_on_reference_records
+ID-7A4627388C6F1BA6686F,40-a_R04_D14,40-a_R04,40,40,True,in_sample_on_reference_records
+ID-AA4642A9C98E72468D40,50-a_R01_D14,50-a_R01,50,50,True,in_sample_on_reference_records
+ID-B63A5A2EFD631CE7E7F7,20-b_R03_D14,20-b_R03,20,20,True,in_sample_on_reference_records
+ID-29B08B03F14574CF3526,0-a_R02_D14,0-a_R02,0,0,True,in_sample_on_reference_records
+ID-4C897D412BBE81D031A9,5-b_R06_D14,5-b_R06,5,5,True,in_sample_on_reference_records

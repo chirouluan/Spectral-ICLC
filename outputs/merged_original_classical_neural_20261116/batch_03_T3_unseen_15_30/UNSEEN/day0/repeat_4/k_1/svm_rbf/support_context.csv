@@ -1,0 +1,8 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-0FEAD96B8838BC3257DC,0-a_R02_D0,0-a_R02,0,train,fixed_for_all_queries
+ID-F2F0DCC7CDCD5FEC81CD,1-b_R05_D0,1-b_R05,1,train,fixed_for_all_queries
+ID-4D816B48663DFFE8776E,20-a_R05_D0,20-a_R05,20,train,fixed_for_all_queries
+ID-2F380F6AC83A431BE3FA,10-a_R06_D0,10-a_R06,10,train,fixed_for_all_queries
+ID-9CE9C115FA23F3232912,50-a_R06_D0,50-a_R06,50,train,fixed_for_all_queries
+ID-EA957DA05BE61E47F229,40-b_R04_D0,40-b_R04,40,train,fixed_for_all_queries
+ID-EFCB8F9E477BC97F57A5,5-b_R01_D0,5-b_R01,5,train,fixed_for_all_queries

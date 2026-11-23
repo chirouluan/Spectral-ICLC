@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ID-286D2E21A1FFB4F5C951",
+    "features": [
+      0.1878131,
+      0.00437088
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-03263ACF2261D1055503",
+    "features": [
+      -0.13017322,
+      0.00460216
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-27FAA48576D4C78AAE29",
+    "features": [
+      -0.11077336,
+      -0.01718442
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-0B191FAC40ACE72A4D3A",
+    "features": [
+      -0.1361343,
+      0.0086336
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-0F386F86B53A7D39CC3B",
+    "features": [
+      -0.00208135,
+      0.00637398
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-C5DF22FC3E0FCB878F48",
+    "features": [
+      -0.13404704,
+      0.00603901
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-A49DB17CE06C39C707A8",
+    "features": [
+      -0.12111851,
+      0.0074616
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-BA3342D989A09B7F48F6",
+    "features": [
+      -0.09806806,
+      0.00359195
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-972994D0EC18F3CB5B47",
+    "features": [
+      -0.12250961,
+      -0.00490191
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-A1C17C0ECD0E74342085",
+    "features": [
+      -0.0879088,
+      -0.01820787
+    ],
+    "label": "adulterated"
+  }
+]

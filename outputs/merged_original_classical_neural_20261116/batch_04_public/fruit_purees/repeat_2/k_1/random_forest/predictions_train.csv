@@ -1,0 +1,3 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-236FB4F4D45C95022A7F,fruit_spectrum_0084,fruit_spectrum_0084,Strawberry,Strawberry,True,in_sample_on_reference_records
+ID-32EFCB1623BCD613B38E,fruit_spectrum_0236,fruit_spectrum_0236,NON-Strawberry,NON-Strawberry,True,in_sample_on_reference_records

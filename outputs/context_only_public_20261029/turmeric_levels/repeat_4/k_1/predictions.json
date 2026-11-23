@@ -1,0 +1,119 @@
+{
+  "experiment_id": "PUBLIC_388718f35cdec219",
+  "val": [
+    {
+      "id": "ID-46ECB38D7D018AC70CFF",
+      "label": "1"
+    },
+    {
+      "id": "ID-7F74DC13C1F25E6C8878",
+      "label": "5"
+    },
+    {
+      "id": "ID-A6DD173E262D63283445",
+      "label": "1"
+    },
+    {
+      "id": "ID-9D51109863F83AC7A8CF",
+      "label": "2.5"
+    },
+    {
+      "id": "ID-0705DA6097A7A1EFA900",
+      "label": "0.1"
+    },
+    {
+      "id": "ID-91A5ACAC38B2616482FA",
+      "label": "10"
+    },
+    {
+      "id": "ID-799F936787AD0122579B",
+      "label": "0.1"
+    }
+  ],
+  "test": [
+    {
+      "id": "ID-9607354ADF58D6B4251D",
+      "label": "0"
+    },
+    {
+      "id": "ID-414B686302B6F9628062",
+      "label": "1"
+    },
+    {
+      "id": "ID-5FCB8470FA44F466AB6E",
+      "label": "0"
+    },
+    {
+      "id": "ID-30C84B83AF67955F7FA7",
+      "label": "5"
+    },
+    {
+      "id": "ID-C3600D7E282C01781AE4",
+      "label": "0"
+    },
+    {
+      "id": "ID-584F30859DBE55EAFE64",
+      "label": "5"
+    },
+    {
+      "id": "ID-F947EA33E457A5A9B513",
+      "label": "2.5"
+    },
+    {
+      "id": "ID-275416559158DA00F3B2",
+      "label": "0.1"
+    },
+    {
+      "id": "ID-71696EBED4D43228DAC8",
+      "label": "5"
+    },
+    {
+      "id": "ID-A3408EF2A588A5D34832",
+      "label": "1"
+    },
+    {
+      "id": "ID-89CD6CB29E9F1979F618",
+      "label": "0"
+    },
+    {
+      "id": "ID-A5287C23EBE94C4978DD",
+      "label": "0.1"
+    },
+    {
+      "id": "ID-0AF81BB67A686001EAD1",
+      "label": "5"
+    },
+    {
+      "id": "ID-33FBF50BDF34D266CD3F",
+      "label": "0"
+    },
+    {
+      "id": "ID-430D7F7BA8BDD9040D22",
+      "label": "5"
+    },
+    {
+      "id": "ID-C43D9EA4893DE31D60B5",
+      "label": "1"
+    },
+    {
+      "id": "ID-D05E8D2C743E3FD1644C",
+      "label": "1"
+    },
+    {
+      "id": "ID-CB156501C709316BB8AB",
+      "label": "0"
+    },
+    {
+      "id": "ID-4929D89AF55D03CFADC6",
+      "label": "0.1"
+    },
+    {
+      "id": "ID-E558D41782EE1B8B9091",
+      "label": "1"
+    },
+    {
+      "id": "ID-AB900F656BACF2CEFAE5",
+      "label": "0.5"
+    }
+  ]
+}

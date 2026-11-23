@@ -1,0 +1,105 @@
+# Raw files remain read-only. All learned transforms fit Train only.
+raw_root: datasets/公共数据集
+output: outputs/public_food_spectra
+results: results/public_food_spectra
+seed: 20261020
+repeats: 5
+models: [svm_rbf, random_forest, paper_classifier]
+datasets:
+  turmeric_levels:
+    folder: 姜黄粉外部掺假铬酸铅掺假等级分类
+    file: Data_Spices_Task 3.1.5_Rapid spectroscopy-based screening techniques for spices (Raman).xlsx
+    loader: turmeric
+    label_definition: Seven discrete PbCrO4 addition classes 0, 0.1, 0.5, 1, 2.5, 5, 10 percent
+    source_url: https://doi.org/10.5281/zenodo.6014148
+    license: CC BY-SA (as stated in supplied dataset description; version unspecified)
+    paper: 姜黄中铬酸铅的快速检测.pdf
+    paper_url: https://doi.org/10.1016/j.foodcont.2020.107714
+    evidence_pages: [3, 4, 6]
+    method: turmeric_selected_pca2
+    split: grouped_5_1_2_by_base_turmeric_batch
+    fidelity: project_seven_class_extension_with_disclosed_normalization_assumption
+    caveats:
+      - Paper classifies authentic versus adulterated; seven-class concentration recognition is a project extension.
+      - Raw spectra region 1750-200 contains 70 triplicate-averaged spectra from 10 base batches; other sheets are not extra independent samples.
+      - Paper says linear baseline correction and normalization without defining the normalization norm or baseline anchors.
+      - Use endpoint-line baseline and unit L2 norm as explicit implementation assumptions, then Train mean centering via PCA; not an exact software reproduction.
+      - Paper selected intervals 907-782, 404-396, 383-321 cm-1; retain all native grid points in these intervals, then PCA to 2 scores.
+  turmeric_authenticity:
+    extends: turmeric_levels
+    label_definition: Authentic (0 percent) versus adulterated (greater than 0 percent)
+    fidelity: paper_binary_task_with_disclosed_normalization_assumption
+  beef:
+    folder: 牛肉掺假中红外
+    file: Beef_TRAIN.ts
+    test_file: Beef_TEST.ts
+    loader: beef
+    label_definition: UCR Beef five class codes 1-5; semantic code mapping not supplied
+    source_url: https://www.timeseriesclassification.com/description.php?Dataset=Beef
+    license: Unverified; local exploratory use only until archive reuse terms confirmed
+    paper: 牛肉掺假中红外.pdf
+    evidence_pages: [2, 3]
+    method: pls_scores
+    split: preserve_official_test_stratify_original_train
+    fidelity: archive_variant_with_paper_PLS_LDA_family
+    caveats:
+      - Supplied archive has 60 spectra, 470 points, five classes; paper also discusses 180 spectra across cooking levels.
+      - Archive spectra are already per-spectrum z-normalized (sample SD approximately 1); raw absorbance cannot be reconstructed.
+      - No physical IDs or wavelength axis supplied; preserve fixed official Train/Test, do not invent wavelength coordinates or class-code meanings.
+      - PLS score count chosen using Validation only; this is a project holdout protocol, not the paper's leave-one-out evaluation.
+  fresh_meats:
+    folder: MIR_Fruit_Purees
+    file: MIRFreshMeats.csv
+    loader: meats
+    label_definition: Chicken, Pork, Turkey species classification
+    source_url: https://doi.org/10.17632/frrv2yd9rg.1
+    license: CC BY-NC 3.0
+    paper: Mid-infrared spectroscopy and authenticity problems in selected meats a feasibility study.pdf
+    evidence_pages: [3, 4]
+    method: meat_area_pca2
+    split: grouped_stratified_5_1_2_by_meat_piece
+    fidelity: paper_method_with_axis_and_baseline_implementation_caveats
+    caveats:
+      - Retain paired RunA/RunB records in the same partition; 120 spectra are 60 meat pieces.
+      - SupplierD Pork Sample1 has two RunB headers; retain both column records with unique spectrum IDs and the same sample group, without inventing a corrected run name.
+      - Paper specifies 1000-1800 cm-1 and 448 points, but supplied 448-point CSV spans 1005.3495-1867.864; select physical 1000-1800 interval and report resulting count.
+      - Baseline anchors unspecified in paper; endpoint-line baseline is an explicit implementation choice before area normalization and PCA2.
+      - Species validation is not an adulteration-concentration task.
+      - Paper uses PCA2 for exploration; LDA after PCA2 in paper_classifier is a project classification comparator, not a reported original-paper classifier.
+  olive_oils:
+    folder: MIR_Fruit_Purees
+    file: FTIR_Spectra_olive_oils.csv
+    loader: oil
+    label_definition: Country of origin Greece, Italy, Portugal, Spain
+    source_url: https://doi.org/10.17632/frrv2yd9rg.1
+    license: CC BY-NC 3.0
+    paper: FTIR Spectroscopy and Multivariate Analysis Can Distinguish the Geographic Origin of Extra Virgin Olive Oils.pdf
+    paper_url: https://doi.org/10.1021/jf030232s
+    evidence_pages: [2, 3]
+    method: pls_scores
+    split: grouped_stratified_5_1_2_by_oil
+    fidelity: paper_whole_spectrum_PLS_LDA_branch_new_split
+    caveats:
+      - Preserve paired spectra of each of 60 oils; 120 spectra are not 120 independent oils.
+      - Use all 570 native fingerprint points; paper bounds 799-1897 are rounded, native first point is 798.892.
+      - No extra SNV or baseline correction; paper says baseline correction not essential.
+      - PLS scores plus Mahalanobis LDA is the implemented paper branch. Alternative GA-8-variable branch is not reproduced and is not replaced with other feature selection.
+      - PLS dimension chosen by Validation accuracy from 1 to 15 (smaller wins ties), not by the paper leave-one-oil-out protocol.
+  coffee:
+    folder: MIR_Fruit_Purees
+    file: FTIR_Spectra_instant_coffee.csv
+    loader: coffee
+    label_definition: Arabica versus Robusta
+    source_url: https://doi.org/10.17632/frrv2yd9rg.1
+    license: CC BY-NC 3.0
+    paper: Near- and Mid-Infrared Spectroscopies in Food Authentication Coffee Varietal Identification.pdf
+    paper_url: https://doi.org/10.1021/jf970337t
+    evidence_pages: [2, 3]
+    method: coffee_pca238
+    split: stratified_5_1_2_released_sample_ids
+    fidelity: paper_MIR_only_selected_PC_branch_new_split
+    caveats:
+      - MIR-only range 5000-12500 nm corresponds to 800-2000 cm-1; all 286 released points lie within it.
+      - No SNV, MSC, derivative, baseline or area normalization; standardization described in the paper concerns combined NIR+MIR, not MIR-only.
+      - Fit covariance PCA on Train only, then take PC2, PC3, PC8 (three dimensions) as reported for MIR-only FDA.
+      - Published component choices fixed a priori; this does not reproduce the unavailable original calibration/prediction membership.

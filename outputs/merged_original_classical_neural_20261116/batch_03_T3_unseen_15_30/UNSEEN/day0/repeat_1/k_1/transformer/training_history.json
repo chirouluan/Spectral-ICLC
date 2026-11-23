@@ -1,0 +1,156 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.8642213344573975,
+    "validation_loss": 1.6645673513412476,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 1
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.7699191570281982,
+    "validation_loss": 1.470877766609192,
+    "validation_accuracy": 0.4285714328289032,
+    "optimizer_steps": 2
+  },
+  {
+    "epoch": 3,
+    "train_loss": 1.4549311399459839,
+    "validation_loss": 1.4788830280303955,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 3
+  },
+  {
+    "epoch": 4,
+    "train_loss": 1.1763317584991455,
+    "validation_loss": 1.6216440200805664,
+    "validation_accuracy": 0.2857142984867096,
+    "optimizer_steps": 4
+  },
+  {
+    "epoch": 5,
+    "train_loss": 1.0293980836868286,
+    "validation_loss": 1.7778452634811401,
+    "validation_accuracy": 0.2857142984867096,
+    "optimizer_steps": 5
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.9101196527481079,
+    "validation_loss": 1.8520233631134033,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 6
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.9068015813827515,
+    "validation_loss": 1.8552989959716797,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 7
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.8102993965148926,
+    "validation_loss": 1.9018383026123047,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 8
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.7766290903091431,
+    "validation_loss": 1.9222148656845093,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 9
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.6051687002182007,
+    "validation_loss": 2.007812976837158,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 10
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.6623899340629578,
+    "validation_loss": 2.0739824771881104,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 11
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.4892418682575226,
+    "validation_loss": 2.1878411769866943,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 12
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.5071845650672913,
+    "validation_loss": 2.274446725845337,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 13
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.25380387902259827,
+    "validation_loss": 2.3497867584228516,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 14
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.25696927309036255,
+    "validation_loss": 2.4500362873077393,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 15
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.2993336319923401,
+    "validation_loss": 2.5790462493896484,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 16
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.16432598233222961,
+    "validation_loss": 2.717891216278076,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 17
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.12171687185764313,
+    "validation_loss": 2.8530046939849854,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 18
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.13732145726680756,
+    "validation_loss": 2.9296786785125732,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 19
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.13178373873233795,
+    "validation_loss": 2.963937282562256,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 20
+  },
+  {
+    "epoch": 21,
+    "train_loss": 0.06813013553619385,
+    "validation_loss": 2.990648031234741,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 21
+  },
+  {
+    "epoch": 22,
+    "train_loss": 0.14578700065612793,
+    "validation_loss": 3.0245625972747803,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 22
+  }
+]

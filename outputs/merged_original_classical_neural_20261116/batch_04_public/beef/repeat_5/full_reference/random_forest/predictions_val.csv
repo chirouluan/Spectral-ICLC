@@ -1,0 +1,6 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-0DB37CF5A9BD725F2B4D,beef_train_026,beef_train_026,5,5,True,holdout
+ID-1B6A4A6C88C9AA8BDE51,beef_train_021,beef_train_021,4,4,True,holdout
+ID-39772EA8AE5C8DA5B3F1,beef_train_012,beef_train_012,3,3,True,holdout
+ID-3780C58C191586D0F263,beef_train_007,beef_train_007,2,4,True,holdout
+ID-F35F39E6C3BC99619982,beef_train_004,beef_train_004,1,1,True,holdout

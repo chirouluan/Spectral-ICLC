@@ -1,0 +1,11 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-C840B4ED66EC3E12353E,turmeric_000,Sample 1,authentic,authentic,True,in_sample_on_reference_records
+ID-8A02A55CB6315EFF144F,turmeric_021,Sample 8,authentic,authentic,True,in_sample_on_reference_records
+ID-0D64E59934E52C28CE4E,turmeric_035,Sample 10,authentic,authentic,True,in_sample_on_reference_records
+ID-A122CB29B8AC560D8B00,turmeric_008,Sample 2,adulterated,adulterated,True,in_sample_on_reference_records
+ID-067BBDF98E0C2F3E445E,turmeric_007,Sample 2,authentic,authentic,True,in_sample_on_reference_records
+ID-C5A545F36B0039E24DAD,turmeric_022,Sample 8,adulterated,adulterated,True,in_sample_on_reference_records
+ID-C27AAC4FE7BB445107AC,turmeric_049,Sample 13,authentic,authentic,True,in_sample_on_reference_records
+ID-9E5CEB8653D9510A424A,turmeric_003,Sample 1,adulterated,adulterated,True,in_sample_on_reference_records
+ID-8281658BFEC2C8E23B77,turmeric_055,Sample 13,adulterated,adulterated,True,in_sample_on_reference_records
+ID-873D52B340ABB1A56603,turmeric_066,Sample 15,adulterated,adulterated,True,in_sample_on_reference_records

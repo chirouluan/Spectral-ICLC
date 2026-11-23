@@ -1,0 +1,4 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-EE125E8DB166D444816D,meat_spectrum_018,Chicken_SupplierB_Sample5,Chicken,train,fixed_for_all_queries
+ID-4F018C9407A5D6549FA6,meat_spectrum_061,Pork_SupplierC_Sample1,Pork,train,fixed_for_all_queries
+ID-1E80A1AFB8CB44531F37,meat_spectrum_113,Turkey_SupplierE_Sample6,Turkey,train,fixed_for_all_queries

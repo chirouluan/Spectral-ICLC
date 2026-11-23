@@ -1,0 +1,7 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-96567322E6D50303A484,coffee_spectrum_002,coffee_sample_3,Arabica,train,fixed_for_all_queries
+ID-DA99054C1DD66CCA60E9,coffee_spectrum_036,coffee_sample_37,Robusta,train,fixed_for_all_queries
+ID-D761A7A0CC818ECE8F48,coffee_spectrum_003,coffee_sample_4,Arabica,train,fixed_for_all_queries
+ID-5806850B0124F05F6B23,coffee_spectrum_006,coffee_sample_7,Arabica,train,fixed_for_all_queries
+ID-81D61BBAEFD476ED7F1A,coffee_spectrum_043,coffee_sample_44,Robusta,train,fixed_for_all_queries
+ID-E9A5F26ED08B7897B6B5,coffee_spectrum_047,coffee_sample_48,Robusta,train,fixed_for_all_queries

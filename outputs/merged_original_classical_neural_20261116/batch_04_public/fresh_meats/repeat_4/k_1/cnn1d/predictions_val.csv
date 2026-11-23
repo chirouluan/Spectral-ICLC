@@ -1,0 +1,13 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-FA5D0F4A6EC4CCD59C0B,meat_spectrum_071,Pork_SupplierD_Sample1,Pork,Chicken,True,holdout
+ID-0110CE88CE743CACE3CF,meat_spectrum_084,Turkey_SupplierE_Sample12,Turkey,Chicken,True,holdout
+ID-7C8B8691696A3FB33AF1,meat_spectrum_004,Chicken_SupplierA_Sample3,Chicken,Chicken,True,holdout
+ID-AEA212C9DC91BB6FB9E6,meat_spectrum_085,Turkey_SupplierE_Sample12,Turkey,Chicken,True,holdout
+ID-52EEBB28D94F7342675F,meat_spectrum_106,Turkey_SupplierE_Sample3,Turkey,Chicken,True,holdout
+ID-0C417F45810BA0A7ED22,meat_spectrum_047,Pork_SupplierA_Sample4,Pork,Chicken,True,holdout
+ID-C0B682C499532B9C7AC6,meat_spectrum_033,Chicken_SupplierD_Sample2,Chicken,Chicken,True,holdout
+ID-EAFDF603A86CDFCD8063,meat_spectrum_070,Pork_SupplierD_Sample1,Pork,Chicken,True,holdout
+ID-28CC132BE9C92106B7D8,meat_spectrum_046,Pork_SupplierA_Sample4,Pork,Chicken,True,holdout
+ID-E3BE1C6F077CA3E0DCF7,meat_spectrum_005,Chicken_SupplierA_Sample3,Chicken,Chicken,True,holdout
+ID-DCCF2CAB0E946E2F3D3D,meat_spectrum_032,Chicken_SupplierD_Sample2,Chicken,Chicken,True,holdout
+ID-401B18515A8AD52C544F,meat_spectrum_107,Turkey_SupplierE_Sample3,Turkey,Chicken,True,holdout

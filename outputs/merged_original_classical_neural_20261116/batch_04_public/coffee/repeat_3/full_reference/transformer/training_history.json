@@ -1,0 +1,156 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.6339234011513847,
+    "validation_loss": 2.834230422973633,
+    "validation_accuracy": 0.5714285969734192,
+    "optimizer_steps": 5
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.8368773341178894,
+    "validation_loss": 0.8221574425697327,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 10
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.8757339034761701,
+    "validation_loss": 0.9846474528312683,
+    "validation_accuracy": 0.5714285969734192,
+    "optimizer_steps": 15
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.6024963076625551,
+    "validation_loss": 1.6634577512741089,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 20
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.5840878554752895,
+    "validation_loss": 1.686464548110962,
+    "validation_accuracy": 0.5714285969734192,
+    "optimizer_steps": 25
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.4763242636408125,
+    "validation_loss": 1.1941167116165161,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 30
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.45552416954721725,
+    "validation_loss": 0.9303473234176636,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 35
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.48933639866965156,
+    "validation_loss": 1.1178712844848633,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 40
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.4377725464957101,
+    "validation_loss": 1.5405136346817017,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 45
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.4970486904893603,
+    "validation_loss": 1.5453344583511353,
+    "validation_accuracy": 0.5714285969734192,
+    "optimizer_steps": 50
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.3996931084564754,
+    "validation_loss": 1.8054543733596802,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 55
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.43695124707051686,
+    "validation_loss": 1.938698410987854,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 60
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.22157506133828844,
+    "validation_loss": 1.95047128200531,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 65
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.1780766419001988,
+    "validation_loss": 1.6908024549484253,
+    "validation_accuracy": 0.5714285969734192,
+    "optimizer_steps": 70
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.2792477539607457,
+    "validation_loss": 2.4579501152038574,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 75
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.28797907060278316,
+    "validation_loss": 2.0956571102142334,
+    "validation_accuracy": 0.5714285969734192,
+    "optimizer_steps": 80
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.05554531083575317,
+    "validation_loss": 1.7840478420257568,
+    "validation_accuracy": 0.5714285969734192,
+    "optimizer_steps": 85
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.05442587058725101,
+    "validation_loss": 1.5406311750411987,
+    "validation_accuracy": 0.5714285969734192,
+    "optimizer_steps": 90
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.06264066182609115,
+    "validation_loss": 1.151934027671814,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 95
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.18097562130008424,
+    "validation_loss": 1.1384834051132202,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 100
+  },
+  {
+    "epoch": 21,
+    "train_loss": 0.21603158265352249,
+    "validation_loss": 2.3597099781036377,
+    "validation_accuracy": 0.7142857313156128,
+    "optimizer_steps": 105
+  },
+  {
+    "epoch": 22,
+    "train_loss": 0.13033255210279354,
+    "validation_loss": 1.3946655988693237,
+    "validation_accuracy": 0.5714285969734192,
+    "optimizer_steps": 110
+  }
+]

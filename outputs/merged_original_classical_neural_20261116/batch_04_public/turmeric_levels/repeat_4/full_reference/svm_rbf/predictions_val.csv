@@ -1,0 +1,8 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-46ECB38D7D018AC70CFF,turmeric_031,Sample 9,1,1,True,holdout
+ID-7F74DC13C1F25E6C8878,turmeric_033,Sample 9,5,5,True,holdout
+ID-A6DD173E262D63283445,turmeric_030,Sample 9,0.5,0.5,True,holdout
+ID-9D51109863F83AC7A8CF,turmeric_032,Sample 9,2.5,5,True,holdout
+ID-0705DA6097A7A1EFA900,turmeric_028,Sample 9,0,1,True,holdout
+ID-91A5ACAC38B2616482FA,turmeric_034,Sample 9,10,10,True,holdout
+ID-799F936787AD0122579B,turmeric_029,Sample 9,0.1,0.1,True,holdout

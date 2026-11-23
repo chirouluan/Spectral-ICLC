@@ -1,0 +1,16 @@
+web_export: ../data_json/four_batches
+output: ../results/classical_baselines
+models: [svm_rbf, random_forest, cnn1d, transformer]
+excluded_datasets: [fresh_meats, turmeric_levels]
+unseen_models: [spectral_centroid_interpolation]
+not_run_models: [deepseek_icl, mimo_icl, lumir_reproduced, lumir_mul_generate]
+hyperparameters:
+  svm_rbf: {C: 1, gamma: scale, scale_on_reference_only: true}
+  random_forest: {n_estimators: 200, n_jobs: 1, random_state: package_support_seed}
+  spectral_centroid_interpolation: {extrapolate: false, distance: euclidean_in_exported_space}
+  cnn1d: {epochs: 100, min_epochs: 20, patience: 20, batch_size: 8, learning_rate: 0.001, weight_decay: 0.0001, selection_metric: loss, min_delta: 0.0001, validation_selection: early_stopping}
+  transformer: {epochs: 100, min_epochs: 20, patience: 20, batch_size: 8, learning_rate: 0.001, weight_decay: 0.0001, selection_metric: loss, min_delta: 0.0001, validation_selection: early_stopping}
+bootstrap_draws: 1000
+bootstrap_seed: 12345
+threads: 2
+api_requests: 0

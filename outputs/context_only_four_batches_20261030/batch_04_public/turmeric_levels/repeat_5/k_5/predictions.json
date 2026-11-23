@@ -1,0 +1,119 @@
+{
+  "experiment_id": "PUBLIC_09790674b312a89b",
+  "val": [
+    {
+      "id": "ID-0329126646A9839BC6D8",
+      "label": "2.5"
+    },
+    {
+      "id": "ID-13B52FD8908B68181122",
+      "label": "0.1"
+    },
+    {
+      "id": "ID-2654C490CA232C34A2D0",
+      "label": "10"
+    },
+    {
+      "id": "ID-359BDADBBFA61BE16F79",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-F708FD50C426A541898E",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-08A71C2B1EEEC5106ED5",
+      "label": "5"
+    },
+    {
+      "id": "ID-4A38B77222546B66F256",
+      "label": "0.1"
+    }
+  ],
+  "test": [
+    {
+      "id": "ID-16D178832B5F35A0C0CF",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-2787A8D033D828C5FFDA",
+      "label": "1"
+    },
+    {
+      "id": "ID-3FD0BD25AFEB9249D001",
+      "label": "1"
+    },
+    {
+      "id": "ID-1AB559B9F3A45BBF9DB7",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-83FECF8D96FBD1FD8CAE",
+      "label": "5"
+    },
+    {
+      "id": "ID-21C58FA8C68EAC16A14B",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-FD2B60CCB4E70404DDF9",
+      "label": "10"
+    },
+    {
+      "id": "ID-2EF1E36A80F82819E5CE",
+      "label": "0.1"
+    },
+    {
+      "id": "ID-85D7550B6A56183AACDF",
+      "label": "5"
+    },
+    {
+      "id": "ID-DEEA9450BDCD9A2CD328",
+      "label": "10"
+    },
+    {
+      "id": "ID-88020A0FEB3D5E392F64",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-D40D50E577A144E3FD23",
+      "label": "2.5"
+    },
+    {
+      "id": "ID-5102B3FDB2A3F812A210",
+      "label": "2.5"
+    },
+    {
+      "id": "ID-00E410838784F82BF999",
+      "label": "10"
+    },
+    {
+      "id": "ID-D05152EB95B35B010935",
+      "label": "1"
+    },
+    {
+      "id": "ID-2648F8E382D7C4176020",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-BB5661A2DE2575BA2CA6",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-A913138AC24DA701D6D0",
+      "label": "5"
+    },
+    {
+      "id": "ID-CD4C27932711AEE2F98D",
+      "label": "5"
+    },
+    {
+      "id": "ID-227339AEE4BA5FCE672C",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-44DCFCB524964179F70D",
+      "label": "2.5"
+    }
+  ]
+}

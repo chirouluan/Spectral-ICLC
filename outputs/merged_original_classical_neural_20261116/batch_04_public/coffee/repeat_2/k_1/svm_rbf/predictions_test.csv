@@ -1,0 +1,15 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-52802AA333AEBC701BEB,coffee_spectrum_005,coffee_sample_6,Arabica,Arabica,True,holdout
+ID-AE1EBA0CD3C129931C9D,coffee_spectrum_037,coffee_sample_38,Robusta,Robusta,True,holdout
+ID-CCA6F6C0148BE48A3745,coffee_spectrum_043,coffee_sample_44,Robusta,Robusta,True,holdout
+ID-1F6D1D33BE7A9F84F11A,coffee_spectrum_038,coffee_sample_39,Robusta,Arabica,True,holdout
+ID-E9CC4B0D9D2CE1C0D210,coffee_spectrum_044,coffee_sample_45,Robusta,Robusta,True,holdout
+ID-67D748FBB8DA9F46D281,coffee_spectrum_006,coffee_sample_7,Arabica,Arabica,True,holdout
+ID-A300D5D2E6944729488E,coffee_spectrum_010,coffee_sample_11,Arabica,Robusta,True,holdout
+ID-442252FB9F49EE5085E1,coffee_spectrum_012,coffee_sample_13,Arabica,Robusta,True,holdout
+ID-678DEB27D166B3D48E3E,coffee_spectrum_029,coffee_sample_30,Robusta,Robusta,True,holdout
+ID-1517259118C6B4B7DE6E,coffee_spectrum_013,coffee_sample_14,Arabica,Robusta,True,holdout
+ID-F61F2EC75076120C1680,coffee_spectrum_025,coffee_sample_26,Arabica,Arabica,True,holdout
+ID-08CC2EBB4E51AD2C0D5A,coffee_spectrum_034,coffee_sample_35,Robusta,Robusta,True,holdout
+ID-F3DD55DEF55C07453FBD,coffee_spectrum_008,coffee_sample_9,Arabica,Arabica,True,holdout
+ID-97D76DFAD966DCC979E1,coffee_spectrum_053,coffee_sample_54,Robusta,Robusta,True,holdout

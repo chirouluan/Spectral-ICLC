@@ -1,0 +1,183 @@
+{
+  "experiment_id": "PUBLIC_f32b28babf198d7e",
+  "val": [
+    {
+      "id": "ID-43C7C73614CC6F07F1E0",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-7EE6A48B0AC4A70484C3",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-5422446C9DD63634C736",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-F0DCC1F381369F221585",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-EBC35AAEA57CEE2C298A",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-B44C6DEC65AA87D13239",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-7826839ABF2307992C78",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-ED4420D0EAD40136E801",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-68E137016EC95EE9A406",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-5455B113D0F87C98F104",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-8F6EC8704F2165644502",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-2D05700C40112CB71D38",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-3FC1F2AFECB072F52B73",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-111BB1AF6E023487B5FA",
+      "label": "Spain"
+    }
+  ],
+  "test": [
+    {
+      "id": "ID-CA311BE080B850A9D35F",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-9680E1326E402959CDEA",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-24D7AF17DF366D6599AF",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-C81E5A12282909461449",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-D0EA80AF9AEDD5E4E6E0",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-CB4DD0271858B653F5D3",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-B02D45D79F96F0201CE0",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-019C745D1325EEF43FD5",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-83D135285B3F744C75BF",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-0AB266BA3A8BDADDE9C9",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-C0F2D8A22625E918456A",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-1C1997386EF84C15D553",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-5866539AF80E75F1A435",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-68D87DD0EE8941864124",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-99BF09A618F905F84C6F",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-D2B5AA93746050A413E5",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-2372B20C83B3E879743F",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-6A19280651AE7D388179",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-708EE4E9CAD359353840",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-EF6C62E98543DF44B795",
+      "label": "Portugal"
+    },
+    {
+      "id": "ID-9BB03C17F25CA95C8297",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-6B424192FA8CF317C4E2",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-9C252D333C5B5F9372E8",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-FAC7A838324D01FC6796",
+      "label": "Italy"
+    },
+    {
+      "id": "ID-15FAE248716980F622B2",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-2DFFCCE3FFF553DC7DC0",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-71CBA699DD09467A6C50",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-A1CAB52E77963CCDC8DB",
+      "label": "Greece"
+    },
+    {
+      "id": "ID-9C56A5B451724FE26222",
+      "label": "Spain"
+    },
+    {
+      "id": "ID-9876A85B05EE3B927877",
+      "label": "Italy"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "n_experiments": 60,
+  "n_val": 1080,
+  "n_test": 2160,
+  "scoring": "exact string label match by record ID; val/test truth labels read from source JSON",
+  "overall": {
+    "val": {
+      "correct": 644,
+      "total": 1080,
+      "accuracy": 0.5962962962962963
+    },
+    "test": {
+      "correct": 1322,
+      "total": 2160,
+      "accuracy": 0.612037037037037
+    },
+    "combined": {
+      "correct": 1966,
+      "total": 3240,
+      "accuracy": 0.6067901234567902
+    }
+  },
+  "by_direction_condition": [
+    {
+      "direction": "day0_to_day14",
+      "condition": "full_reference",
+      "experiments": 5,
+      "val_accuracy": 0.23333333333333334,
+      "test_accuracy": 0.29444444444444445,
+      "combined_accuracy": 0.2740740740740741,
+      "combined_correct": 74,
+      "combined_total": 270
+    },
+    {
+      "direction": "day0_to_day14",
+      "condition": "k_1",
+      "experiments": 5,
+      "val_accuracy": 0.3333333333333333,
+      "test_accuracy": 0.34444444444444444,
+      "combined_accuracy": 0.34074074074074073,
+      "combined_correct": 92,
+      "combined_total": 270
+    },
+    {
+      "direction": "day0_to_day14",
+      "condition": "k_3",
+      "experiments": 5,
+      "val_accuracy": 0.24444444444444444,
+      "test_accuracy": 0.3,
+      "combined_accuracy": 0.2814814814814815,
+      "combined_correct": 76,
+      "combined_total": 270
+    },
+    {
+      "direction": "day0_to_day14",
+      "condition": "k_5",
+      "experiments": 5,
+      "val_accuracy": 0.25555555555555554,
+      "test_accuracy": 0.3,
+      "combined_accuracy": 0.2851851851851852,
+      "combined_correct": 77,
+      "combined_total": 270
+    },
+    {
+      "direction": "day0_to_day7",
+      "condition": "full_reference",
+      "experiments": 5,
+      "val_accuracy": 0.8444444444444444,
+      "test_accuracy": 0.8,
+      "combined_accuracy": 0.8148148148148148,
+      "combined_correct": 220,
+      "combined_total": 270
+    },
+    {
+      "direction": "day0_to_day7",
+      "condition": "k_1",
+      "experiments": 5,
+      "val_accuracy": 0.8444444444444444,
+      "test_accuracy": 0.8222222222222222,
+      "combined_accuracy": 0.8296296296296296,
+      "combined_correct": 224,
+      "combined_total": 270
+    },
+    {
+      "direction": "day0_to_day7",
+      "condition": "k_3",
+      "experiments": 5,
+      "val_accuracy": 0.8222222222222222,
+      "test_accuracy": 0.8444444444444444,
+      "combined_accuracy": 0.837037037037037,
+      "combined_correct": 226,
+      "combined_total": 270
+    },
+    {
+      "direction": "day0_to_day7",
+      "condition": "k_5",
+      "experiments": 5,
+      "val_accuracy": 0.8666666666666667,
+      "test_accuracy": 0.8111111111111111,
+      "combined_accuracy": 0.8296296296296296,
+      "combined_correct": 224,
+      "combined_total": 270
+    },
+    {
+      "direction": "day7_to_day14",
+      "condition": "full_reference",
+      "experiments": 5,
+      "val_accuracy": 0.7222222222222222,
+      "test_accuracy": 0.7222222222222222,
+      "combined_accuracy": 0.7222222222222222,
+      "combined_correct": 195,
+      "combined_total": 270
+    },
+    {
+      "direction": "day7_to_day14",
+      "condition": "k_1",
+      "experiments": 5,
+      "val_accuracy": 0.5444444444444444,
+      "test_accuracy": 0.5888888888888889,
+      "combined_accuracy": 0.5740740740740741,
+      "combined_correct": 155,
+      "combined_total": 270
+    },
+    {
+      "direction": "day7_to_day14",
+      "condition": "k_3",
+      "experiments": 5,
+      "val_accuracy": 0.7666666666666667,
+      "test_accuracy": 0.8111111111111111,
+      "combined_accuracy": 0.7962962962962963,
+      "combined_correct": 215,
+      "combined_total": 270
+    },
+    {
+      "direction": "day7_to_day14",
+      "condition": "k_5",
+      "experiments": 5,
+      "val_accuracy": 0.6777777777777778,
+      "test_accuracy": 0.7055555555555556,
+      "combined_accuracy": 0.6962962962962963,
+      "combined_correct": 188,
+      "combined_total": 270
+    }
+  ]
+}

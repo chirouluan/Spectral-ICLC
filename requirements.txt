@@ -1,0 +1,9 @@
+# Four-batch spectral evaluation pipeline (Python 3.10+)
+
+# Required by run_variants.py (feature transforms and scoring).
+numpy==2.2.6
+scikit-learn>=1.5,<2
+
+# Optional: exact tokenizer-based context preflight in run_variants.py.
+# If unavailable, the runner falls back to len(utf-8 bytes) // 3.
+transformers==5.11.0

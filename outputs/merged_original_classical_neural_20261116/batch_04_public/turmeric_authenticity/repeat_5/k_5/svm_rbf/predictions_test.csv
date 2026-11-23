@@ -1,0 +1,22 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-54B5FB97476F7A2EA5B1,turmeric_022,Sample 8,adulterated,authentic,True,holdout
+ID-4736039370039EFC51A0,turmeric_024,Sample 8,adulterated,authentic,True,holdout
+ID-389F6211C0B3A06F50C0,turmeric_052,Sample 13,adulterated,authentic,True,holdout
+ID-3855D39C67C313935086,turmeric_051,Sample 13,adulterated,authentic,True,holdout
+ID-6B378E54418A4CE3A371,turmeric_027,Sample 8,adulterated,adulterated,True,holdout
+ID-17679A9C1369AA1C7004,turmeric_050,Sample 13,adulterated,authentic,True,holdout
+ID-16C3AFC942167ADF56A1,turmeric_055,Sample 13,adulterated,adulterated,True,holdout
+ID-DE5A97D686E0EE0F7372,turmeric_049,Sample 13,authentic,authentic,True,holdout
+ID-F6A6D38AAB8E6002AE9A,turmeric_026,Sample 8,adulterated,adulterated,True,holdout
+ID-A03B433218247B1BDCC9,turmeric_054,Sample 13,adulterated,adulterated,True,holdout
+ID-3B09898A810AFEC14AFF,turmeric_021,Sample 8,authentic,authentic,True,holdout
+ID-C857AA83FA6B0953BFB8,turmeric_025,Sample 8,adulterated,authentic,True,holdout
+ID-38BFFD7C4BA63543C014,turmeric_031,Sample 9,adulterated,authentic,True,holdout
+ID-184B6FC735DCC94AF0FE,turmeric_034,Sample 9,adulterated,adulterated,True,holdout
+ID-0398CAA630A14E5F210D,turmeric_030,Sample 9,adulterated,authentic,True,holdout
+ID-08C38CB9F84FE597F3AA,turmeric_023,Sample 8,adulterated,authentic,True,holdout
+ID-10E5792A33EC034CE0D6,turmeric_029,Sample 9,adulterated,authentic,True,holdout
+ID-31C8EF48EF6195A8C8D7,turmeric_033,Sample 9,adulterated,adulterated,True,holdout
+ID-7E8F7AFC99C27110AAAD,turmeric_032,Sample 9,adulterated,authentic,True,holdout
+ID-046936378B89FE777E31,turmeric_028,Sample 9,authentic,authentic,True,holdout
+ID-468C73D61BC291C4187F,turmeric_053,Sample 13,adulterated,adulterated,True,holdout

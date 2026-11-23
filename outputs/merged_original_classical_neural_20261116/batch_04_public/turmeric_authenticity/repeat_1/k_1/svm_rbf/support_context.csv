@@ -1,0 +1,3 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-3B218393214979B79D9C,turmeric_027,Sample 8,adulterated,train,fixed_for_all_queries
+ID-3D34FABF229191C2E995,turmeric_000,Sample 1,authentic,train,fixed_for_all_queries

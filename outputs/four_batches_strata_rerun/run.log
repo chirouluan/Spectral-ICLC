@@ -1,0 +1,458 @@
+===== ALL-BATCH RERUN BEGIN 2026-10-28 14:35:22 =====
+Skipping 40 selected experiments whose data directories are missing.
+Phase ALL variant=four_batches_strata_rerun: 395 experiments | thinking=False temperature=0.0 format=plain hint=both concurrency=2
+  by task: {'T1': 60, 'T2': 60, 'T3': 95, 'UNSEEN': 60, 'PUBLIC': 120}
+  by dataset: {'beef': 20, 'coffee': 20, 'fresh_meats': 20, 'olive_oils': 20, 'surimi9': 275, 'turmeric_authenticity': 20, 'turmeric_levels': 20}
+  thinking_datasets=[]
+  response_format=none
+  [1/395] T1_331427e8c6ba2ee3 status=completed elapsed=39.41s in=11277 out=1715
+  [2/395] T1_e2003b029a02b4a7 status=completed elapsed=49.43s in=25021 out=1716
+  [3/395] T1_973ada4e54139e50 status=completed elapsed=39.53s in=14327 out=1715
+  [4/395] T1_cc2a84d09cb681a3 status=completed elapsed=34.9s in=17390 out=1714
+  [5/395] T1_b5e552cca3014aa3 status=completed elapsed=36.59s in=11272 out=1717
+  [6/395] T1_24b461d9d6ae4c27 status=completed elapsed=49.34s in=25000 out=1720
+  [7/395] T1_b3965f3eb38189b6 status=completed elapsed=37.46s in=14340 out=1719
+  [8/395] T1_01986663a313ec27 status=completed elapsed=43.12s in=17398 out=1720
+  [9/395] T1_fccd230e8048dcd2 status=completed elapsed=44.56s in=25126 out=1730
+  [10/395] T1_96e8aa4389b77e29 status=completed elapsed=38.67s in=11351 out=1734
+  [11/395] T1_fe31635ca90ccf41 status=completed elapsed=38.72s in=14414 out=1731
+  [12/395] T1_4036b3336df3cf75 status=completed elapsed=38.36s in=17476 out=1732
+  [13/395] T2_df8e1b2a45cd72a5 status=completed elapsed=41.24s in=25147 out=1731
+  [14/395] T2_cf49a5b1127e071f status=completed elapsed=41.37s in=11407 out=1725
+  [15/395] T2_f37d956a5e722650 status=completed elapsed=38.33s in=14459 out=1733
+  [16/395] T2_8f36c675806d1bd8 status=completed elapsed=46.11s in=17524 out=1733
+  [17/395] T2_09910a75b4457435 status=completed elapsed=40.78s in=25265 out=1753
+  [18/395] T2_390c68e0c629e0b4 status=completed elapsed=36.42s in=11523 out=1753
+  [19/395] T2_455d239e65f9fd7a status=completed elapsed=38.3s in=14571 out=1752
+  [20/395] T2_dd243c0aaad89bfb status=completed elapsed=46.2s in=17628 out=1748
+  [21/395] T2_bf1afd163bfe801b status=completed elapsed=40.55s in=25167 out=1730
+  [22/395] T2_c870834e7d3b5e3c status=completed elapsed=36.09s in=11451 out=1740
+  [23/395] T2_e829e011d79c3d08 status=completed elapsed=38.14s in=14515 out=1743
+  [24/395] T2_7f6881c2aee666f4 status=completed elapsed=43.72s in=17571 out=1738
+  [25/395] T3_7c3c642624b313c7 status=completed elapsed=41.36s in=17688 out=1753
+  [26/395] T3_b4f3248303b06d22 status=completed elapsed=41.42s in=17692 out=1752
+  [27/395] T3_dff22144acbf3a04 status=completed elapsed=41.49s in=17687 out=1749
+  [28/395] T3_8e65516ae6c821c1 status=completed elapsed=38.25s in=17686 out=1752
+  [29/395] T3_c64c3373c27ee466 status=completed elapsed=39.8s in=11658 out=1729
+  [30/395] T3_ba6bf7932a5d5683 status=completed elapsed=40.78s in=19260 out=1730
+  [31/395] T3_84ba3ba838b55f38 status=completed elapsed=43.57s in=19203 out=1751
+  [32/395] T3_6a9cc28bb52b798a status=completed elapsed=41.71s in=17684 out=1751
+  [33/395] T3_43adb257c2e30275 status=completed elapsed=38.34s in=13220 out=1729
+  [34/395] T3_b0422bd78135ff70 status=completed elapsed=44.32s in=20819 out=1730
+  [35/395] T3_80f26f8063c04630 status=completed elapsed=44.53s in=20728 out=1753
+  [36/395] T3_6a229b538109fbab status=completed elapsed=42.48s in=17684 out=1751
+  [37/395] T3_9e53d7fa80576e0f status=completed elapsed=39.55s in=14796 out=1734
+  [38/395] T3_5ddfe37533fb308e status=completed elapsed=45.99s in=22393 out=1728
+  [39/395] T3_bbcd2658a33fdc73 status=completed elapsed=42.1s in=22240 out=1748
+  [40/395] T3_532fea6d993066f0 status=completed elapsed=44.06s in=17684 out=1751
+  [41/395] T3_e084134ce417b6ff status=completed elapsed=46.52s in=17931 out=1732
+  [42/395] T3_28821acd05806da0 status=completed elapsed=45.03s in=25532 out=1729
+  [43/395] T3_50b9259cb581fce4 status=completed elapsed=48.3s in=25291 out=1747
+  [44/395] UNSEEN_33df457d2f746075 status=completed elapsed=35.42s in=17817 out=1591
+  [45/395] UNSEEN_2c4643c648ace1d6 status=completed elapsed=32.05s in=8908 out=1590
+  [46/395] UNSEEN_f70556b3f1e7e0dd status=completed elapsed=33.39s in=10888 out=1590
+  [47/395] UNSEEN_e3f5ed28920baeaa status=completed elapsed=36.38s in=12863 out=1588
+  [48/395] UNSEEN_4e6fade0b312496d status=completed elapsed=34.93s in=17820 out=1592
+  [49/395] UNSEEN_595749958f480332 status=completed elapsed=31.98s in=8910 out=1595
+  [50/395] UNSEEN_123bbc2532184724 status=completed elapsed=33.02s in=10883 out=1593
+  [51/395] UNSEEN_964e5ea1540bb47c status=completed elapsed=37.7s in=12865 out=1593
+  [52/395] UNSEEN_83a3c508e6afde81 status=completed elapsed=35.17s in=17923 out=1607
+  [53/395] UNSEEN_306285b63d254c53 status=completed elapsed=32.24s in=8974 out=1609
+  [54/395] UNSEEN_f1c93b630a601bf4 status=completed elapsed=33.33s in=10963 out=1607
+  [55/395] UNSEEN_5de8fefcb5352431 status=completed elapsed=39.11s in=12945 out=1605
+  [56/395] T1_20959ebbc7b22216 status=completed elapsed=44.48s in=24999 out=1721
+  [57/395] T1_d3725fb56ccde6e4 status=completed elapsed=35.82s in=11272 out=1719
+  [58/395] T1_81cda311ab283509 status=completed elapsed=37.75s in=14335 out=1721
+  [59/395] T1_4f474d1507de89cb status=completed elapsed=41.21s in=17371 out=1721
+  [60/395] T1_d9a212718fa510e9 status=completed elapsed=44.39s in=25008 out=1714
+  [61/395] T1_c2a6f8495611daf3 status=completed elapsed=35.36s in=11273 out=1713
+  [62/395] T1_2c074fb342418b29 status=completed elapsed=39.04s in=14342 out=1715
+  [63/395] T1_f697fee252a39db6 status=completed elapsed=40.07s in=17382 out=1712
+  [64/395] T1_25ff3f477ce9cebc status=completed elapsed=42.58s in=25121 out=1723
+  [65/395] T1_56ba8547278649a1 status=completed elapsed=38.25s in=11334 out=1729
+  [66/395] T1_dd5c478f18140e7d status=completed elapsed=38.6s in=14400 out=1727
+  [67/395] T1_07c8bd03d3274f9b status=completed elapsed=38.19s in=17459 out=1727
+  [68/395] T2_b81632d9ae555690 status=completed elapsed=41.3s in=25222 out=1732
+  [69/395] T2_dad5bbe7e36bbcb1 status=completed elapsed=41.38s in=11491 out=1716
+  [70/395] T2_21626789243746d6 status=completed elapsed=38.63s in=14562 out=1722
+  [71/395] T2_4f61eb8125fdea36 status=completed elapsed=42.82s in=17592 out=1719
+  [72/395] T2_de4416f921119b2b status=completed elapsed=40.75s in=25331 out=1743
+  [73/395] T2_709d1d481fbde5e0 status=completed elapsed=36.21s in=11608 out=1726
+  [74/395] T2_e7e0116e2b957dea status=completed elapsed=38.85s in=14665 out=1738
+  [75/395] T2_d073f9b4a4b7e322 status=completed elapsed=43.3s in=17705 out=1744
+  [76/395] T2_42168d5f55f7f514 status=completed elapsed=40.43s in=25190 out=1731
+  [77/395] T2_a78e9b4057b1e67a status=completed elapsed=33.01s in=11455 out=1744
+  [78/395] T2_6c9033e89b56027c status=completed elapsed=39.25s in=14522 out=1733
+  [79/395] T2_96aa1f657c7475ed status=completed elapsed=47.05s in=17564 out=1731
+  [80/395] T3_761f9736e206b049 status=completed elapsed=41.62s in=17724 out=1745
+  [81/395] T3_cd95522fcea616ad status=completed elapsed=41.13s in=17720 out=1740
+  [82/395] T3_444d3cf6e3eea306 status=completed elapsed=40.34s in=17725 out=1742
+  [83/395] T3_0c1e7f048fb1f300 status=completed elapsed=41.12s in=17722 out=1744
+  [84/395] T3_8b81c7beb7ce3ba0 status=completed elapsed=38.45s in=11698 out=1724
+  [85/395] T3_a543336bed2163da status=completed elapsed=40.93s in=19290 out=1736
+  [86/395] T3_6e0778cba72898a6 status=completed elapsed=44.47s in=19242 out=1743
+  [87/395] T3_c9e0395e761fa2af status=completed elapsed=38.97s in=17718 out=1742
+  [88/395] T3_9d8ccbbe2efe8268 status=completed elapsed=38.29s in=13268 out=1726
+  [89/395] T3_59ae8c5e416843f3 status=completed elapsed=44.85s in=20867 out=1729
+  [90/395] T3_5134919eb40be389 status=completed elapsed=41.82s in=20763 out=1743
+  [91/395] T3_dc68f19847f77b77 status=completed elapsed=39.19s in=17720 out=1743
+  [92/395] T3_ad1d3a077aec87b5 status=completed elapsed=39.93s in=14849 out=1727
+  [93/395] T3_4730ae01739ec6f6 status=completed elapsed=42.93s in=22444 out=1732
+  [94/395] T3_6f9011ff4b712c94 status=completed elapsed=42.27s in=22286 out=1744
+  [95/395] T3_1f88c3de79b9469d status=completed elapsed=41.52s in=17722 out=1744
+  [96/395] T3_2369f26d608b8aef status=completed elapsed=42.83s in=18000 out=1729
+  [97/395] T3_0d05058eaf09c081 status=completed elapsed=50.3s in=25591 out=1729
+  [98/395] T3_89536a9795a97b58 status=completed elapsed=43.4s in=25323 out=1745
+  [99/395] UNSEEN_b5894714b1b7e669 status=completed elapsed=38.43s in=17811 out=1594
+  [100/395] UNSEEN_ae0c1aeca10cdab4 status=completed elapsed=32.17s in=8889 out=1590
+  [101/395] UNSEEN_c0a376669d9f51e3 status=completed elapsed=33.3s in=10882 out=1594
+  [102/395] UNSEEN_326d4094845f472f status=completed elapsed=36.29s in=12858 out=1595
+  [103/395] UNSEEN_d0d6c0558ecd435a status=completed elapsed=34.87s in=17825 out=1590
+/root/miniconda3/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  [104/395] UNSEEN_d3c97f65a3c5a2e1 status=completed elapsed=32.33s in=8901 out=1593
+  [105/395] UNSEEN_2531ac946da3b08c status=completed elapsed=33.34s in=10887 out=1591
+  [106/395] UNSEEN_7dab1a23cecae8fe status=completed elapsed=37.62s in=12862 out=1589
+  [107/395] UNSEEN_ce85d3ec1033e21c status=completed elapsed=35.0s in=17942 out=1599
+  [108/395] UNSEEN_5bd231a7e80c0085 status=completed elapsed=32.04s in=8965 out=1607
+  [109/395] UNSEEN_d7bef86001407c7c status=completed elapsed=33.37s in=10958 out=1599
+  [110/395] UNSEEN_da5713521a6472e2 status=completed elapsed=37.55s in=12958 out=1600
+  [111/395] T1_a896f48ed6d14859 status=completed elapsed=44.62s in=25026 out=1734
+  [112/395] T1_9c4811a6c899243a status=completed elapsed=36.1s in=11300 out=1736
+  [113/395] T1_f3a861607b8b4c27 status=completed elapsed=37.24s in=14344 out=1735
+  [114/395] T1_f821b8673ae4eace status=completed elapsed=44.17s in=17389 out=1732
+  [115/395] T1_f1507415d5ce7bdc status=completed elapsed=44.73s in=25006 out=1727
+  [116/395] T1_45bfe47d72442701 status=completed elapsed=36.06s in=11292 out=1729
+  [117/395] T1_effa786f8963ec18 status=completed elapsed=37.34s in=14327 out=1726
+  [118/395] T1_94c0229e49303e34 status=completed elapsed=45.35s in=17386 out=1730
+  [119/395] T1_308c4170aee23bef status=completed elapsed=40.22s in=25144 out=1729
+  [120/395] T1_dbdd89f1ec0947fb status=completed elapsed=37.57s in=11338 out=1727
+  [121/395] T1_39211018baea6244 status=completed elapsed=38.92s in=14415 out=1730
+  [122/395] T1_ecb374a4a541c197 status=completed elapsed=42.31s in=17481 out=1728
+  [123/395] T2_bf503e88516d5087 status=completed elapsed=45.13s in=25175 out=1747
+  [124/395] T2_8b2bce8092b63402 status=completed elapsed=35.85s in=11445 out=1741
+  [125/395] T2_dd91b3da2b4222a8 status=completed elapsed=39.59s in=14487 out=1745
+  [126/395] T2_f1f10e2e30474047 status=completed elapsed=46.39s in=17542 out=1747
+  [127/395] T2_27dd76e632fba1d1 status=completed elapsed=40.67s in=25297 out=1748
+  [128/395] T2_ac2dd0869230eb47 status=completed elapsed=37.54s in=11563 out=1746
+  [129/395] T2_54480244af3b3fc5 status=completed elapsed=40.49s in=14613 out=1748
+  [130/395] T2_791393c0229b93f8 status=completed elapsed=41.2s in=17668 out=1750
+  [131/395] T2_ae87fbe6dae64fa8 status=completed elapsed=44.26s in=25108 out=1730
+  [132/395] T2_d81b2caa6ded55ba status=completed elapsed=38.59s in=11390 out=1726
+  [133/395] T2_7c28e6f146f4715e status=completed elapsed=39.01s in=14443 out=1748
+  [134/395] T2_e7db48e3587df073 status=completed elapsed=40.66s in=17488 out=1729
+  [135/395] T3_88d612bb75dffcc2 status=completed elapsed=40.78s in=17593 out=1731
+  [136/395] T3_3943642ccaebf6f6 status=completed elapsed=35.57s in=17601 out=1731
+  [137/395] T3_f6b6a5a0165ae816 status=completed elapsed=40.96s in=17604 out=1732
+  [138/395] T3_cbe48db3086cf880 status=completed elapsed=45.34s in=17593 out=1737
+  [139/395] T3_e6fbe63696029cc0 status=completed elapsed=39.07s in=11547 out=1724
+  [140/395] T3_e248cb885f135b50 status=completed elapsed=44.28s in=19159 out=1728
+  [141/395] T3_5759701cea0a1558 status=completed elapsed=40.59s in=19131 out=1732
+  [142/395] T3_37d3fc985ebc7f20 status=completed elapsed=41.37s in=17597 out=1733
+  [143/395] T3_1783f6c135cc14fe status=completed elapsed=39.09s in=13107 out=1729
+  [144/395] T3_e007d822e0b8c0cd status=completed elapsed=42.08s in=20714 out=1733
+  [145/395] T3_edc8cbbbc284d8f1 status=completed elapsed=40.75s in=20651 out=1730
+  [146/395] T3_61402db33512bc83 status=completed elapsed=41.64s in=17597 out=1732
+  [147/395] T3_40a924fa22d7159a status=completed elapsed=39.87s in=14663 out=1732
+  [148/395] T3_f40e31ecd755c755 status=completed elapsed=42.75s in=22266 out=1733
+  [149/395] T3_bf1793fdafd8889e status=completed elapsed=42.0s in=22174 out=1740
+  [150/395] T3_2dcb680f65491c5e status=completed elapsed=41.07s in=17599 out=1733
+  [151/395] T3_345bf8b7bef430f2 status=completed elapsed=42.32s in=17767 out=1729
+  [152/395] T3_0e2c9975f14b8d4e status=completed elapsed=50.08s in=25380 out=1734
+  [153/395] T3_a3dc7f20dc303fdf status=completed elapsed=43.08s in=25214 out=1745
+  [154/395] UNSEEN_4804dd14ca3e04c7 status=completed elapsed=38.34s in=17825 out=1612
+  [155/395] UNSEEN_9a1dd9a3be5cd95c status=completed elapsed=32.48s in=8902 out=1611
+  [156/395] UNSEEN_e3bdf6387e8e47c3 status=completed elapsed=33.65s in=10886 out=1612
+  [157/395] UNSEEN_ca53b12aab9c593d status=completed elapsed=35.78s in=12865 out=1610
+  [158/395] UNSEEN_faa345c8eda8e631 status=completed elapsed=37.7s in=17792 out=1595
+  [159/395] UNSEEN_71fcb13b32276d8f status=completed elapsed=31.98s in=8892 out=1599
+  [160/395] UNSEEN_bcf64eb6dff3b6e2 status=completed elapsed=32.86s in=10854 out=1594
+  [161/395] UNSEEN_c3c50e4320904339 status=completed elapsed=35.29s in=12850 out=1598
+  [162/395] UNSEEN_5d4c43c15d76d5c6 status=completed elapsed=36.12s in=17955 out=1602
+  [163/395] UNSEEN_4cecd8a606309bec status=completed elapsed=35.28s in=8957 out=1598
+  [164/395] UNSEEN_661611dcffdd2191 status=completed elapsed=33.32s in=10955 out=1599
+/root/miniconda3/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  [165/395] UNSEEN_191048aba02ad637 status=completed elapsed=38.27s in=12955 out=1599
+  [166/395] T1_73bbc9cf688a8223 status=completed elapsed=39.86s in=25009 out=1710
+  [167/395] T1_5b940a9e1ba13679 status=completed elapsed=32.52s in=11279 out=1712
+  [168/395] T1_b617fce20a94641c status=completed elapsed=38.07s in=14326 out=1710
+  [169/395] T1_6d75075506687b4f status=completed elapsed=45.8s in=17384 out=1713
+  [170/395] T1_3a5bcb6b941e4b35 status=completed elapsed=42.95s in=25024 out=1730
+  [171/395] T1_771bb955ba16dc5f status=completed elapsed=38.43s in=11302 out=1729
+  [172/395] T1_2d462a6ba0073f88 status=completed elapsed=37.25s in=14362 out=1730
+  [173/395] T1_1faf2f43f290c7ec status=completed elapsed=45.1s in=17400 out=1728
+  [174/395] T1_b11ac149ebaa5bcb status=completed elapsed=40.29s in=25136 out=1716
+  [175/395] T1_181896543a1fe5b1 status=completed elapsed=35.91s in=11353 out=1720
+  [176/395] T1_fa6c7714c4f1d09b status=completed elapsed=38.41s in=14422 out=1720
+  [177/395] T1_730d5a7d68ba1995 status=completed elapsed=42.6s in=17484 out=1720
+  [178/395] T2_558b5c6b55136cb2 status=completed elapsed=40.1s in=25181 out=1728
+  [179/395] T2_18c97f8681ef9e53 status=completed elapsed=36.03s in=11447 out=1731
+  [180/395] T2_3aa7a94e9510af99 status=completed elapsed=38.09s in=14496 out=1730
+  [181/395] T2_143579d509f82675 status=completed elapsed=46.18s in=17552 out=1729
+  [182/395] T2_4c4c367ffe4a5093 status=completed elapsed=40.9s in=25277 out=1737
+  [183/395] T2_20cb577b683e4451 status=completed elapsed=36.28s in=11545 out=1723
+  [184/395] T2_e2f3ed8509e9f947 status=completed elapsed=38.97s in=14594 out=1737
+  [185/395] T2_b74a0ea60cf010c0 status=completed elapsed=43.11s in=17644 out=1736
+  [186/395] T2_f92b9ddd5247112a status=completed elapsed=40.05s in=25129 out=1721
+  [187/395] T2_be7309b50d1fd5b3 status=completed elapsed=37.58s in=11411 out=1724
+  [188/395] T2_ec0e731c35caaa1a status=completed elapsed=38.24s in=14465 out=1734
+  [189/395] T2_af5b9bf7a75ed244 status=completed elapsed=43.22s in=17507 out=1727
+  [190/395] T3_0fa0948e6515fe18 status=completed elapsed=44.25s in=17718 out=1737
+  [191/395] T3_c8c5f197e0f5ed08 status=completed elapsed=41.21s in=17724 out=1737
+  [192/395] T3_a7d8a3230cdc4b24 status=completed elapsed=41.1s in=17723 out=1736
+  [193/395] T3_0d5b66911c094055 status=completed elapsed=38.37s in=17722 out=1739
+  [194/395] T3_3007bd3c8bce74d6 status=completed elapsed=38.27s in=11705 out=1716
+  [195/395] T3_02fcd6cc79d7bcb5 status=completed elapsed=41.3s in=19307 out=1721
+  [196/395] T3_e0cf10def8cd8ecf status=completed elapsed=41.2s in=19237 out=1733
+  [197/395] T3_fd0aaff9806eaaf3 status=completed elapsed=38.46s in=17710 out=1733
+  [198/395] T3_174e8692449ee35e status=completed elapsed=38.98s in=13280 out=1723
+  [199/395] T3_c798afc2499755a3 status=completed elapsed=41.36s in=20879 out=1724
+  [200/395] T3_c9758daca86ad4b1 status=completed elapsed=43.85s in=20762 out=1735
+  [201/395] T3_f93814c87ec3f599 status=completed elapsed=42.15s in=17718 out=1737
+  [202/395] T3_9d47615c6bcca32d status=completed elapsed=39.27s in=14851 out=1724
+  [203/395] T3_9eeb933514f4ed07 status=completed elapsed=45.85s in=22454 out=1726
+  [204/395] T3_91302156f28b8df3 status=completed elapsed=41.78s in=22296 out=1738
+  [205/395] T3_85959917c130f9bd status=completed elapsed=43.82s in=17720 out=1738
+  [206/395] T3_1a84d41c4a31b962 status=completed elapsed=45.79s in=18005 out=1722
+  [207/395] T3_a06d18ca7b6d5ef6 status=completed elapsed=49.53s in=25602 out=1718
+  [208/395] T3_cb58e8a6e139a6c0 status=completed elapsed=48.02s in=25334 out=1737
+  [209/395] UNSEEN_ca642224c6657412 status=completed elapsed=38.53s in=17799 out=1581
+  [210/395] UNSEEN_378a8fa7f3826a39 status=completed elapsed=32.01s in=8886 out=1582
+  [211/395] UNSEEN_0d86599505ec68b3 status=completed elapsed=33.1s in=10870 out=1582
+  [212/395] UNSEEN_16ea29e253f10837 status=completed elapsed=36.08s in=12856 out=1582
+  [213/395] UNSEEN_a03a5101304abaf0 status=completed elapsed=34.95s in=17833 out=1601
+  [214/395] UNSEEN_fe714b854ce8a58f status=completed elapsed=32.18s in=8919 out=1601
+  [215/395] UNSEEN_1dfdd08a0356d030 status=completed elapsed=33.59s in=10894 out=1602
+  [216/395] UNSEEN_4778509bf937b9ba status=completed elapsed=36.46s in=12870 out=1602
+  [217/395] UNSEEN_149fba3cf0d25728 status=completed elapsed=35.0s in=17927 out=1596
+  [218/395] UNSEEN_e68361ae91282452 status=completed elapsed=31.7s in=8971 out=1596
+  [219/395] UNSEEN_6e662071ebf99072 status=completed elapsed=34.91s in=10963 out=1597
+  [220/395] UNSEEN_1c7d04da4360cbb1 status=completed elapsed=38.66s in=12941 out=1596
+  [221/395] T1_5ffe60cf7ee2be6b status=completed elapsed=40.38s in=25032 out=1734
+  [222/395] T1_f8500fbedb8b03d6 status=completed elapsed=36.2s in=11309 out=1736
+  [223/395] T1_360e0209d254e6c3 status=completed elapsed=38.36s in=14362 out=1739
+  [224/395] T1_880af975205433a4 status=completed elapsed=42.49s in=17412 out=1738
+  [225/395] T1_0c02171aa226f124 status=completed elapsed=40.11s in=24967 out=1717
+  [226/395] T1_edea66883be4fcda status=completed elapsed=35.39s in=11256 out=1712
+  [227/395] T1_e3d9eabd0ba3915c status=completed elapsed=38.6s in=14301 out=1714
+  [228/395] T1_9c348bf64476452e status=completed elapsed=45.19s in=17367 out=1717
+  [229/395] T1_6deaa0a6b961a0ce status=completed elapsed=40.44s in=25135 out=1724
+  [230/395] T1_d5dde0e71ef12add status=completed elapsed=35.46s in=11342 out=1721
+  [231/395] T1_bb88021bbbb88ff7 status=completed elapsed=39.93s in=14396 out=1721
+  [232/395] T1_15c2e3828a222c27 status=completed elapsed=43.13s in=17481 out=1727
+  [233/395] T2_67095813e82c7b5c status=completed elapsed=40.58s in=25212 out=1736
+  [234/395] T2_d2b6bd2019d6f77b status=completed elapsed=35.8s in=11481 out=1734
+  [235/395] T2_ead2d61530eba30e status=completed elapsed=39.49s in=14524 out=1717
+  [236/395] T2_c5d70b3de48b62cd status=completed elapsed=46.36s in=17578 out=1733
+  [237/395] T2_46b073e03ca6d3ac status=completed elapsed=40.82s in=25369 out=1743
+  [238/395] T2_5bb7ca189aa56159 status=completed elapsed=36.41s in=11640 out=1742
+  [239/395] T2_916fe5571dbfb333 status=completed elapsed=39.09s in=14687 out=1742
+  [240/395] T2_62ac9bf127ec0b4e status=completed elapsed=42.3s in=17739 out=1742
+  [241/395] T2_d61977b908722556 status=completed elapsed=44.68s in=25113 out=1726
+  [242/395] T2_006b52bd01b80228 status=completed elapsed=36.46s in=11412 out=1744
+  [243/395] T2_3c35a2885bccf22f status=completed elapsed=38.88s in=14451 out=1743
+  [244/395] T2_e5804596d4ef2d0b status=completed elapsed=38.55s in=17511 out=1743
+  [245/395] T3_07c6631f8855e40d status=completed elapsed=42.28s in=17672 out=1734
+  [246/395] T3_4fa33597f9f99483 status=completed elapsed=43.16s in=17676 out=1733
+  [247/395] T3_e0925639aaccb7b3 status=completed elapsed=43.53s in=17673 out=1734
+  [248/395] T3_da211dafd025de62 status=completed elapsed=43.28s in=17662 out=1732
+  [249/395] T3_d6f5f13093bf693e status=completed elapsed=38.61s in=11605 out=1735
+  [250/395] T3_1e06aa975c5a1b55 status=completed elapsed=41.54s in=19241 out=1741
+  [251/395] T3_59bc2677d0cb5106 status=completed elapsed=40.61s in=19190 out=1738
+  [252/395] T3_c7e92df7315a52e4 status=completed elapsed=41.4s in=17668 out=1732
+  [253/395] T3_ba07e5caf155b982 status=completed elapsed=38.43s in=13158 out=1722
+  [254/395] T3_892314c1aeab1166 status=completed elapsed=44.63s in=20793 out=1735
+  [255/395] T3_93e1c9067aa07caf status=completed elapsed=44.73s in=20712 out=1737
+  [256/395] T3_0c7c82351afd9ce8 status=completed elapsed=39.01s in=17666 out=1734
+  [257/395] T3_dc52a0dcfcb788b8 status=completed elapsed=39.85s in=14711 out=1727
+  [258/395] T3_f8ab0c8f0d772dca status=completed elapsed=42.93s in=22346 out=1730
+  [259/395] T3_8303b6a76a03c946 status=completed elapsed=42.23s in=22237 out=1740
+  [260/395] T3_f761cad62db0b75a status=completed elapsed=41.19s in=17664 out=1730
+  [261/395] T3_61957786584dc0c6 status=completed elapsed=42.47s in=17827 out=1726
+  [262/395] T3_4ff2b52f37230d3d status=completed elapsed=50.21s in=25460 out=1726
+  [263/395] T3_ad024687ade4b859 status=completed elapsed=43.83s in=25263 out=1732
+  [264/395] UNSEEN_f244adbe72b2f2f5 status=completed elapsed=35.83s in=17812 out=1611
+  [265/395] UNSEEN_5a9ade9a1d23d0c0 status=completed elapsed=32.78s in=8907 out=1612
+  [266/395] UNSEEN_095961dad332adb8 status=completed elapsed=33.95s in=10882 out=1610
+  [267/395] UNSEEN_e9ac16d0f9fd5fe1 status=completed elapsed=36.73s in=12860 out=1610
+  [268/395] UNSEEN_7eb8d44360f3b334 status=completed elapsed=35.0s in=17828 out=1589
+  [269/395] UNSEEN_c26ee5b0725233d2 status=completed elapsed=32.03s in=8902 out=1588
+  [270/395] UNSEEN_e2bc384c77585f83 status=completed elapsed=33.44s in=10882 out=1588
+  [271/395] UNSEEN_ad6089e4c873bb3d status=completed elapsed=36.41s in=12871 out=1587
+/root/miniconda3/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  [272/395] UNSEEN_598ab7dd0550b225 status=completed elapsed=35.1s in=17968 out=1602
+  [273/395] UNSEEN_08ba97d5ba6c69c0 status=completed elapsed=31.7s in=8981 out=1602
+  [274/395] UNSEEN_67b8a79ef45d68ea status=completed elapsed=34.95s in=10974 out=1602
+/root/miniconda3/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  [275/395] UNSEEN_206e91326c4a0d50 status=completed elapsed=31.27s in=12968 out=1604
+  [276/395] PUBLIC_7099268214c04299 status=completed elapsed=18.09s in=6274 out=922
+  [277/395] PUBLIC_06e4f0f60c89b247 status=completed elapsed=17.58s in=3561 out=926
+  [278/395] PUBLIC_07941d044046a53b status=completed elapsed=17.97s in=4648 out=914
+  [279/395] PUBLIC_3d1e09eb3fc131ef status=completed elapsed=18.46s in=5724 out=915
+  [280/395] PUBLIC_068fc3bd05574168 status=completed elapsed=18.01s in=6271 out=922
+  [281/395] PUBLIC_b76c8df10383237b status=completed elapsed=17.44s in=3570 out=916
+  [282/395] PUBLIC_039c09f9c241234b status=completed elapsed=18.1s in=4659 out=916
+  [283/395] PUBLIC_40c02a857bf63151 status=completed elapsed=18.6s in=5733 out=915
+  [284/395] PUBLIC_9e63e61d1d5ba5c5 status=completed elapsed=18.08s in=6291 out=929
+  [285/395] PUBLIC_4c151b9922c0f043 status=completed elapsed=17.47s in=3573 out=922
+  [286/395] PUBLIC_ed3ae8fff7f8fe9c status=completed elapsed=17.97s in=4655 out=915
+  [287/395] PUBLIC_35951368b65bb0c5 status=completed elapsed=18.53s in=5752 out=920
+  [288/395] PUBLIC_23631aeda5ee5a47 status=completed elapsed=17.68s in=6294 out=903
+  [289/395] PUBLIC_388718f35cdec219 status=completed elapsed=17.28s in=3565 out=914
+  [290/395] PUBLIC_2c4c7646fa98421c status=completed elapsed=17.68s in=4662 out=899
+  [291/395] PUBLIC_2da0d1ea4398711f status=completed elapsed=18.31s in=5750 out=906
+  [292/395] PUBLIC_febb6fe21981eb25 status=completed elapsed=18.04s in=6265 out=927
+  [293/395] PUBLIC_6b933fad6fe0676f status=completed elapsed=17.46s in=3559 out=917
+  [294/395] PUBLIC_14237cebfe0a6150 status=completed elapsed=18.11s in=4649 out=923
+  [295/395] PUBLIC_09790674b312a89b status=completed elapsed=18.72s in=5729 out=930
+  [296/395] PUBLIC_240a19d6e863025c status=completed elapsed=18.7s in=6357 out=978
+  [297/395] PUBLIC_27488d690065218b status=completed elapsed=17.22s in=3180 out=938
+  [298/395] PUBLIC_056e04be7011cb04 status=completed elapsed=17.35s in=3492 out=936
+  [299/395] PUBLIC_7cd68e1428f64f5d status=completed elapsed=18.44s in=3811 out=957
+  [300/395] PUBLIC_57cb81a043cb14d6 status=completed elapsed=18.84s in=6345 out=994
+  [301/395] PUBLIC_596094b7ab7f90bc status=completed elapsed=17.94s in=3189 out=982
+  [302/395] PUBLIC_929e011aaaafd9db status=completed elapsed=18.0s in=3496 out=979
+  [303/395] PUBLIC_68110ef6ca70a805 status=completed elapsed=18.74s in=3814 out=976
+  [304/395] PUBLIC_e46f2de6a7326bf3 status=completed elapsed=18.59s in=6340 out=968
+  [305/395] PUBLIC_51efe2cc3132d451 status=completed elapsed=17.97s in=3174 out=980
+  [306/395] PUBLIC_cd1a965e843bbcea status=completed elapsed=17.8s in=3485 out=962
+  [307/395] PUBLIC_c126501d5cb14a44 status=completed elapsed=18.68s in=3801 out=967
+  [308/395] PUBLIC_084c6698f6cefd0f status=completed elapsed=18.52s in=6332 out=961
+  [309/395] PUBLIC_8c6143088dad7ef2 status=completed elapsed=17.14s in=3155 out=922
+  [310/395] PUBLIC_dcc494d124a2e4e8 status=completed elapsed=17.54s in=3469 out=945
+  [311/395] PUBLIC_bac12b54787a39a5 status=completed elapsed=18.33s in=3788 out=949
+  [312/395] PUBLIC_f40dbb56e33a510c status=completed elapsed=18.62s in=6334 out=978
+  [313/395] PUBLIC_c6fc7d36a855a96b status=completed elapsed=17.75s in=3169 out=972
+  [314/395] PUBLIC_c7b3511ec1f302f4 status=completed elapsed=17.92s in=3483 out=978
+  [315/395] PUBLIC_6a1124d76e5b1b2c status=completed elapsed=20.62s in=3805 out=950
+  [316/395] PUBLIC_41f1dce7a163ff4e status=completed elapsed=23.85s in=10453 out=1102
+  [317/395] PUBLIC_eef92075dff0c0b9 status=completed elapsed=22.83s in=7245 out=1100
+  [318/395] PUBLIC_583eb447268bfead status=completed elapsed=24.83s in=8844 out=1101
+  [319/395] PUBLIC_4aaf40f3d313583d status=completed elapsed=25.97s in=10454 out=1103
+  [320/395] PUBLIC_c2dde97209dde0d7 status=completed elapsed=24.12s in=10450 out=1110
+  [321/395] PUBLIC_84b3bae3d94e3963 status=completed elapsed=23.02s in=7250 out=1114
+  [322/395] PUBLIC_47ff55c9d52d3f01 status=completed elapsed=24.5s in=8855 out=1114
+  [323/395] PUBLIC_a45fe298e06b2fd5 status=completed elapsed=27.6s in=10453 out=1112
+  [324/395] PUBLIC_1acea5a7faf0fb7e status=completed elapsed=24.91s in=12111 out=1099
+  [325/395] PUBLIC_86ee26b29ff0d086 status=completed elapsed=24.52s in=8356 out=1103
+  [326/395] PUBLIC_9915a66c607e22c5 status=completed elapsed=26.18s in=10240 out=1105
+  [327/395] PUBLIC_5130f8da57de9312 status=completed elapsed=26.25s in=12118 out=1103
+  [328/395] PUBLIC_30559def1e87ea49 status=completed elapsed=23.97s in=10450 out=1102
+  [329/395] PUBLIC_3b5ea3fc14a5e4b7 status=completed elapsed=22.89s in=7245 out=1103
+  [330/395] PUBLIC_13278705ed2761d4 status=completed elapsed=24.86s in=8848 out=1104
+  [331/395] PUBLIC_488bf368c12581e2 status=completed elapsed=25.77s in=10453 out=1104
+  [332/395] PUBLIC_402819d9fdd6a036 status=completed elapsed=23.6s in=9611 out=1101
+  [333/395] PUBLIC_81b637b2b846fa7b status=completed elapsed=21.9s in=6689 out=1101
+  [334/395] PUBLIC_c0a4d688c4091185 status=completed elapsed=23.83s in=8146 out=1101
+  [335/395] PUBLIC_28b6af6112dde0b1 status=completed elapsed=25.48s in=9606 out=1099
+  [336/395] PUBLIC_96c7ff0c84a5e0fc status=completed elapsed=26.44s in=9933 out=1356
+  [337/395] PUBLIC_895e0c8757e09201 status=completed elapsed=23.7s in=4202 out=1356
+  [338/395] PUBLIC_bde09cebf47f8429 status=completed elapsed=23.91s in=4655 out=1357
+  [339/395] PUBLIC_dc42010d544fbc0e status=completed elapsed=26.48s in=5110 out=1355
+  [340/395] PUBLIC_9cb2b3f2db43f34b status=completed elapsed=26.12s in=9941 out=1343
+  [341/395] PUBLIC_f443790395dcec46 status=completed elapsed=23.51s in=4180 out=1340
+  [342/395] PUBLIC_93061215e65a376c status=completed elapsed=23.74s in=4647 out=1344
+  [343/395] PUBLIC_4efaedc5bde56878 status=completed elapsed=26.22s in=5103 out=1339
+  [344/395] PUBLIC_b053a8702f5e541f status=completed elapsed=26.02s in=9923 out=1335
+  [345/395] PUBLIC_c85754921936fce4 status=completed elapsed=23.48s in=4178 out=1331
+  [346/395] PUBLIC_ee76f27a195539e4 status=completed elapsed=23.67s in=4641 out=1333
+  [347/395] PUBLIC_609ad7b999d5541a status=completed elapsed=26.24s in=5096 out=1333
+  [348/395] PUBLIC_4f6617dc36c156a0 status=completed elapsed=25.75s in=9870 out=1314
+  [349/395] PUBLIC_e87c10478fbc615a status=completed elapsed=23.2s in=4153 out=1317
+  [350/395] PUBLIC_90ce07870d08b16e status=completed elapsed=23.27s in=4616 out=1312
+  [351/395] PUBLIC_5c163fa0a53a547c status=completed elapsed=25.85s in=5074 out=1312
+  [352/395] PUBLIC_3ec81eb9cf60bda4 status=completed elapsed=25.94s in=9905 out=1327
+  [353/395] PUBLIC_5267a7324c8e5a0c status=completed elapsed=23.36s in=4164 out=1331
+  [354/395] PUBLIC_e8977ccf6d99d663 status=completed elapsed=23.59s in=4625 out=1331
+  [355/395] PUBLIC_8ec9fc8badbff6ea status=completed elapsed=26.98s in=5077 out=1326
+  [356/395] PUBLIC_ad3f5a576297c86f status=completed elapsed=30.15s in=14956 out=1393
+  [357/395] PUBLIC_8a6944b5e40311b6 status=completed elapsed=25.98s in=6423 out=1403
+  [358/395] PUBLIC_ea314a9e87a686bc status=completed elapsed=26.74s in=7366 out=1398
+  [359/395] PUBLIC_9524725d1a5605d1 status=completed elapsed=28.65s in=8320 out=1399
+  [360/395] PUBLIC_e9fe07432978f9de status=completed elapsed=27.12s in=9947 out=1398
+  [361/395] PUBLIC_6ee2a113f8ad9e64 status=completed elapsed=24.45s in=4414 out=1394
+  [362/395] PUBLIC_19d8c6e4673b8cc6 status=completed elapsed=24.81s in=5034 out=1400
+  [363/395] PUBLIC_20e066bdd2536926 status=completed elapsed=27.43s in=5644 out=1400
+  [364/395] PUBLIC_1e14aa30546456c4 status=completed elapsed=26.91s in=9930 out=1381
+  [365/395] PUBLIC_cf0dcde5a5b2ac47 status=completed elapsed=24.36s in=4389 out=1383
+  [366/395] PUBLIC_dd9ac062e274ee0b status=completed elapsed=24.53s in=5005 out=1377
+  [367/395] PUBLIC_24c227d049fcb57c status=completed elapsed=28.44s in=5621 out=1383
+  [368/395] PUBLIC_f32b28babf198d7e status=completed elapsed=32.83s in=16631 out=1401
+  [369/395] PUBLIC_6010ac3fdf688010 status=completed elapsed=26.6s in=7085 out=1412
+  [370/395] PUBLIC_848e624100bdb77a status=completed elapsed=27.45s in=8150 out=1404
+  [371/395] PUBLIC_7c1575fa024d7964 status=completed elapsed=31.63s in=9214 out=1405
+  [372/395] PUBLIC_bee6f8fedc9cee66 status=completed elapsed=34.02s in=18268 out=1380
+  [373/395] PUBLIC_2f84aaefac67f848 status=completed elapsed=27.18s in=7765 out=1384
+  [374/395] PUBLIC_38934e08310bf802 status=completed elapsed=28.68s in=8940 out=1387
+  [375/395] PUBLIC_f78ba21a2c7379f5 status=completed elapsed=27.37s in=10107 out=1386
+  [376/395] PUBLIC_252d55bc0b279c18 status=completed elapsed=14.76s in=6068 out=703
+  [377/395] PUBLIC_94feada77a50d9ba status=completed elapsed=13.96s in=3012 out=700
+  [378/395] PUBLIC_67314783798accd1 status=completed elapsed=14.12s in=3383 out=702
+  [379/395] PUBLIC_218b836dbde3cecd status=completed elapsed=14.85s in=3751 out=700
+  [380/395] PUBLIC_913371839a5463b0 status=completed elapsed=14.59s in=6034 out=692
+  [381/395] PUBLIC_32ad7a11e1657ef3 status=completed elapsed=13.77s in=2996 out=690
+  [382/395] PUBLIC_9e95ce40c3266cbf status=completed elapsed=13.91s in=3364 out=690
+  [383/395] PUBLIC_b3e4e3885611c8ec status=completed elapsed=14.65s in=3731 out=690
+  [384/395] PUBLIC_0628a2621d500894 status=completed elapsed=14.53s in=6023 out=691
+  [385/395] PUBLIC_29616c8769139cda status=completed elapsed=13.77s in=2997 out=690
+  [386/395] PUBLIC_5bf9b67fcde72bdc status=completed elapsed=13.92s in=3361 out=687
+  [387/395] PUBLIC_bf9de9c5d6ef9ff2 status=completed elapsed=14.66s in=3724 out=687
+  [388/395] PUBLIC_0255e3b57a059265 status=completed elapsed=14.5s in=6036 out=691
+  [389/395] PUBLIC_466cc9b1cc15e69d status=completed elapsed=13.7s in=2996 out=689
+  [390/395] PUBLIC_d2bfc506e9ac7d38 status=completed elapsed=13.82s in=3365 out=688
+  [391/395] PUBLIC_451a0e6bd4d16ebc status=completed elapsed=14.57s in=3739 out=689
+  [392/395] PUBLIC_1cde8454accfa422 status=completed elapsed=14.65s in=6046 out=700
+  [393/395] PUBLIC_d5d882452d31c126 status=completed elapsed=13.97s in=3007 out=703
+  [394/395] PUBLIC_ddcf8130f4549091 status=completed elapsed=14.04s in=3370 out=701
+  [395/395] PUBLIC_4c39bff8fa7c11a1 status=completed elapsed=10.32s in=3734 out=701
+
+group                                  n   val_acc    val_F1  test_acc   test_F1
+overall                              395    61.43%    0.5608    61.50%    0.5815
+task:PUBLIC                          120    74.81%    0.6440    70.17%    0.6422
+task:T1                               60    99.17%    0.9911    98.43%    0.9840
+task:T2                               60    27.04%    0.1864    27.92%    0.1947
+task:T3                               95    32.81%    0.2893    31.29%    0.2752
+task:UNSEEN                           60    98.81%    0.7683    94.26%    0.9294
+cond:PUBLIC|context_k_k1.0            30    68.08%    0.5566    56.58%    0.4983
+cond:PUBLIC|context_k_k3.0            30    72.69%    0.6451    70.68%    0.6512
+cond:PUBLIC|context_k_k5.0            30    78.46%    0.7006    75.07%    0.7171
+cond:PUBLIC|full_reference            30    80.00%    0.6737    78.36%    0.7023
+cond:T1|context_k                     45    99.01%    0.9895    98.40%    0.9837
+cond:T1|full_reference                15    99.63%    0.9960    98.52%    0.9848
+cond:T2|context_k                     45    26.79%    0.1928    27.28%    0.1986
+cond:T2|full_reference                15    27.78%    0.1672    29.81%    0.1829
+cond:T3|mixed_k0.0                     5    16.67%    0.1171    16.11%    0.1176
+cond:T3|mixed_k1.0                     5    41.11%    0.3601    39.44%    0.3390
+cond:T3|mixed_k2.0                     5    46.67%    0.4339    45.00%    0.4203
+cond:T3|mixed_k3.0                     5    61.11%    0.5808    55.56%    0.5298
+cond:T3|mixed_k5.0                     5    66.67%    0.6393    60.56%    0.5838
+cond:T3|size_matched_source_k0.0       5    18.89%    0.1392    19.44%    0.1493
+cond:T3|size_matched_source_k1.0       5    14.44%    0.0927    15.00%    0.0907
+cond:T3|size_matched_source_k2.0       5    13.33%    0.0840    17.22%    0.1161
+cond:T3|size_matched_source_k3.0       5    10.00%    0.0652    12.22%    0.0790
+cond:T3|size_matched_source_k5.0       5    13.33%    0.0913    13.89%    0.1042
+cond:T3|source_only_k0.0               5    15.56%    0.1142    14.44%    0.1060
+cond:T3|source_only_k1.0               5    16.67%    0.1300    17.78%    0.1434
+cond:T3|source_only_k2.0               5    16.67%    0.1134    17.22%    0.1211
+cond:T3|source_only_k3.0               5    15.56%    0.1089    15.00%    0.1071
+cond:T3|source_only_k5.0               5    16.67%    0.1134    17.22%    0.1207
+cond:T3|target_only_k1.0               5    45.56%    0.4148    38.89%    0.3605
+cond:T3|target_only_k2.0               5    57.78%    0.5615    51.11%    0.4730
+cond:T3|target_only_k3.0               5    62.22%    0.6105    62.78%    0.6185
+cond:T3|target_only_k5.0               5    74.44%    0.7267    65.56%    0.6492
+cond:UNSEEN|context_k                 45    98.57%    0.7660    93.33%    0.9165
+cond:UNSEEN|full_reference            15    99.52%    0.7753    97.04%    0.9678
+dataset:beef                          20    52.00%    0.4690    59.17%    0.5804
+dataset:coffee                        20    87.14%    0.8586    76.43%    0.7423
+dataset:fresh_meats                   20    80.83%    0.7937    74.17%    0.7324
+dataset:olive_oils                    20    80.36%    0.6906    82.33%    0.7322
+dataset:surimi9                      275    58.47%    0.5245    58.94%    0.5550
+dataset:turmeric_authenticity         20    75.71%    0.5835    75.48%    0.5650
+dataset:turmeric_levels               20    56.43%    0.4686    53.33%    0.5010
+
+Predictions: /root/autodl-tmp/Spectral-ICLC-local llm/outputs/four_batches_strata_rerun/predictions.jsonl
+Summary: /root/autodl-tmp/Spectral-ICLC-local llm/outputs/four_batches_strata_rerun/summary.json
+===== ALL-BATCH RERUN END rc=0 2026-10-28 16:27:32 =====

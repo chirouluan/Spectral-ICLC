@@ -1,0 +1,22 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-9607354ADF58D6B4251D,turmeric_002,Sample 1,0.5,0,True,holdout
+ID-414B686302B6F9628062,turmeric_011,Sample 2,2.5,2.5,True,holdout
+ID-5FCB8470FA44F466AB6E,turmeric_008,Sample 2,0.1,0,True,holdout
+ID-30C84B83AF67955F7FA7,turmeric_006,Sample 1,10,2.5,True,holdout
+ID-C3600D7E282C01781AE4,turmeric_000,Sample 1,0,0.5,True,holdout
+ID-584F30859DBE55EAFE64,turmeric_005,Sample 1,5,2.5,True,holdout
+ID-F947EA33E457A5A9B513,turmeric_026,Sample 8,5,1,True,holdout
+ID-275416559158DA00F3B2,turmeric_023,Sample 8,0.5,0.5,True,holdout
+ID-71696EBED4D43228DAC8,turmeric_013,Sample 2,10,2.5,True,holdout
+ID-A3408EF2A588A5D34832,turmeric_025,Sample 8,2.5,1,True,holdout
+ID-89CD6CB29E9F1979F618,turmeric_009,Sample 2,0.5,0,True,holdout
+ID-A5287C23EBE94C4978DD,turmeric_022,Sample 8,0.1,0,True,holdout
+ID-0AF81BB67A686001EAD1,turmeric_027,Sample 8,10,5,True,holdout
+ID-33FBF50BDF34D266CD3F,turmeric_007,Sample 2,0,0,True,holdout
+ID-430D7F7BA8BDD9040D22,turmeric_012,Sample 2,5,2.5,True,holdout
+ID-C43D9EA4893DE31D60B5,turmeric_024,Sample 8,1,0,True,holdout
+ID-D05E8D2C743E3FD1644C,turmeric_004,Sample 1,2.5,2.5,True,holdout
+ID-CB156501C709316BB8AB,turmeric_001,Sample 1,0.1,0,True,holdout
+ID-4929D89AF55D03CFADC6,turmeric_021,Sample 8,0,0,True,holdout
+ID-E558D41782EE1B8B9091,turmeric_003,Sample 1,1,0.5,True,holdout
+ID-AB900F656BACF2CEFAE5,turmeric_010,Sample 2,1,2.5,True,holdout

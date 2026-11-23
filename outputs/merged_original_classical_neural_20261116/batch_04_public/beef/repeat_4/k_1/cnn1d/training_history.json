@@ -1,0 +1,149 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.7502505779266357,
+    "validation_loss": 1.598917007446289,
+    "validation_accuracy": 0.0,
+    "optimizer_steps": 1
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.2507086396217346,
+    "validation_loss": 1.612229347229004,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 2
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.06733135879039764,
+    "validation_loss": 1.632812738418579,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 3
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.02027503401041031,
+    "validation_loss": 1.657243013381958,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 4
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.005875932518392801,
+    "validation_loss": 1.6866285800933838,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 5
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.0027618706226348877,
+    "validation_loss": 1.730339765548706,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 6
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.0010190997272729874,
+    "validation_loss": 1.7977125644683838,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 7
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.0013557752827182412,
+    "validation_loss": 1.8887794017791748,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 8
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.0007585428538732231,
+    "validation_loss": 2.0033059120178223,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 9
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.0004050032584927976,
+    "validation_loss": 2.1409192085266113,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 10
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.00033317660563625395,
+    "validation_loss": 2.297661781311035,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 11
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.0003493945114314556,
+    "validation_loss": 2.4671764373779297,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 12
+  },
+  {
+    "epoch": 13,
+    "train_loss": 9.54282731981948e-05,
+    "validation_loss": 2.6435112953186035,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 13
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.00012264176621101797,
+    "validation_loss": 2.8226189613342285,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 14
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.0017004639375954866,
+    "validation_loss": 3.0038208961486816,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 15
+  },
+  {
+    "epoch": 16,
+    "train_loss": 1.7690441382001154e-05,
+    "validation_loss": 3.187354564666748,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 16
+  },
+  {
+    "epoch": 17,
+    "train_loss": 8.169234206434339e-05,
+    "validation_loss": 3.371542453765869,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 17
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.00018369471945334226,
+    "validation_loss": 3.5573410987854004,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 18
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.0003687324351631105,
+    "validation_loss": 3.7381324768066406,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 19
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.0008501664851792157,
+    "validation_loss": 3.921645402908325,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 20
+  },
+  {
+    "epoch": 21,
+    "train_loss": 0.0008160543511621654,
+    "validation_loss": 4.107922554016113,
+    "validation_accuracy": 0.20000000298023224,
+    "optimizer_steps": 21
+  }
+]

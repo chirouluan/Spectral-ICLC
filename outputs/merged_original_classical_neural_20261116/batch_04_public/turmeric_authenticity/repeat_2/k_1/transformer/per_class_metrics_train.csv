@@ -1,0 +1,3 @@
+﻿label,support,precision,recall,f1
+adulterated,1,0.5,1.0,0.6666666666666666
+authentic,1,0.0,0.0,0.0

@@ -1,0 +1,3 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-730C7A7508B9136EBE40,coffee_spectrum_020,coffee_sample_21,Arabica,Arabica,True,in_sample_on_reference_records
+ID-A3A35C239811E6108006,coffee_spectrum_047,coffee_sample_48,Robusta,Robusta,True,in_sample_on_reference_records

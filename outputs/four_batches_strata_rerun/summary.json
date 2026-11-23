@@ -1,0 +1,598 @@
+{
+  "generated": "2026-10-28T08:27:32.258010+00:00",
+  "n_records": 395,
+  "n_completed": 395,
+  "n_error": 0,
+  "n_parse_error": 0,
+  "n_skipped": 0,
+  "groups": {
+    "overall": {
+      "val": {
+        "n_experiments": 395,
+        "n_samples": 5750,
+        "accuracy_pct": 61.43,
+        "macro_f1_mean": 0.5608
+      },
+      "test": {
+        "n_experiments": 395,
+        "n_samples": 12820,
+        "accuracy_pct": 61.5,
+        "macro_f1_mean": 0.5815
+      }
+    },
+    "task:PUBLIC": {
+      "val": {
+        "n_experiments": 120,
+        "n_samples": 1040,
+        "accuracy_pct": 74.81,
+        "macro_f1_mean": 0.644
+      },
+      "test": {
+        "n_experiments": 120,
+        "n_samples": 2920,
+        "accuracy_pct": 70.17,
+        "macro_f1_mean": 0.6422
+      }
+    },
+    "task:T1": {
+      "val": {
+        "n_experiments": 60,
+        "n_samples": 1080,
+        "accuracy_pct": 99.17,
+        "macro_f1_mean": 0.9911
+      },
+      "test": {
+        "n_experiments": 60,
+        "n_samples": 2160,
+        "accuracy_pct": 98.43,
+        "macro_f1_mean": 0.984
+      }
+    },
+    "task:T2": {
+      "val": {
+        "n_experiments": 60,
+        "n_samples": 1080,
+        "accuracy_pct": 27.04,
+        "macro_f1_mean": 0.1864
+      },
+      "test": {
+        "n_experiments": 60,
+        "n_samples": 2160,
+        "accuracy_pct": 27.92,
+        "macro_f1_mean": 0.1947
+      }
+    },
+    "task:T3": {
+      "val": {
+        "n_experiments": 95,
+        "n_samples": 1710,
+        "accuracy_pct": 32.81,
+        "macro_f1_mean": 0.2893
+      },
+      "test": {
+        "n_experiments": 95,
+        "n_samples": 3420,
+        "accuracy_pct": 31.29,
+        "macro_f1_mean": 0.2752
+      }
+    },
+    "task:UNSEEN": {
+      "val": {
+        "n_experiments": 60,
+        "n_samples": 840,
+        "accuracy_pct": 98.81,
+        "macro_f1_mean": 0.7683
+      },
+      "test": {
+        "n_experiments": 60,
+        "n_samples": 2160,
+        "accuracy_pct": 94.26,
+        "macro_f1_mean": 0.9294
+      }
+    },
+    "cond:PUBLIC|context_k_k1.0": {
+      "val": {
+        "n_experiments": 30,
+        "n_samples": 260,
+        "accuracy_pct": 68.08,
+        "macro_f1_mean": 0.5566
+      },
+      "test": {
+        "n_experiments": 30,
+        "n_samples": 730,
+        "accuracy_pct": 56.58,
+        "macro_f1_mean": 0.4983
+      }
+    },
+    "cond:PUBLIC|context_k_k3.0": {
+      "val": {
+        "n_experiments": 30,
+        "n_samples": 260,
+        "accuracy_pct": 72.69,
+        "macro_f1_mean": 0.6451
+      },
+      "test": {
+        "n_experiments": 30,
+        "n_samples": 730,
+        "accuracy_pct": 70.68,
+        "macro_f1_mean": 0.6512
+      }
+    },
+    "cond:PUBLIC|context_k_k5.0": {
+      "val": {
+        "n_experiments": 30,
+        "n_samples": 260,
+        "accuracy_pct": 78.46,
+        "macro_f1_mean": 0.7006
+      },
+      "test": {
+        "n_experiments": 30,
+        "n_samples": 730,
+        "accuracy_pct": 75.07,
+        "macro_f1_mean": 0.7171
+      }
+    },
+    "cond:PUBLIC|full_reference": {
+      "val": {
+        "n_experiments": 30,
+        "n_samples": 260,
+        "accuracy_pct": 80.0,
+        "macro_f1_mean": 0.6737
+      },
+      "test": {
+        "n_experiments": 30,
+        "n_samples": 730,
+        "accuracy_pct": 78.36,
+        "macro_f1_mean": 0.7023
+      }
+    },
+    "cond:T1|context_k": {
+      "val": {
+        "n_experiments": 45,
+        "n_samples": 810,
+        "accuracy_pct": 99.01,
+        "macro_f1_mean": 0.9895
+      },
+      "test": {
+        "n_experiments": 45,
+        "n_samples": 1620,
+        "accuracy_pct": 98.4,
+        "macro_f1_mean": 0.9837
+      }
+    },
+    "cond:T1|full_reference": {
+      "val": {
+        "n_experiments": 15,
+        "n_samples": 270,
+        "accuracy_pct": 99.63,
+        "macro_f1_mean": 0.996
+      },
+      "test": {
+        "n_experiments": 15,
+        "n_samples": 540,
+        "accuracy_pct": 98.52,
+        "macro_f1_mean": 0.9848
+      }
+    },
+    "cond:T2|context_k": {
+      "val": {
+        "n_experiments": 45,
+        "n_samples": 810,
+        "accuracy_pct": 26.79,
+        "macro_f1_mean": 0.1928
+      },
+      "test": {
+        "n_experiments": 45,
+        "n_samples": 1620,
+        "accuracy_pct": 27.28,
+        "macro_f1_mean": 0.1986
+      }
+    },
+    "cond:T2|full_reference": {
+      "val": {
+        "n_experiments": 15,
+        "n_samples": 270,
+        "accuracy_pct": 27.78,
+        "macro_f1_mean": 0.1672
+      },
+      "test": {
+        "n_experiments": 15,
+        "n_samples": 540,
+        "accuracy_pct": 29.81,
+        "macro_f1_mean": 0.1829
+      }
+    },
+    "cond:T3|mixed_k0.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 16.67,
+        "macro_f1_mean": 0.1171
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 16.11,
+        "macro_f1_mean": 0.1176
+      }
+    },
+    "cond:T3|mixed_k1.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 41.11,
+        "macro_f1_mean": 0.3601
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 39.44,
+        "macro_f1_mean": 0.339
+      }
+    },
+    "cond:T3|mixed_k2.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 46.67,
+        "macro_f1_mean": 0.4339
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 45.0,
+        "macro_f1_mean": 0.4203
+      }
+    },
+    "cond:T3|mixed_k3.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 61.11,
+        "macro_f1_mean": 0.5808
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 55.56,
+        "macro_f1_mean": 0.5298
+      }
+    },
+    "cond:T3|mixed_k5.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 66.67,
+        "macro_f1_mean": 0.6393
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 60.56,
+        "macro_f1_mean": 0.5838
+      }
+    },
+    "cond:T3|size_matched_source_k0.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 18.89,
+        "macro_f1_mean": 0.1392
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 19.44,
+        "macro_f1_mean": 0.1493
+      }
+    },
+    "cond:T3|size_matched_source_k1.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 14.44,
+        "macro_f1_mean": 0.0927
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 15.0,
+        "macro_f1_mean": 0.0907
+      }
+    },
+    "cond:T3|size_matched_source_k2.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 13.33,
+        "macro_f1_mean": 0.084
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 17.22,
+        "macro_f1_mean": 0.1161
+      }
+    },
+    "cond:T3|size_matched_source_k3.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 10.0,
+        "macro_f1_mean": 0.0652
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 12.22,
+        "macro_f1_mean": 0.079
+      }
+    },
+    "cond:T3|size_matched_source_k5.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 13.33,
+        "macro_f1_mean": 0.0913
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 13.89,
+        "macro_f1_mean": 0.1042
+      }
+    },
+    "cond:T3|source_only_k0.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 15.56,
+        "macro_f1_mean": 0.1142
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 14.44,
+        "macro_f1_mean": 0.106
+      }
+    },
+    "cond:T3|source_only_k1.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 16.67,
+        "macro_f1_mean": 0.13
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 17.78,
+        "macro_f1_mean": 0.1434
+      }
+    },
+    "cond:T3|source_only_k2.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 16.67,
+        "macro_f1_mean": 0.1134
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 17.22,
+        "macro_f1_mean": 0.1211
+      }
+    },
+    "cond:T3|source_only_k3.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 15.56,
+        "macro_f1_mean": 0.1089
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 15.0,
+        "macro_f1_mean": 0.1071
+      }
+    },
+    "cond:T3|source_only_k5.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 16.67,
+        "macro_f1_mean": 0.1134
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 17.22,
+        "macro_f1_mean": 0.1207
+      }
+    },
+    "cond:T3|target_only_k1.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 45.56,
+        "macro_f1_mean": 0.4148
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 38.89,
+        "macro_f1_mean": 0.3605
+      }
+    },
+    "cond:T3|target_only_k2.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 57.78,
+        "macro_f1_mean": 0.5615
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 51.11,
+        "macro_f1_mean": 0.473
+      }
+    },
+    "cond:T3|target_only_k3.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 62.22,
+        "macro_f1_mean": 0.6105
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 62.78,
+        "macro_f1_mean": 0.6185
+      }
+    },
+    "cond:T3|target_only_k5.0": {
+      "val": {
+        "n_experiments": 5,
+        "n_samples": 90,
+        "accuracy_pct": 74.44,
+        "macro_f1_mean": 0.7267
+      },
+      "test": {
+        "n_experiments": 5,
+        "n_samples": 180,
+        "accuracy_pct": 65.56,
+        "macro_f1_mean": 0.6492
+      }
+    },
+    "cond:UNSEEN|context_k": {
+      "val": {
+        "n_experiments": 45,
+        "n_samples": 630,
+        "accuracy_pct": 98.57,
+        "macro_f1_mean": 0.766
+      },
+      "test": {
+        "n_experiments": 45,
+        "n_samples": 1620,
+        "accuracy_pct": 93.33,
+        "macro_f1_mean": 0.9165
+      }
+    },
+    "cond:UNSEEN|full_reference": {
+      "val": {
+        "n_experiments": 15,
+        "n_samples": 210,
+        "accuracy_pct": 99.52,
+        "macro_f1_mean": 0.7753
+      },
+      "test": {
+        "n_experiments": 15,
+        "n_samples": 540,
+        "accuracy_pct": 97.04,
+        "macro_f1_mean": 0.9678
+      }
+    },
+    "dataset:beef": {
+      "val": {
+        "n_experiments": 20,
+        "n_samples": 100,
+        "accuracy_pct": 52.0,
+        "macro_f1_mean": 0.469
+      },
+      "test": {
+        "n_experiments": 20,
+        "n_samples": 600,
+        "accuracy_pct": 59.17,
+        "macro_f1_mean": 0.5804
+      }
+    },
+    "dataset:coffee": {
+      "val": {
+        "n_experiments": 20,
+        "n_samples": 140,
+        "accuracy_pct": 87.14,
+        "macro_f1_mean": 0.8586
+      },
+      "test": {
+        "n_experiments": 20,
+        "n_samples": 280,
+        "accuracy_pct": 76.43,
+        "macro_f1_mean": 0.7423
+      }
+    },
+    "dataset:fresh_meats": {
+      "val": {
+        "n_experiments": 20,
+        "n_samples": 240,
+        "accuracy_pct": 80.83,
+        "macro_f1_mean": 0.7937
+      },
+      "test": {
+        "n_experiments": 20,
+        "n_samples": 600,
+        "accuracy_pct": 74.17,
+        "macro_f1_mean": 0.7324
+      }
+    },
+    "dataset:olive_oils": {
+      "val": {
+        "n_experiments": 20,
+        "n_samples": 280,
+        "accuracy_pct": 80.36,
+        "macro_f1_mean": 0.6906
+      },
+      "test": {
+        "n_experiments": 20,
+        "n_samples": 600,
+        "accuracy_pct": 82.33,
+        "macro_f1_mean": 0.7322
+      }
+    },
+    "dataset:surimi9": {
+      "val": {
+        "n_experiments": 275,
+        "n_samples": 4710,
+        "accuracy_pct": 58.47,
+        "macro_f1_mean": 0.5245
+      },
+      "test": {
+        "n_experiments": 275,
+        "n_samples": 9900,
+        "accuracy_pct": 58.94,
+        "macro_f1_mean": 0.555
+      }
+    },
+    "dataset:turmeric_authenticity": {
+      "val": {
+        "n_experiments": 20,
+        "n_samples": 140,
+        "accuracy_pct": 75.71,
+        "macro_f1_mean": 0.5835
+      },
+      "test": {
+        "n_experiments": 20,
+        "n_samples": 420,
+        "accuracy_pct": 75.48,
+        "macro_f1_mean": 0.565
+      }
+    },
+    "dataset:turmeric_levels": {
+      "val": {
+        "n_experiments": 20,
+        "n_samples": 140,
+        "accuracy_pct": 56.43,
+        "macro_f1_mean": 0.4686
+      },
+      "test": {
+        "n_experiments": 20,
+        "n_samples": 420,
+        "accuracy_pct": 53.33,
+        "macro_f1_mean": 0.501
+      }
+    }
+  }
+}

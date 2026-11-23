@@ -1,0 +1,338 @@
+[
+  {
+    "id": "ID-DF67CF6E0DEF7C509F81",
+    "features": [
+      0.20367042,
+      -0.00907935
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-D4305ED1DA6BF762F9C9",
+    "features": [
+      -0.09127254,
+      -0.01094483
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-F9D0EB3FABA0E52AEEFD",
+    "features": [
+      0.09317746,
+      0.01497773
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-F9A0D76AD23796D0402C",
+    "features": [
+      -0.12430756,
+      0.0138641
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-5C9E38759663E5F8EDBA",
+    "features": [
+      -0.04829665,
+      -0.00050698
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-105EE6E66AD558B08B18",
+    "features": [
+      0.37978909,
+      -0.01291118
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-944F60760F08E43F4043",
+    "features": [
+      0.3028862,
+      0.01765105
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-C254B6FA69ADC902E672",
+    "features": [
+      -0.11512263,
+      0.01386509
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-723701A2835FDD3DF7FC",
+    "features": [
+      0.00728521,
+      -0.00203775
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-5F44B7B86D485EB9AFA4",
+    "features": [
+      -0.12786814,
+      0.0035736
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-AC8AAAB337A5B3FC2571",
+    "features": [
+      -0.11352385,
+      -0.01543439
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-EC3394C8D40F020F42EF",
+    "features": [
+      -0.10320394,
+      -0.01075483
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-D012B1CC1165D7E793E6",
+    "features": [
+      -0.11517366,
+      -0.00134007
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-319402C1C9A585D0BB26",
+    "features": [
+      -0.08152459,
+      -0.01641005
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-51030B2797DBB6AA8248",
+    "features": [
+      -0.08366766,
+      0.00554039
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-63C7DFB6EFE520836E26",
+    "features": [
+      0.14467956,
+      0.01754711
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-97A36F0279D8A813DA24",
+    "features": [
+      -0.07709807,
+      0.01085532
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-6CDEC4EFE21DFEE01ED1",
+    "features": [
+      -0.12403074,
+      0.00649987
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-7B9D609AED7BF79BA92F",
+    "features": [
+      0.3735812,
+      0.00506519
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-7BE40A2EDDC1F9B1A03F",
+    "features": [
+      -0.12232884,
+      0.01146275
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-63B6FB27C7FDB10B829C",
+    "features": [
+      0.14972504,
+      0.01616182
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-0732136ABDD987035CED",
+    "features": [
+      0.04359687,
+      -0.0043606
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-DF4F507358D2D6EE0D2D",
+    "features": [
+      0.19398921,
+      0.00493148
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-29E531971253204BDDD6",
+    "features": [
+      -0.10664453,
+      0.01156571
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-9DB6251715B51EC50720",
+    "features": [
+      -0.10514692,
+      0.00311352
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-47CC3391A7A15A4D325C",
+    "features": [
+      -0.07744547,
+      -0.00961419
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-DCCF24916703E5D94CC8",
+    "features": [
+      0.04312542,
+      -0.01231003
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-F7D57A19A577E8E0085A",
+    "features": [
+      -0.11500043,
+      0.00862797
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-65E84AB077B649BE9260",
+    "features": [
+      0.1760374,
+      0.0031539
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-2C58083AD8C3D727205A",
+    "features": [
+      -0.10950334,
+      -0.00864565
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-1086F00A2CF535EA8848",
+    "features": [
+      0.00175649,
+      0.00477857
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-7D89AE976A35B191158A",
+    "features": [
+      -0.10270626,
+      -0.00390194
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-7219D9352012954D61EA",
+    "features": [
+      -0.05726708,
+      0.01248019
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-8ACE0762A33F353342B4",
+    "features": [
+      -0.07178951,
+      0.01666905
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-B230A20678EB3B223625",
+    "features": [
+      -0.11045542,
+      -0.01150205
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-7BE070F003B3B8ACA6ED",
+    "features": [
+      -0.12014669,
+      0.00987071
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-96C46F9F5AF5E60DE6D4",
+    "features": [
+      -0.0545976,
+      -0.01434765
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-81DF679300E9A6885D74",
+    "features": [
+      -0.10442057,
+      -0.01699466
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-0E776B22BBB30624600F",
+    "features": [
+      0.36856842,
+      -0.01574392
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-052FDEF9B68FCA8F8E3F",
+    "features": [
+      -0.09889267,
+      -0.01102414
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-B7C733D96F3536FC8488",
+    "features": [
+      0.18960017,
+      -0.01320973
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-02A073C13FCCC8B9DE48",
+    "features": [
+      -0.11003281,
+      -0.01118113
+    ],
+    "label": "adulterated"
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "run_id": "20261116T091651_8e09978e",
+  "config": {
+    "web_export": "deepseek_web_test/four_batches_20261020T143923_1d231230",
+    "output": "results/web_matched_neural_v2",
+    "models": [
+      "cnn1d",
+      "transformer"
+    ],
+    "excluded_datasets": [
+      "honey_adulteration",
+      "fruit_purees"
+    ],
+    "unseen_models": [],
+    "not_run_models": [
+      "deepseek_icl",
+      "mimo_icl",
+      "lumir_reproduced",
+      "lumir_mul_generate"
+    ],
+    "hyperparameters": {
+      "cnn1d": {
+        "epochs": 100,
+        "min_epochs": 20,
+        "patience": 20,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "selection_metric": "loss",
+        "min_delta": 0.0001,
+        "validation_selection": "early_stopping"
+      },
+      "transformer": {
+        "epochs": 100,
+        "min_epochs": 20,
+        "patience": 20,
+        "batch_size": 8,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "selection_metric": "loss",
+        "min_delta": 0.0001,
+        "validation_selection": "early_stopping"
+      }
+    },
+    "bootstrap_draws": 1000,
+    "bootstrap_seed": 12345,
+    "threads": 2,
+    "api_requests": 0
+  },
+  "config_sha256": "739024219ae6e121ff4fc24dae8b924047abf40def50887933c00f2a403443c7",
+  "web_export": "C:\\Users\\35454\\Desktop\\llm-dl\\Spectral-ICLC\\deepseek_web_test\\four_batches_20261020T143923_1d231230",
+  "web_manifest_sha256": "d1f3f2308207a956762043cce05b7d46b2523de19dd554fe6d521f09da92c150",
+  "web_checksum_sha256": "7f9cb9e808248f2a20905e8003079cba268bf35517483033cf5cd55ac468c28e",
+  "web_validation": "passed",
+  "packages": 395,
+  "model_runs": 790,
+  "smoke": false,
+  "code_sha256": {
+    "C:\\Users\\35454\\Desktop\\llm-dl\\Spectral-ICLC\\src\\spectral_icl\\web_baselines.py": "9371df85532381c178d43de79346774e1514961894a2190ed78338151e0bb6aa",
+    "src\\spectral_icl\\models.py": "47bf52ba0c9f22a393b9f7bc4009629d9f57efc013a218176087d571c3d79691",
+    "src\\spectral_icl\\lumir.py": "84c856b6da435286c6da396cbdea7ca854dc38c9b2b7db4a68ab11e15bfa2ecc",
+    "src\\spectral_icl\\architectures.py": "c0486f944f9643e08db1cc7a3f26d5ed009b2bf826f9895ee097e029b954f8bd",
+    "src\\spectral_icl\\public_validation.py": "d22fb7a66683264531049f8e11fc55ee2cd57096208c5c3901567b8136c10076",
+    "src\\spectral_icl\\web_scoring.py": "6f2d90c00e8d7f2be8de36031b3705ceff73c34bb8814cb58e13b74000509c01"
+  },
+  "sklearn": "1.7.2",
+  "numpy": "1.26.4",
+  "python": "3.11.13",
+  "api_requests": 0,
+  "selection_policy": "fixed hyperparameters; neural checkpoints selected on validation; Test never used for selection",
+  "train_eval_scope": "the exact train.json references, in-sample; not LLM leave-sample-out diagnostics"
+}

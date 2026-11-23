@@ -1,0 +1,16 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-FCDF87F62CAA4B993167,honey_row_06381,C10|ManukaUMF15|3,10,10,True,in_sample_on_reference_records
+ID-4A4A108D2CBA94712065,honey_row_01224,C10|ManukaUMF20|4,10,10,True,in_sample_on_reference_records
+ID-56F63991F1009C29733F,honey_row_02167,C8|ManukaBlend|1,0,0,True,in_sample_on_reference_records
+ID-BFB1F180CB228FA5C91E,honey_row_01722,C7|BorageField|4,25,25,True,in_sample_on_reference_records
+ID-89913345F25D6A802C90,honey_row_04171,C4|ManukaUMF10|3,50,50,True,in_sample_on_reference_records
+ID-1372393E5652635DC902,honey_row_07458,C1|Clover|4,10,10,True,in_sample_on_reference_records
+ID-59A25B58C2B79FD7F504,honey_row_08621,C10|ManukaUMF20|5,25,25,True,in_sample_on_reference_records
+ID-99205193D337C1AA1C90,honey_row_03459,C4|ManukaUMF10|1,50,50,True,in_sample_on_reference_records
+ID-590EC704879842480571,honey_row_02080,C1|Clover|3,50,50,True,in_sample_on_reference_records
+ID-E703D506441C6F86826D,honey_row_06597,C7|Rewarewa|1,5,5,True,in_sample_on_reference_records
+ID-F89D011F9CF1C9859E11,honey_row_08230,C9|Manuka|2,5,5,True,in_sample_on_reference_records
+ID-23206A16B5F79CC5204F,honey_row_04369,C10|MultiFloral|1,0,0,True,in_sample_on_reference_records
+ID-495B0FEAD44CEA51C615,honey_row_00117,C4|ManukaUMF10|1,5,5,True,in_sample_on_reference_records
+ID-2174334EC772D97198EC,honey_row_04505,C7|Kamahi|2,0,0,True,in_sample_on_reference_records
+ID-64F47FA44CE25CDC773D,honey_row_04298,C10|ManukaUMF5|4,25,25,True,in_sample_on_reference_records

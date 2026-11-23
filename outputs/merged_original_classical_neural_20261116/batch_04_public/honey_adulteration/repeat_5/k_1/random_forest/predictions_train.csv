@@ -1,0 +1,6 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-8F53DB3C79A57FAD8081,honey_row_05050,C1|Clover|2,10,10,True,in_sample_on_reference_records
+ID-0CF555CEF5BF6348BBF6,honey_row_03348,C10|ManukaUMF15|2,25,25,True,in_sample_on_reference_records
+ID-B3B4571DA28B47EC3BE5,honey_row_01123,C5|ManukaBlend|2,50,50,True,in_sample_on_reference_records
+ID-5EE7D888DFE511E046C7,honey_row_03526,C5|ManukaBlend|3,5,5,True,in_sample_on_reference_records
+ID-DF807994F0928AF763DD,honey_row_02394,C1|Clover|4,0,0,True,in_sample_on_reference_records

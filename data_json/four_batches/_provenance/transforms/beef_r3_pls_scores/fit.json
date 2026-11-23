@@ -1,0 +1,133 @@
+{
+  "transform_id": "beef_r3_pls_scores",
+  "train_fit_sample_ids": [
+    "beef_train_000",
+    "beef_train_001",
+    "beef_train_002",
+    "beef_train_003",
+    "beef_train_005",
+    "beef_train_006",
+    "beef_train_007",
+    "beef_train_008",
+    "beef_train_010",
+    "beef_train_011",
+    "beef_train_013",
+    "beef_train_014",
+    "beef_train_015",
+    "beef_train_016",
+    "beef_train_017",
+    "beef_train_019",
+    "beef_train_020",
+    "beef_train_021",
+    "beef_train_022",
+    "beef_train_023",
+    "beef_train_024",
+    "beef_train_025",
+    "beef_train_026",
+    "beef_train_028",
+    "beef_train_029"
+  ],
+  "train_fit_ids_sha256": "c427bc4ca5e1558038df5bf42efa8fce87d7db41b9ffb4f4d2d9cb02e1771569",
+  "validation_selection_sample_ids": [
+    "beef_train_004",
+    "beef_train_009",
+    "beef_train_012",
+    "beef_train_018",
+    "beef_train_027"
+  ],
+  "source_sha256": {
+    "datasets\\公共数据集\\牛肉掺假中红外\\Beef_TRAIN.ts": "ba418361b1b3d28f4c3ec971546294678bece32ce985421df2ca7d2559914c59",
+    "datasets\\公共数据集\\牛肉掺假中红外\\牛肉掺假中红外.pdf": "88a59e137822d93bed1f4a20f156069a508262559da6d4896ab55dafe8128dfa",
+    "datasets\\公共数据集\\牛肉掺假中红外\\Beef_TEST.ts": "691597afc2a930c81ba2d011e0632e758ec64fbe3edb51000135ddc220ffca19"
+  },
+  "representation_sha256": "acf26ffeee2861d15d62fbb43ab64d83900b7b22f9b0740988f3674424cba459",
+  "test_used_for_fitting_or_selection": false,
+  "method": "pls_scores",
+  "feature_order": [
+    "PLS1",
+    "PLS2",
+    "PLS3",
+    "PLS4",
+    "PLS5",
+    "PLS6",
+    "PLS7",
+    "PLS8",
+    "PLS9",
+    "PLS10"
+  ],
+  "dimensions": 10,
+  "preprocessed_dimensions": 470,
+  "validation_used_for_dimension_selection": true,
+  "dimension_selection": [
+    {
+      "dimensions": 1,
+      "validation_accuracy": 0.4
+    },
+    {
+      "dimensions": 2,
+      "validation_accuracy": 0.2
+    },
+    {
+      "dimensions": 3,
+      "validation_accuracy": 0.2
+    },
+    {
+      "dimensions": 4,
+      "validation_accuracy": 0.4
+    },
+    {
+      "dimensions": 5,
+      "validation_accuracy": 0.8
+    },
+    {
+      "dimensions": 6,
+      "validation_accuracy": 0.8
+    },
+    {
+      "dimensions": 7,
+      "validation_accuracy": 0.6
+    },
+    {
+      "dimensions": 8,
+      "validation_accuracy": 0.8
+    },
+    {
+      "dimensions": 9,
+      "validation_accuracy": 0.8
+    },
+    {
+      "dimensions": 10,
+      "validation_accuracy": 1.0
+    },
+    {
+      "dimensions": 11,
+      "validation_accuracy": 0.6
+    },
+    {
+      "dimensions": 12,
+      "validation_accuracy": 0.6
+    },
+    {
+      "dimensions": 13,
+      "validation_accuracy": 0.6
+    },
+    {
+      "dimensions": 14,
+      "validation_accuracy": 0.6
+    },
+    {
+      "dimensions": 15,
+      "validation_accuracy": 0.8
+    }
+  ],
+  "fidelity": "archive_variant_with_paper_PLS_LDA_family",
+  "caveats": [
+    "Supplied archive has 60 spectra, 470 points, five classes; paper also discusses 180 spectra across cooking levels.",
+    "Archive spectra are already per-spectrum z-normalized (sample SD approximately 1); raw absorbance cannot be reconstructed.",
+    "No physical IDs or wavelength axis supplied; preserve fixed official Train/Test, do not invent wavelength coordinates or class-code meanings.",
+    "PLS score count chosen using Validation only; this is a project holdout protocol, not the paper's leave-one-out evaluation."
+  ],
+  "split_path": "_provenance/public_sources/beef/split_repeat_3.csv",
+  "split_sha256": "9e5d0f97216ae3d851e50a51726ea0c74bc0ac9888097bdb51c088eca27f54e2",
+  "fit_warnings": []
+}

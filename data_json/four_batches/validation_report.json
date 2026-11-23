@@ -1,0 +1,3950 @@
+{
+  "status": "passed",
+  "packages": 435,
+  "batch_counts": {
+    "batch_01_T1": 60,
+    "batch_02_T2_T3": 155,
+    "batch_03_unseen_15_30": 60,
+    "batch_04_public": 160
+  },
+  "task_counts": {
+    "T1": 60,
+    "T2": 60,
+    "T3": 95,
+    "UNSEEN": 60,
+    "PUBLIC": 160
+  },
+  "transforms_verified": 75,
+  "full_reference_packages": 85,
+  "full_reference_coverage_verified": true,
+  "identical_full_and_K_query_bytes_and_coordinates_verified": true,
+  "json_observations_verified": 128845,
+  "package_checksums_verified": 3045,
+  "source_hashes_unchanged": true,
+  "train_only_transform_fit": true,
+  "unseen_quarantine_verified": true,
+  "common_cross_day_coordinates_verified": true,
+  "group_disjointness_verified": true,
+  "distinct_group_K_and_nested_support_verified": true,
+  "complete_unsplit_val_test_verified": true,
+  "test_used_for_fit_or_selection": false,
+  "api_requests": 0,
+  "actual_llm_predictions": 0,
+  "package_checks": [
+    {
+      "package": "batch_01_T1/T1/day0/repeat_1/full_reference",
+      "experiment_id": "T1_e2003b029a02b4a7",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_1/k_1",
+      "experiment_id": "T1_331427e8c6ba2ee3",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_1/k_3",
+      "experiment_id": "T1_973ada4e54139e50",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_1/k_5",
+      "experiment_id": "T1_cc2a84d09cb681a3",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_1/full_reference",
+      "experiment_id": "T1_24b461d9d6ae4c27",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_1/k_1",
+      "experiment_id": "T1_b5e552cca3014aa3",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_1/k_3",
+      "experiment_id": "T1_b3965f3eb38189b6",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_1/k_5",
+      "experiment_id": "T1_01986663a313ec27",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_1/full_reference",
+      "experiment_id": "T1_fccd230e8048dcd2",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_1/k_1",
+      "experiment_id": "T1_96e8aa4389b77e29",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_1/k_3",
+      "experiment_id": "T1_fe31635ca90ccf41",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_1/k_5",
+      "experiment_id": "T1_4036b3336df3cf75",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_1/full_reference",
+      "experiment_id": "T2_df8e1b2a45cd72a5",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_1/k_1",
+      "experiment_id": "T2_cf49a5b1127e071f",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_1/k_3",
+      "experiment_id": "T2_f37d956a5e722650",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_1/k_5",
+      "experiment_id": "T2_8f36c675806d1bd8",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_1/full_reference",
+      "experiment_id": "T2_09910a75b4457435",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_1/k_1",
+      "experiment_id": "T2_390c68e0c629e0b4",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_1/k_3",
+      "experiment_id": "T2_455d239e65f9fd7a",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_1/k_5",
+      "experiment_id": "T2_dd243c0aaad89bfb",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_1/full_reference",
+      "experiment_id": "T2_bf1afd163bfe801b",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_1/k_1",
+      "experiment_id": "T2_c870834e7d3b5e3c",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_1/k_3",
+      "experiment_id": "T2_e829e011d79c3d08",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_1/k_5",
+      "experiment_id": "T2_7f6881c2aee666f4",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_0/source_only",
+      "experiment_id": "T3_7c3c642624b313c7",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_0/mixed",
+      "experiment_id": "T3_b4f3248303b06d22",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_0/size_matched_source",
+      "experiment_id": "T3_dff22144acbf3a04",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_1/source_only",
+      "experiment_id": "T3_8e65516ae6c821c1",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_1/target_only",
+      "experiment_id": "T3_c64c3373c27ee466",
+      "task": "T3",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_1/mixed",
+      "experiment_id": "T3_ba6bf7932a5d5683",
+      "task": "T3",
+      "status": "passed",
+      "reference": 54,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_1/size_matched_source",
+      "experiment_id": "T3_84ba3ba838b55f38",
+      "task": "T3",
+      "status": "passed",
+      "reference": 54,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_2/source_only",
+      "experiment_id": "T3_6a9cc28bb52b798a",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_2/target_only",
+      "experiment_id": "T3_43adb257c2e30275",
+      "task": "T3",
+      "status": "passed",
+      "reference": 18,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_2/mixed",
+      "experiment_id": "T3_b0422bd78135ff70",
+      "task": "T3",
+      "status": "passed",
+      "reference": 63,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_2/size_matched_source",
+      "experiment_id": "T3_80f26f8063c04630",
+      "task": "T3",
+      "status": "passed",
+      "reference": 63,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_3/source_only",
+      "experiment_id": "T3_6a229b538109fbab",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_3/target_only",
+      "experiment_id": "T3_9e53d7fa80576e0f",
+      "task": "T3",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_3/mixed",
+      "experiment_id": "T3_5ddfe37533fb308e",
+      "task": "T3",
+      "status": "passed",
+      "reference": 72,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_3/size_matched_source",
+      "experiment_id": "T3_bbcd2658a33fdc73",
+      "task": "T3",
+      "status": "passed",
+      "reference": 72,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_5/source_only",
+      "experiment_id": "T3_532fea6d993066f0",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_5/target_only",
+      "experiment_id": "T3_e084134ce417b6ff",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_5/mixed",
+      "experiment_id": "T3_28821acd05806da0",
+      "task": "T3",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_1/target_k_5/size_matched_source",
+      "experiment_id": "T3_50b9259cb581fce4",
+      "task": "T3",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_1/full_reference",
+      "experiment_id": "UNSEEN_33df457d2f746075",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_1/k_1",
+      "experiment_id": "UNSEEN_2c4643c648ace1d6",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_1/k_3",
+      "experiment_id": "UNSEEN_f70556b3f1e7e0dd",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_1/k_5",
+      "experiment_id": "UNSEEN_e3f5ed28920baeaa",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_1/full_reference",
+      "experiment_id": "UNSEEN_4e6fade0b312496d",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_1/k_1",
+      "experiment_id": "UNSEEN_595749958f480332",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_1/k_3",
+      "experiment_id": "UNSEEN_123bbc2532184724",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_1/k_5",
+      "experiment_id": "UNSEEN_964e5ea1540bb47c",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_1/full_reference",
+      "experiment_id": "UNSEEN_83a3c508e6afde81",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_1/k_1",
+      "experiment_id": "UNSEEN_306285b63d254c53",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_1/k_3",
+      "experiment_id": "UNSEEN_f1c93b630a601bf4",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_1/k_5",
+      "experiment_id": "UNSEEN_5de8fefcb5352431",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_2/full_reference",
+      "experiment_id": "T1_20959ebbc7b22216",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_2/k_1",
+      "experiment_id": "T1_d3725fb56ccde6e4",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_2/k_3",
+      "experiment_id": "T1_81cda311ab283509",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_2/k_5",
+      "experiment_id": "T1_4f474d1507de89cb",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_2/full_reference",
+      "experiment_id": "T1_d9a212718fa510e9",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_2/k_1",
+      "experiment_id": "T1_c2a6f8495611daf3",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_2/k_3",
+      "experiment_id": "T1_2c074fb342418b29",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_2/k_5",
+      "experiment_id": "T1_f697fee252a39db6",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_2/full_reference",
+      "experiment_id": "T1_25ff3f477ce9cebc",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_2/k_1",
+      "experiment_id": "T1_56ba8547278649a1",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_2/k_3",
+      "experiment_id": "T1_dd5c478f18140e7d",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_2/k_5",
+      "experiment_id": "T1_07c8bd03d3274f9b",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_2/full_reference",
+      "experiment_id": "T2_b81632d9ae555690",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_2/k_1",
+      "experiment_id": "T2_dad5bbe7e36bbcb1",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_2/k_3",
+      "experiment_id": "T2_21626789243746d6",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_2/k_5",
+      "experiment_id": "T2_4f61eb8125fdea36",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_2/full_reference",
+      "experiment_id": "T2_de4416f921119b2b",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_2/k_1",
+      "experiment_id": "T2_709d1d481fbde5e0",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_2/k_3",
+      "experiment_id": "T2_e7e0116e2b957dea",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_2/k_5",
+      "experiment_id": "T2_d073f9b4a4b7e322",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_2/full_reference",
+      "experiment_id": "T2_42168d5f55f7f514",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_2/k_1",
+      "experiment_id": "T2_a78e9b4057b1e67a",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_2/k_3",
+      "experiment_id": "T2_6c9033e89b56027c",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_2/k_5",
+      "experiment_id": "T2_96aa1f657c7475ed",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_0/source_only",
+      "experiment_id": "T3_761f9736e206b049",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_0/mixed",
+      "experiment_id": "T3_cd95522fcea616ad",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_0/size_matched_source",
+      "experiment_id": "T3_444d3cf6e3eea306",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_1/source_only",
+      "experiment_id": "T3_0c1e7f048fb1f300",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_1/target_only",
+      "experiment_id": "T3_8b81c7beb7ce3ba0",
+      "task": "T3",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_1/mixed",
+      "experiment_id": "T3_a543336bed2163da",
+      "task": "T3",
+      "status": "passed",
+      "reference": 54,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_1/size_matched_source",
+      "experiment_id": "T3_6e0778cba72898a6",
+      "task": "T3",
+      "status": "passed",
+      "reference": 54,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_2/source_only",
+      "experiment_id": "T3_c9e0395e761fa2af",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_2/target_only",
+      "experiment_id": "T3_9d8ccbbe2efe8268",
+      "task": "T3",
+      "status": "passed",
+      "reference": 18,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_2/mixed",
+      "experiment_id": "T3_59ae8c5e416843f3",
+      "task": "T3",
+      "status": "passed",
+      "reference": 63,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_2/size_matched_source",
+      "experiment_id": "T3_5134919eb40be389",
+      "task": "T3",
+      "status": "passed",
+      "reference": 63,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_3/source_only",
+      "experiment_id": "T3_dc68f19847f77b77",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_3/target_only",
+      "experiment_id": "T3_ad1d3a077aec87b5",
+      "task": "T3",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_3/mixed",
+      "experiment_id": "T3_4730ae01739ec6f6",
+      "task": "T3",
+      "status": "passed",
+      "reference": 72,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_3/size_matched_source",
+      "experiment_id": "T3_6f9011ff4b712c94",
+      "task": "T3",
+      "status": "passed",
+      "reference": 72,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_5/source_only",
+      "experiment_id": "T3_1f88c3de79b9469d",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_5/target_only",
+      "experiment_id": "T3_2369f26d608b8aef",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_5/mixed",
+      "experiment_id": "T3_0d05058eaf09c081",
+      "task": "T3",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_2/target_k_5/size_matched_source",
+      "experiment_id": "T3_89536a9795a97b58",
+      "task": "T3",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_2/full_reference",
+      "experiment_id": "UNSEEN_b5894714b1b7e669",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_2/k_1",
+      "experiment_id": "UNSEEN_ae0c1aeca10cdab4",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_2/k_3",
+      "experiment_id": "UNSEEN_c0a376669d9f51e3",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_2/k_5",
+      "experiment_id": "UNSEEN_326d4094845f472f",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_2/full_reference",
+      "experiment_id": "UNSEEN_d0d6c0558ecd435a",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_2/k_1",
+      "experiment_id": "UNSEEN_d3c97f65a3c5a2e1",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_2/k_3",
+      "experiment_id": "UNSEEN_2531ac946da3b08c",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_2/k_5",
+      "experiment_id": "UNSEEN_7dab1a23cecae8fe",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_2/full_reference",
+      "experiment_id": "UNSEEN_ce85d3ec1033e21c",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_2/k_1",
+      "experiment_id": "UNSEEN_5bd231a7e80c0085",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_2/k_3",
+      "experiment_id": "UNSEEN_d7bef86001407c7c",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_2/k_5",
+      "experiment_id": "UNSEEN_da5713521a6472e2",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_3/full_reference",
+      "experiment_id": "T1_a896f48ed6d14859",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_3/k_1",
+      "experiment_id": "T1_9c4811a6c899243a",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_3/k_3",
+      "experiment_id": "T1_f3a861607b8b4c27",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_3/k_5",
+      "experiment_id": "T1_f821b8673ae4eace",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_3/full_reference",
+      "experiment_id": "T1_f1507415d5ce7bdc",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_3/k_1",
+      "experiment_id": "T1_45bfe47d72442701",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_3/k_3",
+      "experiment_id": "T1_effa786f8963ec18",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_3/k_5",
+      "experiment_id": "T1_94c0229e49303e34",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_3/full_reference",
+      "experiment_id": "T1_308c4170aee23bef",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_3/k_1",
+      "experiment_id": "T1_dbdd89f1ec0947fb",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_3/k_3",
+      "experiment_id": "T1_39211018baea6244",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_3/k_5",
+      "experiment_id": "T1_ecb374a4a541c197",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_3/full_reference",
+      "experiment_id": "T2_bf503e88516d5087",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_3/k_1",
+      "experiment_id": "T2_8b2bce8092b63402",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_3/k_3",
+      "experiment_id": "T2_dd91b3da2b4222a8",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_3/k_5",
+      "experiment_id": "T2_f1f10e2e30474047",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_3/full_reference",
+      "experiment_id": "T2_27dd76e632fba1d1",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_3/k_1",
+      "experiment_id": "T2_ac2dd0869230eb47",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_3/k_3",
+      "experiment_id": "T2_54480244af3b3fc5",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_3/k_5",
+      "experiment_id": "T2_791393c0229b93f8",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_3/full_reference",
+      "experiment_id": "T2_ae87fbe6dae64fa8",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_3/k_1",
+      "experiment_id": "T2_d81b2caa6ded55ba",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_3/k_3",
+      "experiment_id": "T2_7c28e6f146f4715e",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_3/k_5",
+      "experiment_id": "T2_e7db48e3587df073",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_0/source_only",
+      "experiment_id": "T3_88d612bb75dffcc2",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_0/mixed",
+      "experiment_id": "T3_3943642ccaebf6f6",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_0/size_matched_source",
+      "experiment_id": "T3_f6b6a5a0165ae816",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_1/source_only",
+      "experiment_id": "T3_cbe48db3086cf880",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_1/target_only",
+      "experiment_id": "T3_e6fbe63696029cc0",
+      "task": "T3",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_1/mixed",
+      "experiment_id": "T3_e248cb885f135b50",
+      "task": "T3",
+      "status": "passed",
+      "reference": 54,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_1/size_matched_source",
+      "experiment_id": "T3_5759701cea0a1558",
+      "task": "T3",
+      "status": "passed",
+      "reference": 54,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_2/source_only",
+      "experiment_id": "T3_37d3fc985ebc7f20",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_2/target_only",
+      "experiment_id": "T3_1783f6c135cc14fe",
+      "task": "T3",
+      "status": "passed",
+      "reference": 18,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_2/mixed",
+      "experiment_id": "T3_e007d822e0b8c0cd",
+      "task": "T3",
+      "status": "passed",
+      "reference": 63,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_2/size_matched_source",
+      "experiment_id": "T3_edc8cbbbc284d8f1",
+      "task": "T3",
+      "status": "passed",
+      "reference": 63,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_3/source_only",
+      "experiment_id": "T3_61402db33512bc83",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_3/target_only",
+      "experiment_id": "T3_40a924fa22d7159a",
+      "task": "T3",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_3/mixed",
+      "experiment_id": "T3_f40e31ecd755c755",
+      "task": "T3",
+      "status": "passed",
+      "reference": 72,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_3/size_matched_source",
+      "experiment_id": "T3_bf1793fdafd8889e",
+      "task": "T3",
+      "status": "passed",
+      "reference": 72,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_5/source_only",
+      "experiment_id": "T3_2dcb680f65491c5e",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_5/target_only",
+      "experiment_id": "T3_345bf8b7bef430f2",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_5/mixed",
+      "experiment_id": "T3_0e2c9975f14b8d4e",
+      "task": "T3",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_3/target_k_5/size_matched_source",
+      "experiment_id": "T3_a3dc7f20dc303fdf",
+      "task": "T3",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_3/full_reference",
+      "experiment_id": "UNSEEN_4804dd14ca3e04c7",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_3/k_1",
+      "experiment_id": "UNSEEN_9a1dd9a3be5cd95c",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_3/k_3",
+      "experiment_id": "UNSEEN_e3bdf6387e8e47c3",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_3/k_5",
+      "experiment_id": "UNSEEN_ca53b12aab9c593d",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_3/full_reference",
+      "experiment_id": "UNSEEN_faa345c8eda8e631",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_3/k_1",
+      "experiment_id": "UNSEEN_71fcb13b32276d8f",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_3/k_3",
+      "experiment_id": "UNSEEN_bcf64eb6dff3b6e2",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_3/k_5",
+      "experiment_id": "UNSEEN_c3c50e4320904339",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_3/full_reference",
+      "experiment_id": "UNSEEN_5d4c43c15d76d5c6",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_3/k_1",
+      "experiment_id": "UNSEEN_4cecd8a606309bec",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_3/k_3",
+      "experiment_id": "UNSEEN_661611dcffdd2191",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_3/k_5",
+      "experiment_id": "UNSEEN_191048aba02ad637",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_4/full_reference",
+      "experiment_id": "T1_73bbc9cf688a8223",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_4/k_1",
+      "experiment_id": "T1_5b940a9e1ba13679",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_4/k_3",
+      "experiment_id": "T1_b617fce20a94641c",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_4/k_5",
+      "experiment_id": "T1_6d75075506687b4f",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_4/full_reference",
+      "experiment_id": "T1_3a5bcb6b941e4b35",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_4/k_1",
+      "experiment_id": "T1_771bb955ba16dc5f",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_4/k_3",
+      "experiment_id": "T1_2d462a6ba0073f88",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_4/k_5",
+      "experiment_id": "T1_1faf2f43f290c7ec",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_4/full_reference",
+      "experiment_id": "T1_b11ac149ebaa5bcb",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_4/k_1",
+      "experiment_id": "T1_181896543a1fe5b1",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_4/k_3",
+      "experiment_id": "T1_fa6c7714c4f1d09b",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_4/k_5",
+      "experiment_id": "T1_730d5a7d68ba1995",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_4/full_reference",
+      "experiment_id": "T2_558b5c6b55136cb2",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_4/k_1",
+      "experiment_id": "T2_18c97f8681ef9e53",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_4/k_3",
+      "experiment_id": "T2_3aa7a94e9510af99",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_4/k_5",
+      "experiment_id": "T2_143579d509f82675",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_4/full_reference",
+      "experiment_id": "T2_4c4c367ffe4a5093",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_4/k_1",
+      "experiment_id": "T2_20cb577b683e4451",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_4/k_3",
+      "experiment_id": "T2_e2f3ed8509e9f947",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_4/k_5",
+      "experiment_id": "T2_b74a0ea60cf010c0",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_4/full_reference",
+      "experiment_id": "T2_f92b9ddd5247112a",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_4/k_1",
+      "experiment_id": "T2_be7309b50d1fd5b3",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_4/k_3",
+      "experiment_id": "T2_ec0e731c35caaa1a",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_4/k_5",
+      "experiment_id": "T2_af5b9bf7a75ed244",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_0/source_only",
+      "experiment_id": "T3_0fa0948e6515fe18",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_0/mixed",
+      "experiment_id": "T3_c8c5f197e0f5ed08",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_0/size_matched_source",
+      "experiment_id": "T3_a7d8a3230cdc4b24",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_1/source_only",
+      "experiment_id": "T3_0d5b66911c094055",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_1/target_only",
+      "experiment_id": "T3_3007bd3c8bce74d6",
+      "task": "T3",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_1/mixed",
+      "experiment_id": "T3_02fcd6cc79d7bcb5",
+      "task": "T3",
+      "status": "passed",
+      "reference": 54,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_1/size_matched_source",
+      "experiment_id": "T3_e0cf10def8cd8ecf",
+      "task": "T3",
+      "status": "passed",
+      "reference": 54,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_2/source_only",
+      "experiment_id": "T3_fd0aaff9806eaaf3",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_2/target_only",
+      "experiment_id": "T3_174e8692449ee35e",
+      "task": "T3",
+      "status": "passed",
+      "reference": 18,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_2/mixed",
+      "experiment_id": "T3_c798afc2499755a3",
+      "task": "T3",
+      "status": "passed",
+      "reference": 63,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_2/size_matched_source",
+      "experiment_id": "T3_c9758daca86ad4b1",
+      "task": "T3",
+      "status": "passed",
+      "reference": 63,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_3/source_only",
+      "experiment_id": "T3_f93814c87ec3f599",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_3/target_only",
+      "experiment_id": "T3_9d47615c6bcca32d",
+      "task": "T3",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_3/mixed",
+      "experiment_id": "T3_9eeb933514f4ed07",
+      "task": "T3",
+      "status": "passed",
+      "reference": 72,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_3/size_matched_source",
+      "experiment_id": "T3_91302156f28b8df3",
+      "task": "T3",
+      "status": "passed",
+      "reference": 72,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_5/source_only",
+      "experiment_id": "T3_85959917c130f9bd",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_5/target_only",
+      "experiment_id": "T3_1a84d41c4a31b962",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_5/mixed",
+      "experiment_id": "T3_a06d18ca7b6d5ef6",
+      "task": "T3",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_4/target_k_5/size_matched_source",
+      "experiment_id": "T3_cb58e8a6e139a6c0",
+      "task": "T3",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_4/full_reference",
+      "experiment_id": "UNSEEN_ca642224c6657412",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_4/k_1",
+      "experiment_id": "UNSEEN_378a8fa7f3826a39",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_4/k_3",
+      "experiment_id": "UNSEEN_0d86599505ec68b3",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_4/k_5",
+      "experiment_id": "UNSEEN_16ea29e253f10837",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_4/full_reference",
+      "experiment_id": "UNSEEN_a03a5101304abaf0",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_4/k_1",
+      "experiment_id": "UNSEEN_fe714b854ce8a58f",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_4/k_3",
+      "experiment_id": "UNSEEN_1dfdd08a0356d030",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_4/k_5",
+      "experiment_id": "UNSEEN_4778509bf937b9ba",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_4/full_reference",
+      "experiment_id": "UNSEEN_149fba3cf0d25728",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_4/k_1",
+      "experiment_id": "UNSEEN_e68361ae91282452",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_4/k_3",
+      "experiment_id": "UNSEEN_6e662071ebf99072",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_4/k_5",
+      "experiment_id": "UNSEEN_1c7d04da4360cbb1",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_5/full_reference",
+      "experiment_id": "T1_5ffe60cf7ee2be6b",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_5/k_1",
+      "experiment_id": "T1_f8500fbedb8b03d6",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_5/k_3",
+      "experiment_id": "T1_360e0209d254e6c3",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day0/repeat_5/k_5",
+      "experiment_id": "T1_880af975205433a4",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_5/full_reference",
+      "experiment_id": "T1_0c02171aa226f124",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_5/k_1",
+      "experiment_id": "T1_edea66883be4fcda",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_5/k_3",
+      "experiment_id": "T1_e3d9eabd0ba3915c",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day7/repeat_5/k_5",
+      "experiment_id": "T1_9c348bf64476452e",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_5/full_reference",
+      "experiment_id": "T1_6deaa0a6b961a0ce",
+      "task": "T1",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_5/k_1",
+      "experiment_id": "T1_d5dde0e71ef12add",
+      "task": "T1",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_5/k_3",
+      "experiment_id": "T1_bb88021bbbb88ff7",
+      "task": "T1",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_01_T1/T1/day14/repeat_5/k_5",
+      "experiment_id": "T1_15c2e3828a222c27",
+      "task": "T1",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_5/full_reference",
+      "experiment_id": "T2_67095813e82c7b5c",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_5/k_1",
+      "experiment_id": "T2_d2b6bd2019d6f77b",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_5/k_3",
+      "experiment_id": "T2_ead2d61530eba30e",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day7/repeat_5/k_5",
+      "experiment_id": "T2_c5d70b3de48b62cd",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_5/full_reference",
+      "experiment_id": "T2_46b073e03ca6d3ac",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_5/k_1",
+      "experiment_id": "T2_5bb7ca189aa56159",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_5/k_3",
+      "experiment_id": "T2_916fe5571dbfb333",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day0_to_day14/repeat_5/k_5",
+      "experiment_id": "T2_62ac9bf127ec0b4e",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_5/full_reference",
+      "experiment_id": "T2_d61977b908722556",
+      "task": "T2",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_5/k_1",
+      "experiment_id": "T2_006b52bd01b80228",
+      "task": "T2",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_5/k_3",
+      "experiment_id": "T2_3c35a2885bccf22f",
+      "task": "T2",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T2/day7_to_day14/repeat_5/k_5",
+      "experiment_id": "T2_e5804596d4ef2d0b",
+      "task": "T2",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_0/source_only",
+      "experiment_id": "T3_07c6631f8855e40d",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_0/mixed",
+      "experiment_id": "T3_4fa33597f9f99483",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_0/size_matched_source",
+      "experiment_id": "T3_e0925639aaccb7b3",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_1/source_only",
+      "experiment_id": "T3_da211dafd025de62",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_1/target_only",
+      "experiment_id": "T3_d6f5f13093bf693e",
+      "task": "T3",
+      "status": "passed",
+      "reference": 9,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_1/mixed",
+      "experiment_id": "T3_1e06aa975c5a1b55",
+      "task": "T3",
+      "status": "passed",
+      "reference": 54,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_1/size_matched_source",
+      "experiment_id": "T3_59bc2677d0cb5106",
+      "task": "T3",
+      "status": "passed",
+      "reference": 54,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_2/source_only",
+      "experiment_id": "T3_c7e92df7315a52e4",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_2/target_only",
+      "experiment_id": "T3_ba07e5caf155b982",
+      "task": "T3",
+      "status": "passed",
+      "reference": 18,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_2/mixed",
+      "experiment_id": "T3_892314c1aeab1166",
+      "task": "T3",
+      "status": "passed",
+      "reference": 63,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_2/size_matched_source",
+      "experiment_id": "T3_93e1c9067aa07caf",
+      "task": "T3",
+      "status": "passed",
+      "reference": 63,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_3/source_only",
+      "experiment_id": "T3_0c7c82351afd9ce8",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_3/target_only",
+      "experiment_id": "T3_dc52a0dcfcb788b8",
+      "task": "T3",
+      "status": "passed",
+      "reference": 27,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_3/mixed",
+      "experiment_id": "T3_f8ab0c8f0d772dca",
+      "task": "T3",
+      "status": "passed",
+      "reference": 72,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_3/size_matched_source",
+      "experiment_id": "T3_8303b6a76a03c946",
+      "task": "T3",
+      "status": "passed",
+      "reference": 72,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_5/source_only",
+      "experiment_id": "T3_f761cad62db0b75a",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_5/target_only",
+      "experiment_id": "T3_61957786584dc0c6",
+      "task": "T3",
+      "status": "passed",
+      "reference": 45,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_5/mixed",
+      "experiment_id": "T3_4ff2b52f37230d3d",
+      "task": "T3",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_02_T2_T3/T3/day0_to_day14/repeat_5/target_k_5/size_matched_source",
+      "experiment_id": "T3_ad024687ade4b859",
+      "task": "T3",
+      "status": "passed",
+      "reference": 90,
+      "val": 18,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_5/full_reference",
+      "experiment_id": "UNSEEN_f244adbe72b2f2f5",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_5/k_1",
+      "experiment_id": "UNSEEN_5a9ade9a1d23d0c0",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_5/k_3",
+      "experiment_id": "UNSEEN_095961dad332adb8",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day0/repeat_5/k_5",
+      "experiment_id": "UNSEEN_e9ac16d0f9fd5fe1",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_5/full_reference",
+      "experiment_id": "UNSEEN_7eb8d44360f3b334",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_5/k_1",
+      "experiment_id": "UNSEEN_c26ee5b0725233d2",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_5/k_3",
+      "experiment_id": "UNSEEN_e2bc384c77585f83",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day7/repeat_5/k_5",
+      "experiment_id": "UNSEEN_ad6089e4c873bb3d",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_5/full_reference",
+      "experiment_id": "UNSEEN_598ab7dd0550b225",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 70,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_5/k_1",
+      "experiment_id": "UNSEEN_08ba97d5ba6c69c0",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 7,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_5/k_3",
+      "experiment_id": "UNSEEN_67b8a79ef45d68ea",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 21,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_03_unseen_15_30/UNSEEN/day14/repeat_5/k_5",
+      "experiment_id": "UNSEEN_206e91326c4a0d50",
+      "task": "UNSEEN",
+      "status": "passed",
+      "reference": 35,
+      "val": 14,
+      "test": 36
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_1/full_reference",
+      "experiment_id": "PUBLIC_5e8a8c8a36b283e5",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5700,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_1/k_1",
+      "experiment_id": "PUBLIC_734bf0c0ebf2ea87",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_1/k_3",
+      "experiment_id": "PUBLIC_50c9b724ab2a0623",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_1/k_5",
+      "experiment_id": "PUBLIC_dcb36d8303541b0c",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_2/full_reference",
+      "experiment_id": "PUBLIC_4b07b0a3bd755173",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5700,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_2/k_1",
+      "experiment_id": "PUBLIC_7120a0bad795c006",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_2/k_3",
+      "experiment_id": "PUBLIC_0d1d90b354666657",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_2/k_5",
+      "experiment_id": "PUBLIC_ad6c7e9e4f655e20",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_3/full_reference",
+      "experiment_id": "PUBLIC_423f0e6c13d2eefa",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5700,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_3/k_1",
+      "experiment_id": "PUBLIC_0e702d9fb3d78d15",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_3/k_3",
+      "experiment_id": "PUBLIC_c5161d05b2da973e",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_3/k_5",
+      "experiment_id": "PUBLIC_5c0be33ac47d7234",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_4/full_reference",
+      "experiment_id": "PUBLIC_563b4516f2baeaeb",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5700,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_4/k_1",
+      "experiment_id": "PUBLIC_56a26406ef9d459e",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_4/k_3",
+      "experiment_id": "PUBLIC_3d65a4b49d0c09ab",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_4/k_5",
+      "experiment_id": "PUBLIC_d761a92405917728",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_5/full_reference",
+      "experiment_id": "PUBLIC_50a6f80f5362c8f2",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5700,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_5/k_1",
+      "experiment_id": "PUBLIC_f83b6993a4605ad1",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_5/k_3",
+      "experiment_id": "PUBLIC_2148d7c26c02fe27",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/honey_adulteration/repeat_5/k_5",
+      "experiment_id": "PUBLIC_1921d5a13d831992",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 1425,
+      "test": 1400
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_1/full_reference",
+      "experiment_id": "PUBLIC_7099268214c04299",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 42,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_1/k_1",
+      "experiment_id": "PUBLIC_06e4f0f60c89b247",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 7,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_1/k_3",
+      "experiment_id": "PUBLIC_07941d044046a53b",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 21,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_1/k_5",
+      "experiment_id": "PUBLIC_3d1e09eb3fc131ef",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 35,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_2/full_reference",
+      "experiment_id": "PUBLIC_068fc3bd05574168",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 42,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_2/k_1",
+      "experiment_id": "PUBLIC_b76c8df10383237b",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 7,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_2/k_3",
+      "experiment_id": "PUBLIC_039c09f9c241234b",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 21,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_2/k_5",
+      "experiment_id": "PUBLIC_40c02a857bf63151",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 35,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_3/full_reference",
+      "experiment_id": "PUBLIC_9e63e61d1d5ba5c5",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 42,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_3/k_1",
+      "experiment_id": "PUBLIC_4c151b9922c0f043",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 7,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_3/k_3",
+      "experiment_id": "PUBLIC_ed3ae8fff7f8fe9c",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 21,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_3/k_5",
+      "experiment_id": "PUBLIC_35951368b65bb0c5",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 35,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_4/full_reference",
+      "experiment_id": "PUBLIC_23631aeda5ee5a47",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 42,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_4/k_1",
+      "experiment_id": "PUBLIC_388718f35cdec219",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 7,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_4/k_3",
+      "experiment_id": "PUBLIC_2c4c7646fa98421c",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 21,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_4/k_5",
+      "experiment_id": "PUBLIC_2da0d1ea4398711f",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 35,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_5/full_reference",
+      "experiment_id": "PUBLIC_febb6fe21981eb25",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 42,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_5/k_1",
+      "experiment_id": "PUBLIC_6b933fad6fe0676f",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 7,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_5/k_3",
+      "experiment_id": "PUBLIC_14237cebfe0a6150",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 21,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_levels/repeat_5/k_5",
+      "experiment_id": "PUBLIC_09790674b312a89b",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 35,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_1/full_reference",
+      "experiment_id": "PUBLIC_240a19d6e863025c",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 42,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_1/k_1",
+      "experiment_id": "PUBLIC_27488d690065218b",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_1/k_3",
+      "experiment_id": "PUBLIC_056e04be7011cb04",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_1/k_5",
+      "experiment_id": "PUBLIC_7cd68e1428f64f5d",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_2/full_reference",
+      "experiment_id": "PUBLIC_57cb81a043cb14d6",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 42,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_2/k_1",
+      "experiment_id": "PUBLIC_596094b7ab7f90bc",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_2/k_3",
+      "experiment_id": "PUBLIC_929e011aaaafd9db",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_2/k_5",
+      "experiment_id": "PUBLIC_68110ef6ca70a805",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_3/full_reference",
+      "experiment_id": "PUBLIC_e46f2de6a7326bf3",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 42,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_3/k_1",
+      "experiment_id": "PUBLIC_51efe2cc3132d451",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_3/k_3",
+      "experiment_id": "PUBLIC_cd1a965e843bbcea",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_3/k_5",
+      "experiment_id": "PUBLIC_c126501d5cb14a44",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_4/full_reference",
+      "experiment_id": "PUBLIC_084c6698f6cefd0f",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 42,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_4/k_1",
+      "experiment_id": "PUBLIC_8c6143088dad7ef2",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_4/k_3",
+      "experiment_id": "PUBLIC_dcc494d124a2e4e8",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_4/k_5",
+      "experiment_id": "PUBLIC_bac12b54787a39a5",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_5/full_reference",
+      "experiment_id": "PUBLIC_f40dbb56e33a510c",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 42,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_5/k_1",
+      "experiment_id": "PUBLIC_c6fc7d36a855a96b",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_5/k_3",
+      "experiment_id": "PUBLIC_c7b3511ec1f302f4",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/turmeric_authenticity/repeat_5/k_5",
+      "experiment_id": "PUBLIC_6a1124d76e5b1b2c",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 7,
+      "test": 21
+    },
+    {
+      "package": "batch_04_public/beef/repeat_1/full_reference",
+      "experiment_id": "PUBLIC_41f1dce7a163ff4e",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_1/k_1",
+      "experiment_id": "PUBLIC_eef92075dff0c0b9",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_1/k_3",
+      "experiment_id": "PUBLIC_583eb447268bfead",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_1/k_5",
+      "experiment_id": "PUBLIC_4aaf40f3d313583d",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_2/full_reference",
+      "experiment_id": "PUBLIC_c2dde97209dde0d7",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_2/k_1",
+      "experiment_id": "PUBLIC_84b3bae3d94e3963",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_2/k_3",
+      "experiment_id": "PUBLIC_47ff55c9d52d3f01",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_2/k_5",
+      "experiment_id": "PUBLIC_a45fe298e06b2fd5",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_3/full_reference",
+      "experiment_id": "PUBLIC_1acea5a7faf0fb7e",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_3/k_1",
+      "experiment_id": "PUBLIC_86ee26b29ff0d086",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_3/k_3",
+      "experiment_id": "PUBLIC_9915a66c607e22c5",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_3/k_5",
+      "experiment_id": "PUBLIC_5130f8da57de9312",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_4/full_reference",
+      "experiment_id": "PUBLIC_30559def1e87ea49",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_4/k_1",
+      "experiment_id": "PUBLIC_3b5ea3fc14a5e4b7",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_4/k_3",
+      "experiment_id": "PUBLIC_13278705ed2761d4",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_4/k_5",
+      "experiment_id": "PUBLIC_488bf368c12581e2",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_5/full_reference",
+      "experiment_id": "PUBLIC_402819d9fdd6a036",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_5/k_1",
+      "experiment_id": "PUBLIC_81b637b2b846fa7b",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 5,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_5/k_3",
+      "experiment_id": "PUBLIC_c0a4d688c4091185",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/beef/repeat_5/k_5",
+      "experiment_id": "PUBLIC_28b6af6112dde0b1",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 25,
+      "val": 5,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_1/full_reference",
+      "experiment_id": "PUBLIC_25b602101f604c1a",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 614,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_1/k_1",
+      "experiment_id": "PUBLIC_a13160a3000a00cb",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_1/k_3",
+      "experiment_id": "PUBLIC_3089f15d2a7d3481",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_1/k_5",
+      "experiment_id": "PUBLIC_48f0f25586864f09",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_2/full_reference",
+      "experiment_id": "PUBLIC_534a8103accc2b30",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 614,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_2/k_1",
+      "experiment_id": "PUBLIC_5009e56e9158d93d",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_2/k_3",
+      "experiment_id": "PUBLIC_7c148ebf9316ee75",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_2/k_5",
+      "experiment_id": "PUBLIC_668db9495d01aa26",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_3/full_reference",
+      "experiment_id": "PUBLIC_0a324bbbb573a7f1",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 614,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_3/k_1",
+      "experiment_id": "PUBLIC_793bca16ba489d56",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_3/k_3",
+      "experiment_id": "PUBLIC_196535d63ffa6078",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_3/k_5",
+      "experiment_id": "PUBLIC_d7984aa3446f5e12",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_4/full_reference",
+      "experiment_id": "PUBLIC_9c74a2ef49419110",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 614,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_4/k_1",
+      "experiment_id": "PUBLIC_7f8a5882048153ec",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_4/k_3",
+      "experiment_id": "PUBLIC_f4d813627f783021",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_4/k_5",
+      "experiment_id": "PUBLIC_02408f60ae47a135",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_5/full_reference",
+      "experiment_id": "PUBLIC_7a7c609d306c2398",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 614,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_5/k_1",
+      "experiment_id": "PUBLIC_17f7ab1d72ab970b",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_5/k_3",
+      "experiment_id": "PUBLIC_81af642fbdb234d8",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fruit_purees/repeat_5/k_5",
+      "experiment_id": "PUBLIC_aecd51c6b5879753",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 123,
+      "test": 246
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_1/full_reference",
+      "experiment_id": "PUBLIC_96c7ff0c84a5e0fc",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 78,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_1/k_1",
+      "experiment_id": "PUBLIC_895e0c8757e09201",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 3,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_1/k_3",
+      "experiment_id": "PUBLIC_bde09cebf47f8429",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 9,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_1/k_5",
+      "experiment_id": "PUBLIC_dc42010d544fbc0e",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_2/full_reference",
+      "experiment_id": "PUBLIC_9cb2b3f2db43f34b",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 78,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_2/k_1",
+      "experiment_id": "PUBLIC_f443790395dcec46",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 3,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_2/k_3",
+      "experiment_id": "PUBLIC_93061215e65a376c",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 9,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_2/k_5",
+      "experiment_id": "PUBLIC_4efaedc5bde56878",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_3/full_reference",
+      "experiment_id": "PUBLIC_b053a8702f5e541f",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 78,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_3/k_1",
+      "experiment_id": "PUBLIC_c85754921936fce4",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 3,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_3/k_3",
+      "experiment_id": "PUBLIC_ee76f27a195539e4",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 9,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_3/k_5",
+      "experiment_id": "PUBLIC_609ad7b999d5541a",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_4/full_reference",
+      "experiment_id": "PUBLIC_4f6617dc36c156a0",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 78,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_4/k_1",
+      "experiment_id": "PUBLIC_e87c10478fbc615a",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 3,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_4/k_3",
+      "experiment_id": "PUBLIC_90ce07870d08b16e",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 9,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_4/k_5",
+      "experiment_id": "PUBLIC_5c163fa0a53a547c",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_5/full_reference",
+      "experiment_id": "PUBLIC_3ec81eb9cf60bda4",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 78,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_5/k_1",
+      "experiment_id": "PUBLIC_5267a7324c8e5a0c",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 3,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_5/k_3",
+      "experiment_id": "PUBLIC_e8977ccf6d99d663",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 9,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/fresh_meats/repeat_5/k_5",
+      "experiment_id": "PUBLIC_8ec9fc8badbff6ea",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 15,
+      "val": 12,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_1/full_reference",
+      "experiment_id": "PUBLIC_ad3f5a576297c86f",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 76,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_1/k_1",
+      "experiment_id": "PUBLIC_8a6944b5e40311b6",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 4,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_1/k_3",
+      "experiment_id": "PUBLIC_ea314a9e87a686bc",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 12,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_1/k_5",
+      "experiment_id": "PUBLIC_9524725d1a5605d1",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 20,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_2/full_reference",
+      "experiment_id": "PUBLIC_e9fe07432978f9de",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 76,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_2/k_1",
+      "experiment_id": "PUBLIC_6ee2a113f8ad9e64",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 4,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_2/k_3",
+      "experiment_id": "PUBLIC_19d8c6e4673b8cc6",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 12,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_2/k_5",
+      "experiment_id": "PUBLIC_20e066bdd2536926",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 20,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_3/full_reference",
+      "experiment_id": "PUBLIC_1e14aa30546456c4",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 76,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_3/k_1",
+      "experiment_id": "PUBLIC_cf0dcde5a5b2ac47",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 4,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_3/k_3",
+      "experiment_id": "PUBLIC_dd9ac062e274ee0b",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 12,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_3/k_5",
+      "experiment_id": "PUBLIC_24c227d049fcb57c",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 20,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_4/full_reference",
+      "experiment_id": "PUBLIC_f32b28babf198d7e",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 76,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_4/k_1",
+      "experiment_id": "PUBLIC_6010ac3fdf688010",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 4,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_4/k_3",
+      "experiment_id": "PUBLIC_848e624100bdb77a",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 12,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_4/k_5",
+      "experiment_id": "PUBLIC_7c1575fa024d7964",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 20,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_5/full_reference",
+      "experiment_id": "PUBLIC_bee6f8fedc9cee66",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 76,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_5/k_1",
+      "experiment_id": "PUBLIC_2f84aaefac67f848",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 4,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_5/k_3",
+      "experiment_id": "PUBLIC_38934e08310bf802",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 12,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/olive_oils/repeat_5/k_5",
+      "experiment_id": "PUBLIC_f78ba21a2c7379f5",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 20,
+      "val": 14,
+      "test": 30
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_1/full_reference",
+      "experiment_id": "PUBLIC_252d55bc0b279c18",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 35,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_1/k_1",
+      "experiment_id": "PUBLIC_94feada77a50d9ba",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_1/k_3",
+      "experiment_id": "PUBLIC_67314783798accd1",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_1/k_5",
+      "experiment_id": "PUBLIC_218b836dbde3cecd",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_2/full_reference",
+      "experiment_id": "PUBLIC_913371839a5463b0",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 35,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_2/k_1",
+      "experiment_id": "PUBLIC_32ad7a11e1657ef3",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_2/k_3",
+      "experiment_id": "PUBLIC_9e95ce40c3266cbf",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_2/k_5",
+      "experiment_id": "PUBLIC_b3e4e3885611c8ec",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_3/full_reference",
+      "experiment_id": "PUBLIC_0628a2621d500894",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 35,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_3/k_1",
+      "experiment_id": "PUBLIC_29616c8769139cda",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_3/k_3",
+      "experiment_id": "PUBLIC_5bf9b67fcde72bdc",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_3/k_5",
+      "experiment_id": "PUBLIC_bf9de9c5d6ef9ff2",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_4/full_reference",
+      "experiment_id": "PUBLIC_0255e3b57a059265",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 35,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_4/k_1",
+      "experiment_id": "PUBLIC_466cc9b1cc15e69d",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_4/k_3",
+      "experiment_id": "PUBLIC_d2bfc506e9ac7d38",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_4/k_5",
+      "experiment_id": "PUBLIC_451a0e6bd4d16ebc",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_5/full_reference",
+      "experiment_id": "PUBLIC_1cde8454accfa422",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 35,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_5/k_1",
+      "experiment_id": "PUBLIC_d5d882452d31c126",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 2,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_5/k_3",
+      "experiment_id": "PUBLIC_ddcf8130f4549091",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 6,
+      "val": 7,
+      "test": 14
+    },
+    {
+      "package": "batch_04_public/coffee/repeat_5/k_5",
+      "experiment_id": "PUBLIC_4c39bff8fa7c11a1",
+      "task": "PUBLIC",
+      "status": "passed",
+      "reference": 10,
+      "val": 7,
+      "test": 14
+    }
+  ]
+}

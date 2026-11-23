@@ -1,0 +1,15 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-F0516E91E02A643E3EB6,oil_spectrum_093,oil_sample_47,Spain,Spain,True,holdout
+ID-956461F31D12F113BF40,oil_spectrum_109,oil_sample_55,Spain,Spain,True,holdout
+ID-59DC4A32D33D5A4712D0,oil_spectrum_050,oil_sample_26,Italy,Italy,True,holdout
+ID-053B657B8305CD1B2B9F,oil_spectrum_040,oil_sample_21,Italy,Italy,True,holdout
+ID-F1A70840131BDD9415F6,oil_spectrum_108,oil_sample_55,Spain,Spain,True,holdout
+ID-150EF36C1C5993F6ED12,oil_spectrum_011,oil_sample_6,Greece,Greece,True,holdout
+ID-DEF56131C7552B1A5DC3,oil_spectrum_058,oil_sample_30,Portugal,Spain,True,holdout
+ID-D604A27567ADBECBBD8F,oil_spectrum_059,oil_sample_30,Portugal,Spain,True,holdout
+ID-FC4C577613FDE1E7350D,oil_spectrum_041,oil_sample_21,Italy,Italy,True,holdout
+ID-28F3E7A255BBA3918388,oil_spectrum_092,oil_sample_47,Spain,Spain,True,holdout
+ID-AEB3069D053E1B310A81,oil_spectrum_104,oil_sample_53,Spain,Spain,True,holdout
+ID-19FD6CF0AEFDF528EDB3,oil_spectrum_105,oil_sample_53,Spain,Spain,True,holdout
+ID-1921E51B0D98C183E7D5,oil_spectrum_010,oil_sample_6,Greece,Greece,True,holdout
+ID-1678A393A86A4A2DB829,oil_spectrum_051,oil_sample_26,Italy,Italy,True,holdout

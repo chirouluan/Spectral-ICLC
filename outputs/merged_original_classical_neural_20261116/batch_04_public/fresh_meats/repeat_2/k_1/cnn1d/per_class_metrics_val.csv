@@ -1,0 +1,4 @@
+﻿label,support,precision,recall,f1
+Chicken,4,0.3333333333333333,1.0,0.5
+Pork,4,0.0,0.0,0.0
+Turkey,4,0.0,0.0,0.0

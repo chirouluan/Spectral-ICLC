@@ -1,0 +1,52 @@
+{
+  "excluded_sheets": [
+    "Information",
+    "Raw spectra region 3601-200",
+    "Raw spectra authentic samples",
+    "VWR vial",
+    "Trial"
+  ],
+  "independence_scope": "all seven concentrations from a base turmeric batch stay together",
+  "observations": 70,
+  "groups": 10,
+  "raw_dimensions": 805,
+  "label_counts": {
+    "adulterated": 60,
+    "authentic": 10
+  },
+  "axis_unit": "cm-1",
+  "axis_range": [
+    199.5076,
+    1750.022
+  ],
+  "spec": {
+    "folder": "姜黄粉外部掺假铬酸铅掺假等级分类",
+    "file": "Data_Spices_Task 3.1.5_Rapid spectroscopy-based screening techniques for spices (Raman).xlsx",
+    "loader": "turmeric",
+    "label_definition": "Authentic (0 percent) versus adulterated (greater than 0 percent)",
+    "source_url": "https://doi.org/10.5281/zenodo.6014148",
+    "license": "CC BY-SA (as stated in supplied dataset description; version unspecified)",
+    "paper": "姜黄中铬酸铅的快速检测.pdf",
+    "paper_url": "https://doi.org/10.1016/j.foodcont.2020.107714",
+    "evidence_pages": [
+      3,
+      4,
+      6
+    ],
+    "method": "turmeric_selected_pca2",
+    "split": "grouped_5_1_2_by_base_turmeric_batch",
+    "fidelity": "paper_binary_task_with_disclosed_normalization_assumption",
+    "caveats": [
+      "Paper classifies authentic versus adulterated; seven-class concentration recognition is a project extension.",
+      "Raw spectra region 1750-200 contains 70 triplicate-averaged spectra from 10 base batches; other sheets are not extra independent samples.",
+      "Paper says linear baseline correction and normalization without defining the normalization norm or baseline anchors.",
+      "Use endpoint-line baseline and unit L2 norm as explicit implementation assumptions, then Train mean centering via PCA; not an exact software reproduction.",
+      "Paper selected intervals 907-782, 404-396, 383-321 cm-1; retain all native grid points in these intervals, then PCA to 2 scores."
+    ],
+    "extends": "turmeric_levels"
+  },
+  "source_sha256": {
+    "datasets\\公共数据集\\姜黄粉外部掺假铬酸铅掺假等级分类\\Data_Spices_Task 3.1.5_Rapid spectroscopy-based screening techniques for spices (Raman).xlsx": "351c648f6112fef4ea886161553f1065fa7a46892fd02c63588ab1fee19fce94",
+    "datasets\\公共数据集\\姜黄粉外部掺假铬酸铅掺假等级分类\\姜黄中铬酸铅的快速检测.pdf": "77e16d9e5c46b65628147daa689f3c21ec7e810dbb8ef5a3a78b144461f95c14"
+  }
+}

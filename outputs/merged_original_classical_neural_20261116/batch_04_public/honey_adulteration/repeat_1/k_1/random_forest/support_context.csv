@@ -1,0 +1,6 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-4A4A108D2CBA94712065,honey_row_01224,C10|ManukaUMF20|4,10,train,fixed_for_all_queries
+ID-BFB1F180CB228FA5C91E,honey_row_01722,C7|BorageField|4,25,train,fixed_for_all_queries
+ID-99205193D337C1AA1C90,honey_row_03459,C4|ManukaUMF10|1,50,train,fixed_for_all_queries
+ID-F89D011F9CF1C9859E11,honey_row_08230,C9|Manuka|2,5,train,fixed_for_all_queries
+ID-23206A16B5F79CC5204F,honey_row_04369,C10|MultiFloral|1,0,train,fixed_for_all_queries

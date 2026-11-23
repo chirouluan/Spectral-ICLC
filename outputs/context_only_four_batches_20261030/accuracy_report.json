@@ -1,0 +1,217 @@
+{
+  "scored_at_utc": "2026-10-30T05:06:01.279256+00:00",
+  "current_result_directory": "C:\\Users\\35454\\Desktop\\llm-dl\\Spectral-ICLC-local-llm_20261028\\Spectral-ICLC-local-llm\\outputs\\context_only_four_batches_20261030",
+  "experiment_count": 300,
+  "validation": "all 300 predictions matched exact ordered IDs to source val/test label files",
+  "accuracy_definition": "exact string label match; sample-pooled accuracy is correct / n; mean_experiment_accuracy is an unweighted macro average",
+  "overall_by_batch": [
+    {
+      "batch": "batch_01_T1",
+      "grouping": "batch",
+      "split": "val",
+      "experiments": 60,
+      "n": 1080,
+      "correct": 1051,
+      "accuracy": 0.9731481481481481,
+      "mean_experiment_accuracy": 0.9731481481481481
+    },
+    {
+      "batch": "batch_01_T1",
+      "grouping": "batch",
+      "split": "test",
+      "experiments": 60,
+      "n": 2160,
+      "correct": 2089,
+      "accuracy": 0.9671296296296297,
+      "mean_experiment_accuracy": 0.9671296296296297
+    },
+    {
+      "batch": "batch_01_T1",
+      "grouping": "batch",
+      "split": "combined",
+      "experiments": 60,
+      "n": 3240,
+      "correct": 3140,
+      "accuracy": 0.9691358024691358,
+      "mean_experiment_accuracy": 0.9691358024691358
+    },
+    {
+      "batch": "batch_02_T2",
+      "grouping": "batch",
+      "split": "val",
+      "experiments": 60,
+      "n": 1080,
+      "correct": 249,
+      "accuracy": 0.23055555555555557,
+      "mean_experiment_accuracy": 0.23055555555555554
+    },
+    {
+      "batch": "batch_02_T2",
+      "grouping": "batch",
+      "split": "test",
+      "experiments": 60,
+      "n": 2160,
+      "correct": 479,
+      "accuracy": 0.22175925925925927,
+      "mean_experiment_accuracy": 0.22175925925925927
+    },
+    {
+      "batch": "batch_02_T2",
+      "grouping": "batch",
+      "split": "combined",
+      "experiments": 60,
+      "n": 3240,
+      "correct": 728,
+      "accuracy": 0.22469135802469137,
+      "mean_experiment_accuracy": 0.22469135802469134
+    },
+    {
+      "batch": "batch_03_unseen_15_30",
+      "grouping": "batch",
+      "split": "val",
+      "experiments": 60,
+      "n": 840,
+      "correct": 763,
+      "accuracy": 0.9083333333333333,
+      "mean_experiment_accuracy": 0.9083333333333333
+    },
+    {
+      "batch": "batch_03_unseen_15_30",
+      "grouping": "batch",
+      "split": "test",
+      "experiments": 60,
+      "n": 2160,
+      "correct": 1962,
+      "accuracy": 0.9083333333333333,
+      "mean_experiment_accuracy": 0.9083333333333333
+    },
+    {
+      "batch": "batch_03_unseen_15_30",
+      "grouping": "batch",
+      "split": "combined",
+      "experiments": 60,
+      "n": 3000,
+      "correct": 2725,
+      "accuracy": 0.9083333333333333,
+      "mean_experiment_accuracy": 0.9083333333333333
+    },
+    {
+      "batch": "batch_04_public",
+      "grouping": "batch",
+      "split": "val",
+      "experiments": 120,
+      "n": 1040,
+      "correct": 775,
+      "accuracy": 0.7451923076923077,
+      "mean_experiment_accuracy": 0.6980555555555555
+    },
+    {
+      "batch": "batch_04_public",
+      "grouping": "batch",
+      "split": "test",
+      "experiments": 120,
+      "n": 2920,
+      "correct": 2029,
+      "accuracy": 0.6948630136986301,
+      "mean_experiment_accuracy": 0.7057936507936508
+    },
+    {
+      "batch": "batch_04_public",
+      "grouping": "batch",
+      "split": "combined",
+      "experiments": 120,
+      "n": 3960,
+      "correct": 2804,
+      "accuracy": 0.7080808080808081,
+      "mean_experiment_accuracy": 0.7062554112554112
+    }
+  ],
+  "paired_comparison_counts": {
+    "batch_02_T2": 60,
+    "batch_04_public": 120
+  },
+  "paired_comparison_summary": [
+    {
+      "grouping": "batch",
+      "value": "batch_02_T2",
+      "split": "test",
+      "experiments": 60,
+      "n": 2160,
+      "new_correct": 479,
+      "new_accuracy": 0.22175925925925927,
+      "previous_correct": 1322,
+      "previous_accuracy": 0.612037037037037,
+      "delta_pp": -39.02777777777778,
+      "mean_experiment_delta_pp": -39.02777777777778
+    },
+    {
+      "grouping": "batch",
+      "value": "batch_02_T2",
+      "split": "val",
+      "experiments": 60,
+      "n": 1080,
+      "new_correct": 249,
+      "new_accuracy": 0.23055555555555557,
+      "previous_correct": 644,
+      "previous_accuracy": 0.5962962962962963,
+      "delta_pp": -36.574074074074076,
+      "mean_experiment_delta_pp": -36.57407407407407
+    },
+    {
+      "grouping": "batch",
+      "value": "batch_04_public",
+      "split": "test",
+      "experiments": 120,
+      "n": 2920,
+      "new_correct": 2029,
+      "new_accuracy": 0.6948630136986301,
+      "previous_correct": 2263,
+      "previous_accuracy": 0.775,
+      "delta_pp": -8.013698630136986,
+      "mean_experiment_delta_pp": -7.365079365079366
+    },
+    {
+      "grouping": "batch",
+      "value": "batch_04_public",
+      "split": "val",
+      "experiments": 120,
+      "n": 1040,
+      "new_correct": 775,
+      "new_accuracy": 0.7451923076923077,
+      "previous_correct": 820,
+      "previous_accuracy": 0.7884615384615384,
+      "delta_pp": -4.326923076923077,
+      "mean_experiment_delta_pp": -7.777777777777778
+    },
+    {
+      "grouping": "overall",
+      "value": "all",
+      "split": "test",
+      "experiments": 180,
+      "n": 5080,
+      "new_correct": 2508,
+      "new_accuracy": 0.4937007874015748,
+      "previous_correct": 3585,
+      "previous_accuracy": 0.7057086614173228,
+      "delta_pp": -21.200787401574804,
+      "mean_experiment_delta_pp": -17.919312169312168
+    },
+    {
+      "grouping": "overall",
+      "value": "all",
+      "split": "val",
+      "experiments": 180,
+      "n": 2120,
+      "new_correct": 1024,
+      "new_accuracy": 0.4830188679245283,
+      "previous_correct": 1464,
+      "previous_accuracy": 0.690566037735849,
+      "delta_pp": -20.754716981132077,
+      "mean_experiment_delta_pp": -17.376543209876544
+    }
+  ],
+  "unpaired_batches": [
+    "batch_01_T1",
+    "batch_03_unseen_15_30"
+  ]
+}

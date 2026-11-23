@@ -1,0 +1,8 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-9D35BD739AAD265D09E7,turmeric_041,Sample 10,10,train,fixed_for_all_queries
+ID-78356D5C3E71622F2132,turmeric_022,Sample 8,0.1,train,fixed_for_all_queries
+ID-83FA7E6099C0907CEC8D,turmeric_003,Sample 1,1,train,fixed_for_all_queries
+ID-A3AE9A6A2AB37F0960C3,turmeric_014,Sample 4,0,train,fixed_for_all_queries
+ID-CF9900F6C74F92956805,turmeric_067,Sample 15,2.5,train,fixed_for_all_queries
+ID-0F54C8D51CE63444F39B,turmeric_037,Sample 10,0.5,train,fixed_for_all_queries
+ID-E754CA465233CED24766,turmeric_040,Sample 10,5,train,fixed_for_all_queries

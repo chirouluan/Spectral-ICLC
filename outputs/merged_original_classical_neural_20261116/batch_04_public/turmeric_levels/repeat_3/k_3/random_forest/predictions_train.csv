@@ -1,0 +1,22 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-660F23E906921044BF80,turmeric_024,Sample 8,1,1,True,in_sample_on_reference_records
+ID-3D0FEFC75C368E820CE3,turmeric_019,Sample 4,5,5,True,in_sample_on_reference_records
+ID-1F4239E13B7FE812D2A4,turmeric_001,Sample 1,0.1,0.1,True,in_sample_on_reference_records
+ID-E43D759D1E15E7832C84,turmeric_025,Sample 8,2.5,2.5,True,in_sample_on_reference_records
+ID-9D35BD739AAD265D09E7,turmeric_041,Sample 10,10,10,True,in_sample_on_reference_records
+ID-5F261FA87794B2BB9008,turmeric_021,Sample 8,0,0,True,in_sample_on_reference_records
+ID-78356D5C3E71622F2132,turmeric_022,Sample 8,0.1,0.1,True,in_sample_on_reference_records
+ID-4705191E0B4F0C5BF5EE,turmeric_038,Sample 10,1,1,True,in_sample_on_reference_records
+ID-83FA7E6099C0907CEC8D,turmeric_003,Sample 1,1,1,True,in_sample_on_reference_records
+ID-A3AE9A6A2AB37F0960C3,turmeric_014,Sample 4,0,0,True,in_sample_on_reference_records
+ID-E1B18E2CF6549A38A030,turmeric_069,Sample 15,10,10,True,in_sample_on_reference_records
+ID-04440288F34090B402D7,turmeric_006,Sample 1,10,10,True,in_sample_on_reference_records
+ID-696EBED8D2B02EFF01CD,turmeric_026,Sample 8,5,5,True,in_sample_on_reference_records
+ID-C9B67D8C046098262631,turmeric_065,Sample 15,0.5,0.5,True,in_sample_on_reference_records
+ID-CF9900F6C74F92956805,turmeric_067,Sample 15,2.5,2.5,True,in_sample_on_reference_records
+ID-67563B17611E4C26845E,turmeric_023,Sample 8,0.5,0.5,True,in_sample_on_reference_records
+ID-41BCCAC9FED42E3E1A01,turmeric_004,Sample 1,2.5,2.5,True,in_sample_on_reference_records
+ID-1AEC2E2F19128FAE63B3,turmeric_035,Sample 10,0,0,True,in_sample_on_reference_records
+ID-0F54C8D51CE63444F39B,turmeric_037,Sample 10,0.5,0.5,True,in_sample_on_reference_records
+ID-E754CA465233CED24766,turmeric_040,Sample 10,5,5,True,in_sample_on_reference_records
+ID-0EE9486A59785F371F2F,turmeric_029,Sample 9,0.1,0.1,True,in_sample_on_reference_records

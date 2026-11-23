@@ -1,0 +1,56 @@
+{
+  "run_id": "20261021T121730_1b5b03e3_PUBLIC_29616c8769139cda_svm_rbf",
+  "experiment_id": "PUBLIC_29616c8769139cda",
+  "web_package": "C:\\Users\\35454\\Desktop\\llm-dl\\Spectral-ICLC\\deepseek_web_test\\four_batches_20261020T143923_1d231230\\batch_04_public\\coffee\\repeat_3\\k_1",
+  "model_id": "svm_rbf",
+  "status": "complete",
+  "reason": null,
+  "batch": "batch_04_public",
+  "task": "PUBLIC",
+  "dataset_id": "coffee",
+  "repeat": 3,
+  "reference_mode": "context_k",
+  "control": null,
+  "reference_count": 2,
+  "train_fit_ids": [
+    "ID-175CECD6458DC5583FF9",
+    "ID-E4A639713791C939F43C"
+  ],
+  "train_fit_ids_sha256": "e05fe4e8a091d1edbf2ca1415e82683d31c100d53fe92de28c0d9d4cec20f4aa",
+  "train_json_sha256": "f48178299663d056697f9f4c875c371a92da7c43963024a077687867d6b11900",
+  "web_metadata_sha256": "0af0799b784c84991bbd4ad626f3519268b291df39939e51bb5b025840306c68",
+  "label_budget": "FULL_TRAIN_REPRESENTATION_BANK_CONTEXT_K; supervised PLS uses full Train labels",
+  "source_train_representation_fit_count": 35,
+  "transform_id": "coffee_r3_coffee_pca238",
+  "feature_order": [
+    "PC2",
+    "PC3",
+    "PC8"
+  ],
+  "transform_refitted": false,
+  "estimator_fit_on_reference_only": true,
+  "validation_used_for_representation_dim_selection": false,
+  "validation_or_test_used_for_estimator_selection": false,
+  "comparison_scope": "closed_set_classifier",
+  "hyperparameters": {
+    "C": 1,
+    "gamma": "scale",
+    "scale_on_reference_only": true
+  },
+  "seed": 12347,
+  "fitted_estimator": "_models\\ec7af19bffdeba65c56e5d3bef734d6725e56415d2fd577da95199e709f49d2b.joblib",
+  "fit_cache_hit": false,
+  "train_diagnostic": "in_sample on train.json references only",
+  "fit_warnings": [],
+  "elapsed_seconds": 0.015999999999849024,
+  "api_requests": 0,
+  "actual_llm_predictions": 0,
+  "code_sha256": {
+    "C:\\Users\\35454\\Desktop\\llm-dl\\Spectral-ICLC\\src\\spectral_icl\\web_baselines.py": "2cc3d8239410f11d389128289446be55570fb018b357f40a8d9af60503e9d795",
+    "src\\spectral_icl\\models.py": "47bf52ba0c9f22a393b9f7bc4009629d9f57efc013a218176087d571c3d79691",
+    "src\\spectral_icl\\public_validation.py": "d22fb7a66683264531049f8e11fc55ee2cd57096208c5c3901567b8136c10076",
+    "src\\spectral_icl\\web_scoring.py": "6f2d90c00e8d7f2be8de36031b3705ceff73c34bb8814cb58e13b74000509c01"
+  },
+  "sklearn": "1.7.2",
+  "fitted_estimator_sha256": "a951bfc13eeb18498646af131e6640f641bd7c44ba58028c9488fc2f8d86daeb"
+}

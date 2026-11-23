@@ -1,0 +1,7 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-BEBB70AB3D54C55A3C92,fruit_spectrum_0287,fruit_spectrum_0287,NON-Strawberry,train,fixed_for_all_queries
+ID-41BDB617F40A8C23456A,fruit_spectrum_0214,fruit_spectrum_0214,Strawberry,train,fixed_for_all_queries
+ID-4CD94C5C7B057C0819D8,fruit_spectrum_0420,fruit_spectrum_0420,Strawberry,train,fixed_for_all_queries
+ID-A2E3B1DF03ED8E7626D0,fruit_spectrum_0227,fruit_spectrum_0227,NON-Strawberry,train,fixed_for_all_queries
+ID-5302AEDC9693F89E0AD0,fruit_spectrum_0151,fruit_spectrum_0151,NON-Strawberry,train,fixed_for_all_queries
+ID-B96F4755E9BB8DEFD050,fruit_spectrum_0455,fruit_spectrum_0455,Strawberry,train,fixed_for_all_queries

@@ -1,0 +1,119 @@
+{
+  "experiment_id": "PUBLIC_c6fc7d36a855a96b",
+  "val": [
+    {
+      "id": "ID-89A1C22774487E559EBF",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-2912015723D4DCABE5BF",
+      "label": "authentic"
+    },
+    {
+      "id": "ID-20C9AFDCC8AA8460D619",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-3AD1A54DEEB0D15D6165",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-E437357B46ACDE911E1F",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-844F23FF1E34CF127CFA",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-1E507B287398F5306DF3",
+      "label": "authentic"
+    }
+  ],
+  "test": [
+    {
+      "id": "ID-54B5FB97476F7A2EA5B1",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-4736039370039EFC51A0",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-389F6211C0B3A06F50C0",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-3855D39C67C313935086",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-6B378E54418A4CE3A371",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-17679A9C1369AA1C7004",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-16C3AFC942167ADF56A1",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-DE5A97D686E0EE0F7372",
+      "label": "authentic"
+    },
+    {
+      "id": "ID-F6A6D38AAB8E6002AE9A",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-A03B433218247B1BDCC9",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-3B09898A810AFEC14AFF",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-C857AA83FA6B0953BFB8",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-38BFFD7C4BA63543C014",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-184B6FC735DCC94AF0FE",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-0398CAA630A14E5F210D",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-08C38CB9F84FE597F3AA",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-10E5792A33EC034CE0D6",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-31C8EF48EF6195A8C8D7",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-7E8F7AFC99C27110AAAD",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-046936378B89FE777E31",
+      "label": "adulterated"
+    },
+    {
+      "id": "ID-468C73D61BC291C4187F",
+      "label": "adulterated"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-C27AAC4FE7BB445107AC,turmeric_049,Sample 13,authentic,adulterated,True,in_sample_on_reference_records
+ID-9E5CEB8653D9510A424A,turmeric_003,Sample 1,adulterated,adulterated,True,in_sample_on_reference_records

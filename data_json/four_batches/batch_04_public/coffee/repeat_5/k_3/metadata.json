@@ -1,0 +1,63 @@
+{
+  "batch": "batch_04_public",
+  "task": "PUBLIC",
+  "dataset_id": "coffee",
+  "reference_mode": "context_k",
+  "experiment_role": "supplementary",
+  "repeat": 5,
+  "k": 3,
+  "candidate_labels": [
+    "Arabica",
+    "Robusta"
+  ],
+  "feature_order": [
+    "PC2",
+    "PC3",
+    "PC8"
+  ],
+  "feature_description": "该数据的文献处理分支 coffee_pca238，输出3维；同一目录中参考与待测共用Train拟合的变换。",
+  "label_budget": "FULL_TRAIN_REPRESENTATION_BANK_CONTEXT_K; supervised PLS uses full Train labels",
+  "transform_id": "coffee_r5_coffee_pca238",
+  "transform_provenance": "_provenance/transforms/coffee_r5_coffee_pca238",
+  "source_train_fit_count": 35,
+  "source_url": "https://doi.org/10.17632/frrv2yd9rg.1",
+  "license": "CC BY-NC 3.0",
+  "fidelity": "paper_MIR_only_selected_PC_branch_new_split",
+  "caveats": [
+    "MIR-only range 5000-12500 nm corresponds to 800-2000 cm-1; all 286 released points lie within it.",
+    "No SNV, MSC, derivative, baseline or area normalization; standardization described in the paper concerns combined NIR+MIR, not MIR-only.",
+    "Fit covariance PCA on Train only, then take PC2, PC3, PC8 (three dimensions) as reported for MIR-only FDA.",
+    "Published component choices fixed a priori; this does not reproduce the unavailable original calibration/prediction membership."
+  ],
+  "validation_used_for_dimension_selection": false,
+  "split_path": "_provenance/public_sources/coffee/split_repeat_5.csv",
+  "split_sha256": "616fdacbe43f61f9acbbdaeb0d3542153ecee3f9eb31bf07a89abe5b5120b581",
+  "public_split_note": "Beef: official Test retained, 5 Train+1 Val per class inside official Train; honey: official Acquisition6 Test, random one eligible acquisition per product for Val; others grouped approximate 5:1:2",
+  "support_seed": 12349,
+  "train_accuracy": "not_evaluated; train.json is reference, not leave-group-out predictions",
+  "reference_count": 6,
+  "val_count": 7,
+  "test_count": 14,
+  "feature_decimals": 8,
+  "prompt_version": "four-batches-web-v3-context-only",
+  "api_requests": 0,
+  "reference_class_counts": {
+    "Robusta": 3,
+    "Arabica": 3
+  },
+  "reference_group_count": 6,
+  "test_subset_or_chunk": false,
+  "experiment_id": "PUBLIC_ddcf8130f4549091",
+  "prompt_sha256": "5c2d9a04afb84ee5b2f750cdf99d2dc12588dc734187c65000534c57d772a524",
+  "file_sha256": {
+    "private_id_mapping.csv": "148395330a27461ba7d8d6e50345c7bfa6945d627d0d107451882cd59e164c7d",
+    "prompt.txt": "5c2d9a04afb84ee5b2f750cdf99d2dc12588dc734187c65000534c57d772a524",
+    "test.json": "a1b7ddb88c35e3b545767ef793a6a92088d5dd31afb8367b8595b3070e895aca",
+    "test_labels.json": "c2453c33a548020334a31c2e2182b4d88f06f95c4bcb6285a0cc8b4ead86aa68",
+    "train.json": "a6d74f03dcb87faf6efd1cc7134b18d101a5f7d123ba4cce0cb8fdd834410391",
+    "val.json": "fa7c628710f2ba672ff9f1a56ce3ad61b8545851607ce055e052780c96b02ee1",
+    "val_labels.json": "cd574d21469d2d1676acfaf8735a86b7e1c86625b9dbcf46dc36cd8308447530"
+  },
+  "llm_execution_mode": "context_only_no_tools",
+  "tool_use_allowed": false
+}

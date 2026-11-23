@@ -1,0 +1,38 @@
+# Local credentials and environments
+local_api_config.py
+local_llm_config.py
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Generated runtime artifacts and local research results
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+outputs/api_classification/
+outputs/merged_original_classical_neural_20261116/_models/
+outputs/merged_original_classical_neural_20261116/summary/
+# The local archival directories keep their original names; GitHub uses the
+# corrected batch names and omits the historical T3 adaptation results.
+outputs/merged_original_classical_neural_20261116/batch_02_T2_T3/
+outputs/merged_original_classical_neural_20261116/batch_03_unseen_15_30/
+results/
+data/
+structured_papers1.json
+data_json/generated/
+strata-kit/*
+!strata-kit/README.md
+
+# Historical public tasks outside the current four-task scope
+data_json/four_batches/batch_04_public/fresh_meats/
+data_json/four_batches/batch_04_public/turmeric_levels/
+data_json/four_batches/_provenance/public_sources/fresh_meats/
+data_json/four_batches/_provenance/public_sources/turmeric_levels/
+data_json/four_batches/_provenance/transforms/fresh_meats_*/
+data_json/four_batches/_provenance/transforms/turmeric_levels_*/
+
+# Private sample mappings: retain locally, review before sharing
+private_id_mapping.csv

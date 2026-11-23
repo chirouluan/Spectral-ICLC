@@ -1,0 +1,3 @@
+﻿label,support,precision,recall,f1
+NON-Strawberry,1,1.0,1.0,1.0
+Strawberry,1,1.0,1.0,1.0

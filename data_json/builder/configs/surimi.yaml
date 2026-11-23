@@ -1,0 +1,35 @@
+data:
+  workbook_template: datasets/Surimi adulteration/day{day} Surimi adulteration.xlsx
+  mapping: data/metadata/physical_sample_mapping.csv
+  levels: [0, 1, 5, 10, 15, 20, 30, 40, 50]
+splits: splits/surimi9_v1
+output: results/spectral_icl_9class
+seed: 12345
+repeats: 5
+split_seed: 20261012
+experiment:
+  id: T1
+  repeat: 0
+  source_day: 0
+  target_day: 0
+  k: 1
+  representation: snv
+  selector: random
+  reference_pool_mode: STRICT_K
+  heldout_levels: []
+  t3_control: mixed
+  mechanism_control: none
+  allow_endpoint_extrapolation: false
+models: [svm_rbf, random_forest]
+llm:
+  dry_run: true
+  max_requests: 0
+  providers:
+    deepseek_icl:
+      model: null
+      base_url: null
+      api_key_env: DEEPSEEK_API_KEY
+    mimo_icl:
+      model: null
+      base_url: null
+      api_key_env: MIMO_API_KEY

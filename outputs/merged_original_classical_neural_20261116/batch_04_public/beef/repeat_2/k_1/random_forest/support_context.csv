@@ -1,0 +1,6 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-88DE066A6C2E4571136A,beef_train_000,beef_train_000,1,train,fixed_for_all_queries
+ID-54EB07A6B274C1741A73,beef_train_009,beef_train_009,2,train,fixed_for_all_queries
+ID-E6A8CBAB6B757B233E0C,beef_train_017,beef_train_017,3,train,fixed_for_all_queries
+ID-0439312946AE94FD3D81,beef_train_019,beef_train_019,4,train,fixed_for_all_queries
+ID-76E608E390C5D4547DD6,beef_train_026,beef_train_026,5,train,fixed_for_all_queries

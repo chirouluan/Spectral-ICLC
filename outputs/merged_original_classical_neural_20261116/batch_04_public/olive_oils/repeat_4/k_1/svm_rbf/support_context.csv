@@ -1,0 +1,5 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-72698CBCF12E0EB78F8A,oil_spectrum_012,oil_sample_7,Greece,train,fixed_for_all_queries
+ID-149EEE4AE778BA8D4451,oil_spectrum_113,oil_sample_57,Spain,train,fixed_for_all_queries
+ID-FC870C06D737B894F3A0,oil_spectrum_060,oil_sample_31,Portugal,train,fixed_for_all_queries
+ID-F7F95603969B9597ACC1,oil_spectrum_032,oil_sample_17,Italy,train,fixed_for_all_queries

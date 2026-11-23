@@ -1,0 +1,3 @@
+﻿label,support,precision,recall,f1
+Arabica,5,1.0,1.0,1.0
+Robusta,5,1.0,1.0,1.0

@@ -1,0 +1,223 @@
+{
+  "experiment_id": "T2_709d1d481fbde5e0",
+  "val": [
+    {
+      "id": "ID-2255C0867F23EA83BF8A",
+      "label": "40"
+    },
+    {
+      "id": "ID-382A56BA00C14DA69954",
+      "label": "50"
+    },
+    {
+      "id": "ID-0033839AB3ED7276E1E2",
+      "label": "5"
+    },
+    {
+      "id": "ID-BA575B68FA430CEF5B49",
+      "label": "5"
+    },
+    {
+      "id": "ID-6979BDCB2274FE72EB6C",
+      "label": "50"
+    },
+    {
+      "id": "ID-151488C1D4CE06BE1278",
+      "label": "15"
+    },
+    {
+      "id": "ID-23D4A944AF4E45BF2A2A",
+      "label": "30"
+    },
+    {
+      "id": "ID-A46A2839178141987B0C",
+      "label": "5"
+    },
+    {
+      "id": "ID-66D3752AD4CDB7296B66",
+      "label": "15"
+    },
+    {
+      "id": "ID-8DCC4770265EB51720B1",
+      "label": "10"
+    },
+    {
+      "id": "ID-F9326AB318AC49F20AC2",
+      "label": "5"
+    },
+    {
+      "id": "ID-EA6DFFF40E930F9A7625",
+      "label": "30"
+    },
+    {
+      "id": "ID-6582728AB3EDF90F7EB9",
+      "label": "5"
+    },
+    {
+      "id": "ID-E995F1375B7B1A5F0414",
+      "label": "10"
+    },
+    {
+      "id": "ID-E5F91885954E65557B56",
+      "label": "15"
+    },
+    {
+      "id": "ID-060BF2554F213C852711",
+      "label": "30"
+    },
+    {
+      "id": "ID-CB75FBEF851814665032",
+      "label": "20"
+    },
+    {
+      "id": "ID-787A1A12952498ECF48C",
+      "label": "40"
+    }
+  ],
+  "test": [
+    {
+      "id": "ID-EDA6123FEDD7D565A304",
+      "label": "50"
+    },
+    {
+      "id": "ID-994C809925621BDB10DE",
+      "label": "50"
+    },
+    {
+      "id": "ID-63F1BE5CAC309380DB2B",
+      "label": "10"
+    },
+    {
+      "id": "ID-20FF7C08CB45DB07B462",
+      "label": "5"
+    },
+    {
+      "id": "ID-CE0BF38687921FB7E919",
+      "label": "10"
+    },
+    {
+      "id": "ID-23C6418DB3EE76D1DFCB",
+      "label": "40"
+    },
+    {
+      "id": "ID-75124C70AC5823640AAB",
+      "label": "5"
+    },
+    {
+      "id": "ID-BEE56B1C346A08666560",
+      "label": "10"
+    },
+    {
+      "id": "ID-22B1EB5F87B3965E54A9",
+      "label": "15"
+    },
+    {
+      "id": "ID-9D57E2C77E817598BBFB",
+      "label": "30"
+    },
+    {
+      "id": "ID-84F6A0F9DA45923FA46A",
+      "label": "10"
+    },
+    {
+      "id": "ID-23450B22B677B6B42FD0",
+      "label": "5"
+    },
+    {
+      "id": "ID-C4BB1AA6866614928442",
+      "label": "5"
+    },
+    {
+      "id": "ID-DA0A3452CD0360C5BA86",
+      "label": "20"
+    },
+    {
+      "id": "ID-BDF8E961415AB99E0BE3",
+      "label": "10"
+    },
+    {
+      "id": "ID-A83FAE3B9EB9380201C5",
+      "label": "20"
+    },
+    {
+      "id": "ID-34CED8650D507D109A83",
+      "label": "40"
+    },
+    {
+      "id": "ID-E69DEBC507FB28CF4A6E",
+      "label": "30"
+    },
+    {
+      "id": "ID-DB0BC5BD5889C97535C7",
+      "label": "40"
+    },
+    {
+      "id": "ID-043296C4D48F75DA86CF",
+      "label": "40"
+    },
+    {
+      "id": "ID-20720D8CDDB159F3BCB3",
+      "label": "50"
+    },
+    {
+      "id": "ID-6DD1111B29CFDE5870ED",
+      "label": "10"
+    },
+    {
+      "id": "ID-72D0A037C465F2EFCF0B",
+      "label": "10"
+    },
+    {
+      "id": "ID-8A3E70AC9AD0D07EC20F",
+      "label": "1"
+    },
+    {
+      "id": "ID-F4C2425D5F307DA90D00",
+      "label": "50"
+    },
+    {
+      "id": "ID-25027B9F0F81BF618E7C",
+      "label": "50"
+    },
+    {
+      "id": "ID-B5F7FEAC7E6746DC8D06",
+      "label": "10"
+    },
+    {
+      "id": "ID-D467AB0447F0C8658CB7",
+      "label": "15"
+    },
+    {
+      "id": "ID-53BA1665DC6EF1E24025",
+      "label": "10"
+    },
+    {
+      "id": "ID-24A4E523595BAB71DF69",
+      "label": "10"
+    },
+    {
+      "id": "ID-968566C859470522A733",
+      "label": "30"
+    },
+    {
+      "id": "ID-783A40C7A73B22DE8D43",
+      "label": "40"
+    },
+    {
+      "id": "ID-13437A73EF98B5F2E39D",
+      "label": "10"
+    },
+    {
+      "id": "ID-265133CF37318E5E2109",
+      "label": "10"
+    },
+    {
+      "id": "ID-80AD65661536FC5E0C13",
+      "label": "40"
+    },
+    {
+      "id": "ID-1E89A335820442FB4642",
+      "label": "5"
+    }
+  ]
+}

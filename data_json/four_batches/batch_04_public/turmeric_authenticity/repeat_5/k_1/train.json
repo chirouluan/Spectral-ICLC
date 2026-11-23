@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ID-C96F72B6DFB6509FD753",
+    "features": [
+      -0.1085609,
+      -0.01136454
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-17B3FD2894B3E42C320A",
+    "features": [
+      -0.11578,
+      -0.01030037
+    ],
+    "label": "authentic"
+  }
+]

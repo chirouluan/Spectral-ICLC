@@ -1,0 +1,175 @@
+{
+  "experiment_id": "PUBLIC_609ad7b999d5541a",
+  "val": [
+    {
+      "id": "ID-CF33211174D3AD812A14",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-9F70F3E4E365DA6C5AAC",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-13A7624DFCCDB1CF4C54",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-8DAB7A3E5330B69E034F",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-15AD856408E3B2A5A115",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-A459EC5AA234F5953C35",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-D29C8CDC8EA1E5E38125",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-1B1CAEFA473855C9022A",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-21B597C2B79A20590090",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-9D28AAAA8E362D0238F0",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-2C14C3801FF3F77AF0A0",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-BE73D4D74A6579B80414",
+      "label": "Turkey"
+    }
+  ],
+  "test": [
+    {
+      "id": "ID-4AF03D2AA62D7613792B",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-19D96FC22A5C063195C5",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-1FE5D9BC7176D4190285",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-F35D0A38B7C454E86D73",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-2462311B7A2276943184",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-480C2B7BD332A1FB5684",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-FF1BDA91A058E53CA6BF",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-7741934DF3C0DD985B3A",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-F543DAD67F1588D59F0B",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-3172FE7DB5D2244C5764",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-725AE54CACC11264440C",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-CC6FCA3938056710D70C",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-C52E126FAB43FD31D005",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-5C7B9FC614E8A5FBA5C6",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-2BF654BEFA49D84AA412",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-001D6BEF2A38F107C212",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-07C2BAF13B29B40C8811",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-89B636C591DE35032294",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-79812DAEB0608B8C5B6B",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-EAA3EB630EAF1B5844EA",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-E14CB10A45630B3A2E9F",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-FFE8E334C193B2B580EC",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-2285A346109BA00CFCD8",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-8EC8DA92BB429640463D",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-0CAA19A362682EB01E33",
+      "label": "Turkey"
+    },
+    {
+      "id": "ID-15573CDCA8F3AF15E54C",
+      "label": "Pork"
+    },
+    {
+      "id": "ID-745EF7C108304B82FD72",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-00EB38770D2533EABA9B",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-25AC7C928D6ABE64CA31",
+      "label": "Chicken"
+    },
+    {
+      "id": "ID-A01C12DCAA6C6B72EA21",
+      "label": "Chicken"
+    }
+  ]
+}

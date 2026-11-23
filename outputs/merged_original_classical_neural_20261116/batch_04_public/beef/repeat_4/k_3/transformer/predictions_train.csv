@@ -1,0 +1,16 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-CF71C4D22F0C1C651847,beef_train_000,beef_train_000,1,5,True,in_sample_on_reference_records
+ID-B0D48457A3A5B4C1E64C,beef_train_020,beef_train_020,4,4,True,in_sample_on_reference_records
+ID-FEEC3EDE7F79F548721C,beef_train_016,beef_train_016,3,3,True,in_sample_on_reference_records
+ID-8DEAA0EB3B70709C10DE,beef_train_009,beef_train_009,2,5,True,in_sample_on_reference_records
+ID-57D814BA54EA84542502,beef_train_018,beef_train_018,4,4,True,in_sample_on_reference_records
+ID-9D18770F047795087025,beef_train_014,beef_train_014,3,3,True,in_sample_on_reference_records
+ID-023984DC6FA7B26CECDB,beef_train_026,beef_train_026,5,5,True,in_sample_on_reference_records
+ID-E68F227CF1D09D4F47A1,beef_train_024,beef_train_024,5,5,True,in_sample_on_reference_records
+ID-7F3369584095E3A3C0AD,beef_train_006,beef_train_006,2,5,True,in_sample_on_reference_records
+ID-9834B272128DFABC8C01,beef_train_004,beef_train_004,1,5,True,in_sample_on_reference_records
+ID-9FEB7D3A7C0B1BD52034,beef_train_015,beef_train_015,3,3,True,in_sample_on_reference_records
+ID-8A058A8255FF0BFA2629,beef_train_003,beef_train_003,1,4,True,in_sample_on_reference_records
+ID-F6BC729A11881A6FC0D3,beef_train_023,beef_train_023,4,3,True,in_sample_on_reference_records
+ID-D4DA3B03692CBA373065,beef_train_008,beef_train_008,2,5,True,in_sample_on_reference_records
+ID-25FBC89964998D04A97E,beef_train_025,beef_train_025,5,5,True,in_sample_on_reference_records

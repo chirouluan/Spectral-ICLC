@@ -1,0 +1,48 @@
+{
+  "axis_unit": "channel_index",
+  "physical_group_ids_available": false,
+  "input_max_abs_row_mean": 2.3470638009946904e-09,
+  "input_mean_row_sample_sd": 0.9999999996883054,
+  "observations": 60,
+  "groups": 60,
+  "raw_dimensions": 470,
+  "label_counts": {
+    "1": 12,
+    "2": 12,
+    "3": 12,
+    "4": 12,
+    "5": 12
+  },
+  "axis_range": [
+    0.0,
+    469.0
+  ],
+  "spec": {
+    "folder": "牛肉掺假中红外",
+    "file": "Beef_TRAIN.ts",
+    "test_file": "Beef_TEST.ts",
+    "loader": "beef",
+    "label_definition": "UCR Beef five class codes 1-5; semantic code mapping not supplied",
+    "source_url": "https://www.timeseriesclassification.com/description.php?Dataset=Beef",
+    "license": "Unverified; local exploratory use only until archive reuse terms confirmed",
+    "paper": "牛肉掺假中红外.pdf",
+    "evidence_pages": [
+      2,
+      3
+    ],
+    "method": "pls_scores",
+    "split": "preserve_official_test_stratify_original_train",
+    "fidelity": "archive_variant_with_paper_PLS_LDA_family",
+    "caveats": [
+      "Supplied archive has 60 spectra, 470 points, five classes; paper also discusses 180 spectra across cooking levels.",
+      "Archive spectra are already per-spectrum z-normalized (sample SD approximately 1); raw absorbance cannot be reconstructed.",
+      "No physical IDs or wavelength axis supplied; preserve fixed official Train/Test, do not invent wavelength coordinates or class-code meanings.",
+      "PLS score count chosen using Validation only; this is a project holdout protocol, not the paper's leave-one-out evaluation."
+    ]
+  },
+  "source_sha256": {
+    "datasets\\公共数据集\\牛肉掺假中红外\\Beef_TRAIN.ts": "ba418361b1b3d28f4c3ec971546294678bece32ce985421df2ca7d2559914c59",
+    "datasets\\公共数据集\\牛肉掺假中红外\\牛肉掺假中红外.pdf": "88a59e137822d93bed1f4a20f156069a508262559da6d4896ab55dafe8128dfa",
+    "datasets\\公共数据集\\牛肉掺假中红外\\Beef_TEST.ts": "691597afc2a930c81ba2d011e0632e758ec64fbe3edb51000135ddc220ffca19"
+  }
+}

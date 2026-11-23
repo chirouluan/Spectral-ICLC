@@ -1,0 +1,8 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-9BB5F1C93F66968939E7,coffee_spectrum_009,coffee_sample_10,Arabica,Arabica,True,holdout
+ID-2163FD7170C2074A7363,coffee_spectrum_026,coffee_sample_27,Arabica,Arabica,True,holdout
+ID-D1484E8F281FE2816760,coffee_spectrum_016,coffee_sample_17,Arabica,Arabica,True,holdout
+ID-1763019368F161C20CA4,coffee_spectrum_051,coffee_sample_52,Robusta,Robusta,True,holdout
+ID-90CE75DA7DF91D8D0A82,coffee_spectrum_048,coffee_sample_49,Robusta,Robusta,True,holdout
+ID-F81F5F433C6B25F46F2F,coffee_spectrum_014,coffee_sample_15,Arabica,Arabica,True,holdout
+ID-5FDF14D890102C5A3F63,coffee_spectrum_040,coffee_sample_41,Robusta,Arabica,True,holdout

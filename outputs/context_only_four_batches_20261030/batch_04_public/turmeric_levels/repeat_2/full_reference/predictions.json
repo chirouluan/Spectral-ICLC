@@ -1,0 +1,119 @@
+{
+  "experiment_id": "PUBLIC_068fc3bd05574168",
+  "val": [
+    {
+      "id": "ID-9688880AC334C960BE82",
+      "label": "0.1"
+    },
+    {
+      "id": "ID-980BB22CB25DFD476105",
+      "label": "2.5"
+    },
+    {
+      "id": "ID-CBF613A45C4C50AB663F",
+      "label": "0"
+    },
+    {
+      "id": "ID-AAA0FEBF5375C10A0A09",
+      "label": "10"
+    },
+    {
+      "id": "ID-4FCABC358A6C9D57285C",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-7F7023D88EB508B54FE5",
+      "label": "0"
+    },
+    {
+      "id": "ID-BA1E267E6CDA2525EDC6",
+      "label": "5"
+    }
+  ],
+  "test": [
+    {
+      "id": "ID-56C98182AFD8A0983695",
+      "label": "0.1"
+    },
+    {
+      "id": "ID-7FAD63553F3F74AA53D6",
+      "label": "5"
+    },
+    {
+      "id": "ID-A46DA72D1D493C58FA10",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-8F56099629F9D03BDFD5",
+      "label": "10"
+    },
+    {
+      "id": "ID-DF40FE4B1ED66FA292A4",
+      "label": "10"
+    },
+    {
+      "id": "ID-909658AC400E590A6E5D",
+      "label": "0.1"
+    },
+    {
+      "id": "ID-5F761B413C6DB581809A",
+      "label": "5"
+    },
+    {
+      "id": "ID-D9B2ECE542AF7D1E6A20",
+      "label": "1"
+    },
+    {
+      "id": "ID-61C569BCCA348DE859C4",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-7D3D868EE8729E0D26F2",
+      "label": "2.5"
+    },
+    {
+      "id": "ID-E626B274144562279673",
+      "label": "1"
+    },
+    {
+      "id": "ID-00164E0AE354880D65B5",
+      "label": "0.5"
+    },
+    {
+      "id": "ID-13A09104135D9BE00959",
+      "label": "5"
+    },
+    {
+      "id": "ID-7E35EB35F1AFD85AC38A",
+      "label": "1"
+    },
+    {
+      "id": "ID-66E8ED6B01D55FA5FF70",
+      "label": "1"
+    },
+    {
+      "id": "ID-F46662CD11F3A9B80DE7",
+      "label": "10"
+    },
+    {
+      "id": "ID-8291B812189059D2FDEA",
+      "label": "0.1"
+    },
+    {
+      "id": "ID-2A9DC897CB960E13C5D0",
+      "label": "0"
+    },
+    {
+      "id": "ID-AFD3DF10E640F82BFCD8",
+      "label": "10"
+    },
+    {
+      "id": "ID-C5BD9F81079648E0C84E",
+      "label": "2.5"
+    },
+    {
+      "id": "ID-51A82A166B219C9695B4",
+      "label": "2.5"
+    }
+  ]
+}

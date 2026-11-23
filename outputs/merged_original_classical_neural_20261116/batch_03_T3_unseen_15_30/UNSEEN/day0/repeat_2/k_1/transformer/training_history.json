@@ -1,0 +1,156 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 2.102468252182007,
+    "validation_loss": 1.967771291732788,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 1
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.908894419670105,
+    "validation_loss": 1.8593928813934326,
+    "validation_accuracy": 0.2857142984867096,
+    "optimizer_steps": 2
+  },
+  {
+    "epoch": 3,
+    "train_loss": 1.3383541107177734,
+    "validation_loss": 1.9780943393707275,
+    "validation_accuracy": 0.2857142984867096,
+    "optimizer_steps": 3
+  },
+  {
+    "epoch": 4,
+    "train_loss": 1.2924082279205322,
+    "validation_loss": 1.9679672718048096,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 4
+  },
+  {
+    "epoch": 5,
+    "train_loss": 1.2498729228973389,
+    "validation_loss": 1.897128701210022,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 5
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.8836346864700317,
+    "validation_loss": 1.892538070678711,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 6
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.8974050879478455,
+    "validation_loss": 1.9820932149887085,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 7
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.8005928993225098,
+    "validation_loss": 2.084092378616333,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 8
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.9672124981880188,
+    "validation_loss": 2.229469060897827,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 9
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.7829145193099976,
+    "validation_loss": 2.3511509895324707,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 10
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.8699384927749634,
+    "validation_loss": 2.334831953048706,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 11
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.6388240456581116,
+    "validation_loss": 2.2601799964904785,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 12
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.40196937322616577,
+    "validation_loss": 2.198199987411499,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 13
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.5284818410873413,
+    "validation_loss": 2.2124595642089844,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 14
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.7465900778770447,
+    "validation_loss": 2.3491508960723877,
+    "validation_accuracy": 0.2857142984867096,
+    "optimizer_steps": 15
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.5156053900718689,
+    "validation_loss": 2.6280272006988525,
+    "validation_accuracy": 0.4285714328289032,
+    "optimizer_steps": 16
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.5502741932868958,
+    "validation_loss": 2.7369418144226074,
+    "validation_accuracy": 0.4285714328289032,
+    "optimizer_steps": 17
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.3918742537498474,
+    "validation_loss": 2.8557090759277344,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 18
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.6338496804237366,
+    "validation_loss": 2.791851043701172,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 19
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.6911086440086365,
+    "validation_loss": 2.5964267253875732,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 20
+  },
+  {
+    "epoch": 21,
+    "train_loss": 0.2867893576622009,
+    "validation_loss": 2.5431933403015137,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 21
+  },
+  {
+    "epoch": 22,
+    "train_loss": 0.47169920802116394,
+    "validation_loss": 2.5649449825286865,
+    "validation_accuracy": 0.4285714328289032,
+    "optimizer_steps": 22
+  }
+]

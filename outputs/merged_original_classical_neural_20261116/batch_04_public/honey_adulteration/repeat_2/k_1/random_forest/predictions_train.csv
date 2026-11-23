@@ -1,0 +1,6 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-1C41E3ABFB6A42064C55,honey_row_01733,C10|ManukaUMF20|5,10,10,True,in_sample_on_reference_records
+ID-7424C7CD8793D9C5D12E,honey_row_00685,C4|ManukaUMF10|2,50,50,True,in_sample_on_reference_records
+ID-B635AD9D853C0C26FEC0,honey_row_06959,C7|Rewarewa|3,0,0,True,in_sample_on_reference_records
+ID-430B30EAEFC4140F3EA8,honey_row_01487,C9|Manuka|1,5,5,True,in_sample_on_reference_records
+ID-03751525FE51E372581A,honey_row_03421,C7|BorageField|3,25,25,True,in_sample_on_reference_records

@@ -1,0 +1,6 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-B92790CC066DD6902288,honey_row_05698,C8|ManukaBlend|3,5,train,fixed_for_all_queries
+ID-41D2DEB94384E1182B2B,honey_row_06963,C7|Rewarewa|3,0,train,fixed_for_all_queries
+ID-C0DDE5DDB5456F18A81D,honey_row_04485,C7|Rewarewa|5,10,train,fixed_for_all_queries
+ID-40AF94425D31A051E0C5,honey_row_04128,C10|ManukaUMF20|4,25,train,fixed_for_all_queries
+ID-B059715A98BBB4FBFF17,honey_row_04684,C9|Manuka|4,50,train,fixed_for_all_queries

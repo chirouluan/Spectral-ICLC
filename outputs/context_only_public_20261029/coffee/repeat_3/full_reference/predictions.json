@@ -1,0 +1,91 @@
+{
+  "experiment_id": "PUBLIC_0628a2621d500894",
+  "val": [
+    {
+      "id": "ID-B6F6E2D928649CECCB83",
+      "label": "Arabica"
+    },
+    {
+      "id": "ID-7361F0A741B1370DEA5E",
+      "label": "Arabica"
+    },
+    {
+      "id": "ID-F5309FEC8386B7FFAD15",
+      "label": "Arabica"
+    },
+    {
+      "id": "ID-FA3B2E147AE89479FA7A",
+      "label": "Arabica"
+    },
+    {
+      "id": "ID-EFC2C384815AD8A6FD86",
+      "label": "Robusta"
+    },
+    {
+      "id": "ID-29C9A4BF4623F1372C34",
+      "label": "Robusta"
+    },
+    {
+      "id": "ID-9DD1BF147F53D6DFF778",
+      "label": "Arabica"
+    }
+  ],
+  "test": [
+    {
+      "id": "ID-6B5D4FB81612601F9D31",
+      "label": "Robusta"
+    },
+    {
+      "id": "ID-39211FC70036047CEB26",
+      "label": "Arabica"
+    },
+    {
+      "id": "ID-D534DA82446B8E8BFED9",
+      "label": "Arabica"
+    },
+    {
+      "id": "ID-328F2B8768E29FF2D3FE",
+      "label": "Robusta"
+    },
+    {
+      "id": "ID-C1C416804C752FCAD0AE",
+      "label": "Robusta"
+    },
+    {
+      "id": "ID-2CE22DBB9029CC1A5AD2",
+      "label": "Arabica"
+    },
+    {
+      "id": "ID-7EEED1CBD6140077237B",
+      "label": "Robusta"
+    },
+    {
+      "id": "ID-BC0695EA3FBDDE703247",
+      "label": "Robusta"
+    },
+    {
+      "id": "ID-7B8C545B0844609396FA",
+      "label": "Arabica"
+    },
+    {
+      "id": "ID-A2CA8D8824FD639D251A",
+      "label": "Robusta"
+    },
+    {
+      "id": "ID-6F474DDE015191081B4C",
+      "label": "Arabica"
+    },
+    {
+      "id": "ID-A6303A547261DF671714",
+      "label": "Robusta"
+    },
+    {
+      "id": "ID-2F3FD2ADB7F005635C52",
+      "label": "Robusta"
+    },
+    {
+      "id": "ID-A3A53D247DDB72F186D7",
+      "label": "Arabica"
+    }
+  ]
+}

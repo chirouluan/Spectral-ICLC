@@ -1,0 +1,223 @@
+{
+  "experiment_id": "T1_e2003b029a02b4a7",
+  "val": [
+    {
+      "id": "ID-0A08F87351D1A7B28CCF",
+      "label": "50"
+    },
+    {
+      "id": "ID-04557C0C022B86EF4C3A",
+      "label": "10"
+    },
+    {
+      "id": "ID-F4BBC91AFD2FCB292FB0",
+      "label": "15"
+    },
+    {
+      "id": "ID-4BA94DC35B2C5CB972FF",
+      "label": "20"
+    },
+    {
+      "id": "ID-0B5EE11623783510EE9E",
+      "label": "50"
+    },
+    {
+      "id": "ID-4F03B8BDFE3F6CF5B8B0",
+      "label": "40"
+    },
+    {
+      "id": "ID-CD0BD35F747175EB28BD",
+      "label": "0"
+    },
+    {
+      "id": "ID-924E5DA9CE04C362C104",
+      "label": "0"
+    },
+    {
+      "id": "ID-2622DA42FBD8DA41C5B4",
+      "label": "30"
+    },
+    {
+      "id": "ID-3BEFE25F89E36C58E531",
+      "label": "5"
+    },
+    {
+      "id": "ID-841E6C15187980940D39",
+      "label": "15"
+    },
+    {
+      "id": "ID-05DFD6E398E71810272B",
+      "label": "30"
+    },
+    {
+      "id": "ID-B9BE9A42F46302CD1995",
+      "label": "10"
+    },
+    {
+      "id": "ID-7ACD8E719AF569DD7951",
+      "label": "1"
+    },
+    {
+      "id": "ID-048992F816F86B0A54E1",
+      "label": "5"
+    },
+    {
+      "id": "ID-B4D39128105F06E759A7",
+      "label": "40"
+    },
+    {
+      "id": "ID-3ECC5C434885EC518A84",
+      "label": "20"
+    },
+    {
+      "id": "ID-A0D01B73B6E42DBE4B5B",
+      "label": "1"
+    }
+  ],
+  "test": [
+    {
+      "id": "ID-DE1FD77CF7D658A0FAAE",
+      "label": "40"
+    },
+    {
+      "id": "ID-0913E7652380ED0C6AEB",
+      "label": "20"
+    },
+    {
+      "id": "ID-14E4A2CE6A6ACEEC8D82",
+      "label": "5"
+    },
+    {
+      "id": "ID-A48D76EB1EC015B68CDA",
+      "label": "50"
+    },
+    {
+      "id": "ID-7B731BB10FD3EA15C84F",
+      "label": "15"
+    },
+    {
+      "id": "ID-ED952AAA37D4BBD57034",
+      "label": "50"
+    },
+    {
+      "id": "ID-0CAE5D9546D854A7DB41",
+      "label": "40"
+    },
+    {
+      "id": "ID-3961EC8E590DADD71297",
+      "label": "30"
+    },
+    {
+      "id": "ID-C7157C266E40BB11B493",
+      "label": "50"
+    },
+    {
+      "id": "ID-EABAB1C21B519630CAFC",
+      "label": "1"
+    },
+    {
+      "id": "ID-A36DFBDCB3A24D9185FD",
+      "label": "40"
+    },
+    {
+      "id": "ID-D6C464DBC2F61033CE0B",
+      "label": "15"
+    },
+    {
+      "id": "ID-2464A3536031CD6E3CB3",
+      "label": "0"
+    },
+    {
+      "id": "ID-46E8D578DB82B1E21EE6",
+      "label": "5"
+    },
+    {
+      "id": "ID-628113AE830C6A04A949",
+      "label": "1"
+    },
+    {
+      "id": "ID-DA161D27313A0E5759A7",
+      "label": "15"
+    },
+    {
+      "id": "ID-33BDB3AF621CBAFF7F32",
+      "label": "1"
+    },
+    {
+      "id": "ID-F595711E050CC140E0BE",
+      "label": "20"
+    },
+    {
+      "id": "ID-6E033EB7B85EF237AB15",
+      "label": "10"
+    },
+    {
+      "id": "ID-D2FFF8E5AB9244E6B06B",
+      "label": "10"
+    },
+    {
+      "id": "ID-4C5C6485CEA11E4ED104",
+      "label": "30"
+    },
+    {
+      "id": "ID-EAAF46899D101EBBF5E3",
+      "label": "10"
+    },
+    {
+      "id": "ID-B263F0964B1D1EFC0560",
+      "label": "30"
+    },
+    {
+      "id": "ID-541F9B5D9197668DA489",
+      "label": "20"
+    },
+    {
+      "id": "ID-E747B707FFA3F2FB40B2",
+      "label": "5"
+    },
+    {
+      "id": "ID-CA0C909B32B3A5D99305",
+      "label": "15"
+    },
+    {
+      "id": "ID-2F447F37360C5FDFC862",
+      "label": "10"
+    },
+    {
+      "id": "ID-AE9674AD90D4693CAB8F",
+      "label": "15"
+    },
+    {
+      "id": "ID-4B1426E9F59DB2F8D222",
+      "label": "30"
+    },
+    {
+      "id": "ID-DB22344BA582D5B0DCFB",
+      "label": "40"
+    },
+    {
+      "id": "ID-72FC00DDC0F9933839EA",
+      "label": "1"
+    },
+    {
+      "id": "ID-EEF209576423CD1E2959",
+      "label": "50"
+    },
+    {
+      "id": "ID-52EC97192E2C3A3941D2",
+      "label": "0"
+    },
+    {
+      "id": "ID-92CDE203685632AEA893",
+      "label": "0"
+    },
+    {
+      "id": "ID-8048D67E5100F2E03418",
+      "label": "0"
+    },
+    {
+      "id": "ID-CF001E966239B81BEA2D",
+      "label": "5"
+    }
+  ]
+}

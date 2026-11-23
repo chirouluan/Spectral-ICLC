@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ID-09DEC6F5852C13B58054",
+    "features": [
+      -0.09852662,
+      0.00151375
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-C96F72B6DFB6509FD753",
+    "features": [
+      -0.1085609,
+      -0.01136454
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-505D3F2409C432B1A148",
+    "features": [
+      -0.10968417,
+      0.0065435
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-520D2C65A95FE8BF57DC",
+    "features": [
+      -0.12009635,
+      -0.01526188
+    ],
+    "label": "adulterated"
+  },
+  {
+    "id": "ID-17B3FD2894B3E42C320A",
+    "features": [
+      -0.11578,
+      -0.01030037
+    ],
+    "label": "authentic"
+  },
+  {
+    "id": "ID-F10A8886D8A48ECDC143",
+    "features": [
+      -0.11937357,
+      0.0030503
+    ],
+    "label": "authentic"
+  }
+]

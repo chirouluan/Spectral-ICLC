@@ -1,0 +1,19 @@
+{
+  "correct": 672,
+  "total": 1425,
+  "accuracy_pct": 47.16,
+  "macro_f1": 0.47439278208945285,
+  "balanced_accuracy": 0.48061538461538467,
+  "macro_class_scope": "ground-truth-present classes",
+  "invalid_predictions": 0,
+  "accuracy": 0.47157894736842104,
+  "eval_mode": "holdout",
+  "evaluation_unit": "exported spectrum record",
+  "n_reference_or_query_groups": 12,
+  "mean_group_accuracy": 0.4817592592592593,
+  "cluster_scope": "available package group IDs; missing preparation identities remain unresolved",
+  "group_mean_accuracy_ci95": [
+    0.3843527777777777,
+    0.5957583333333334
+  ]
+}

@@ -1,0 +1,3 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-642A39F3A2A9EE897CF8,fruit_spectrum_0003,fruit_spectrum_0003,NON-Strawberry,train,fixed_for_all_queries
+ID-6C6DC184CC25E9D56005,fruit_spectrum_0423,fruit_spectrum_0423,Strawberry,train,fixed_for_all_queries

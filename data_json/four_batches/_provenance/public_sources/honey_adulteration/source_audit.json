@@ -1,0 +1,48 @@
+{
+  "excluded_pure_sugar_rows": 150,
+  "input_mean_abs_row_mean": 0.49477064906835594,
+  "input_mean_row_sample_sd": 0.25179874988046724,
+  "independence_scope": "acquisition, not independent honey jar",
+  "observations": 8525,
+  "groups": 72,
+  "raw_dimensions": 128,
+  "label_counts": {
+    "0": 1050,
+    "10": 1800,
+    "25": 1800,
+    "5": 1950,
+    "50": 1925
+  },
+  "axis_unit": "nm",
+  "axis_range": [
+    399.4,
+    1063.79
+  ],
+  "spec": {
+    "folder": "蜂蜜掺假",
+    "file": "adulteration_dataset_26_08_2021.csv",
+    "loader": "honey",
+    "label_definition": "Sugar addition classes 0, 5, 10, 25, 50 percent; pure sugar endpoint excluded",
+    "source_url": "https://doi.org/10.17608/k6.auckland.16441686.v1",
+    "license": "CC BY 4.0",
+    "paper": "DatasetDescriptionAdulteration.pdf",
+    "evidence_pages": [
+      2,
+      3,
+      4
+    ],
+    "method": "snv_full",
+    "split": "acquisition_1_4_train_5_val_6_test",
+    "fidelity": "documented_method_with_project_validation_split",
+    "caveats": [
+      "CSV spectra are not zero-mean/unit-SD despite the description calling them preprocessed; apply documented SNV once.",
+      "150 pure-sugar rows at 100 percent excluded from the five-class adulteration task.",
+      "Group all concentrations/segments of the same Brand, Class and Acquisition together; jar independence is not established.",
+      "Identical group keys can contain multiple 25-segment images; keep them together rather than invent image IDs."
+    ]
+  },
+  "source_sha256": {
+    "datasets\\公共数据集\\蜂蜜掺假\\adulteration_dataset_26_08_2021.csv": "27c1ccf0c0e6aeeb144d4a58ee2da85a826bcd112a025cab6985a9774551893f",
+    "datasets\\公共数据集\\蜂蜜掺假\\DatasetDescriptionAdulteration.pdf": "67085c776740e96e83ca14ce60e8f3651e2735739b1eed753c4aaec03aef8fe6"
+  }
+}

@@ -1,0 +1,16 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-165705AE198EC9C950E5,beef_train_003,beef_train_003,1,train,fixed_for_all_queries
+ID-88DE066A6C2E4571136A,beef_train_000,beef_train_000,1,train,fixed_for_all_queries
+ID-59F1417FD87CAE40ED4B,beef_train_014,beef_train_014,3,train,fixed_for_all_queries
+ID-DA70841DD520C463E868,beef_train_028,beef_train_028,5,train,fixed_for_all_queries
+ID-DF7C2D77F5633506CF83,beef_train_023,beef_train_023,4,train,fixed_for_all_queries
+ID-54EB07A6B274C1741A73,beef_train_009,beef_train_009,2,train,fixed_for_all_queries
+ID-152F81559C365652EAA5,beef_train_008,beef_train_008,2,train,fixed_for_all_queries
+ID-B1633D5EFAFBE5B8F4E3,beef_train_007,beef_train_007,2,train,fixed_for_all_queries
+ID-E6A8CBAB6B757B233E0C,beef_train_017,beef_train_017,3,train,fixed_for_all_queries
+ID-0439312946AE94FD3D81,beef_train_019,beef_train_019,4,train,fixed_for_all_queries
+ID-C99CC92585DFE8132CCA,beef_train_022,beef_train_022,4,train,fixed_for_all_queries
+ID-76E608E390C5D4547DD6,beef_train_026,beef_train_026,5,train,fixed_for_all_queries
+ID-5D0F4F59CCE680214B99,beef_train_013,beef_train_013,3,train,fixed_for_all_queries
+ID-0D68865ECC2F6AEBE6BB,beef_train_004,beef_train_004,1,train,fixed_for_all_queries
+ID-3319BC1850D1911F9D17,beef_train_025,beef_train_025,5,train,fixed_for_all_queries

@@ -1,0 +1,44 @@
+{
+  "observations": 120,
+  "groups": 60,
+  "raw_dimensions": 570,
+  "label_counts": {
+    "Greece": 20,
+    "Italy": 34,
+    "Portugal": 16,
+    "Spain": 50
+  },
+  "axis_unit": "cm-1",
+  "axis_range": [
+    798.892,
+    1896.8085
+  ],
+  "spec": {
+    "folder": "MIR_Fruit_Purees",
+    "file": "FTIR_Spectra_olive_oils.csv",
+    "loader": "oil",
+    "label_definition": "Country of origin Greece, Italy, Portugal, Spain",
+    "source_url": "https://doi.org/10.17632/frrv2yd9rg.1",
+    "license": "CC BY-NC 3.0",
+    "paper": "FTIR Spectroscopy and Multivariate Analysis Can Distinguish the Geographic Origin of Extra Virgin Olive Oils.pdf",
+    "paper_url": "https://doi.org/10.1021/jf030232s",
+    "evidence_pages": [
+      2,
+      3
+    ],
+    "method": "pls_scores",
+    "split": "grouped_stratified_5_1_2_by_oil",
+    "fidelity": "paper_whole_spectrum_PLS_LDA_branch_new_split",
+    "caveats": [
+      "Preserve paired spectra of each of 60 oils; 120 spectra are not 120 independent oils.",
+      "Use all 570 native fingerprint points; paper bounds 799-1897 are rounded, native first point is 798.892.",
+      "No extra SNV or baseline correction; paper says baseline correction not essential.",
+      "PLS scores plus Mahalanobis LDA is the implemented paper branch. Alternative GA-8-variable branch is not reproduced and is not replaced with other feature selection.",
+      "PLS dimension chosen by Validation accuracy from 1 to 15 (smaller wins ties), not by the paper leave-one-oil-out protocol."
+    ]
+  },
+  "source_sha256": {
+    "datasets\\公共数据集\\MIR_Fruit_Purees\\FTIR_Spectra_olive_oils.csv": "39ad3db6c04e3ce8c196b00ccd67bec3b044f058ae3fd89cb03a3290585d806b",
+    "datasets\\公共数据集\\MIR_Fruit_Purees\\FTIR Spectroscopy and Multivariate Analysis Can Distinguish the Geographic Origin of Extra Virgin Olive Oils.pdf": "556d2946534648887b445e8debfb23d2f3165a1f9c85ea722321d8d991f33014"
+  }
+}

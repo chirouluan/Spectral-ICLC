@@ -1,0 +1,13 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-F2233ED312E07D22164D,oil_spectrum_005,oil_sample_3,Greece,train,fixed_for_all_queries
+ID-43DA2AC44321D0E5F813,oil_spectrum_062,oil_sample_32,Portugal,train,fixed_for_all_queries
+ID-72698CBCF12E0EB78F8A,oil_spectrum_012,oil_sample_7,Greece,train,fixed_for_all_queries
+ID-149EEE4AE778BA8D4451,oil_spectrum_113,oil_sample_57,Spain,train,fixed_for_all_queries
+ID-9793F2C58EC968BDBE42,oil_spectrum_055,oil_sample_28,Portugal,train,fixed_for_all_queries
+ID-8B73DD9B0A3032ECAB36,oil_spectrum_043,oil_sample_22,Italy,train,fixed_for_all_queries
+ID-FC870C06D737B894F3A0,oil_spectrum_060,oil_sample_31,Portugal,train,fixed_for_all_queries
+ID-A86F32D7EA638B88239C,oil_spectrum_023,oil_sample_12,Italy,train,fixed_for_all_queries
+ID-F7F95603969B9597ACC1,oil_spectrum_032,oil_sample_17,Italy,train,fixed_for_all_queries
+ID-0E1850258D7D0A81A454,oil_spectrum_095,oil_sample_48,Spain,train,fixed_for_all_queries
+ID-54B9DBEA5C5BD4596F9E,oil_spectrum_100,oil_sample_51,Spain,train,fixed_for_all_queries
+ID-ADFF15E8B034CDB06915,oil_spectrum_018,oil_sample_10,Greece,train,fixed_for_all_queries

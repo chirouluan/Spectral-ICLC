@@ -1,0 +1,223 @@
+{
+  "experiment_id": "T2_006b52bd01b80228",
+  "val": [
+    {
+      "id": "ID-0E3FA207E40A7F5BE104",
+      "label": "15"
+    },
+    {
+      "id": "ID-39A0A73E4BA20442D121",
+      "label": "50"
+    },
+    {
+      "id": "ID-486C4E3912CDFE837503",
+      "label": "50"
+    },
+    {
+      "id": "ID-B3D0204D496B37608562",
+      "label": "20"
+    },
+    {
+      "id": "ID-7DB6F7818FBE32893994",
+      "label": "5"
+    },
+    {
+      "id": "ID-AAC3F7233E60E91890E5",
+      "label": "0"
+    },
+    {
+      "id": "ID-2F883808BD204F976F8C",
+      "label": "20"
+    },
+    {
+      "id": "ID-836A9D5A9DE4445B9CD7",
+      "label": "20"
+    },
+    {
+      "id": "ID-1B30C6FE083276AC9663",
+      "label": "15"
+    },
+    {
+      "id": "ID-6841AB00C544C4DDF06F",
+      "label": "40"
+    },
+    {
+      "id": "ID-5479EC78B3A2EFABDB63",
+      "label": "50"
+    },
+    {
+      "id": "ID-868640ACCDA94F892426",
+      "label": "15"
+    },
+    {
+      "id": "ID-36CAD59EAFEC619C96FE",
+      "label": "30"
+    },
+    {
+      "id": "ID-EE2AFBC4419DA587EE7F",
+      "label": "50"
+    },
+    {
+      "id": "ID-68520F1458B888F5F977",
+      "label": "50"
+    },
+    {
+      "id": "ID-4332C01E5EA2D9DEC9C6",
+      "label": "15"
+    },
+    {
+      "id": "ID-AD6C6104ACCD5D67A88E",
+      "label": "40"
+    },
+    {
+      "id": "ID-58D2A141D1DEC170C631",
+      "label": "50"
+    }
+  ],
+  "test": [
+    {
+      "id": "ID-10E33677FE1EC555AD41",
+      "label": "5"
+    },
+    {
+      "id": "ID-8E02B213D2C65761C6FE",
+      "label": "15"
+    },
+    {
+      "id": "ID-948033BEECC206B4A356",
+      "label": "50"
+    },
+    {
+      "id": "ID-4BD296DFC18AB1792591",
+      "label": "20"
+    },
+    {
+      "id": "ID-3E58A6864B4F499EB2EB",
+      "label": "30"
+    },
+    {
+      "id": "ID-06B4BFE3E656CFEB8317",
+      "label": "50"
+    },
+    {
+      "id": "ID-937FAAD2A1A3DF58EEE5",
+      "label": "50"
+    },
+    {
+      "id": "ID-F290A7D4ECA47EE4B032",
+      "label": "5"
+    },
+    {
+      "id": "ID-A0D51FBFE2E53D2284CE",
+      "label": "20"
+    },
+    {
+      "id": "ID-CD8A5180724B4F1E8860",
+      "label": "50"
+    },
+    {
+      "id": "ID-8F2C488E660109460162",
+      "label": "15"
+    },
+    {
+      "id": "ID-1E8809399170986F5D1C",
+      "label": "50"
+    },
+    {
+      "id": "ID-7CF468C84A2088F8E1BC",
+      "label": "15"
+    },
+    {
+      "id": "ID-97A2D564EDE1A09E7740",
+      "label": "40"
+    },
+    {
+      "id": "ID-3D52FA2571A487CFE102",
+      "label": "15"
+    },
+    {
+      "id": "ID-8ABFD20D7BE7E2300313",
+      "label": "50"
+    },
+    {
+      "id": "ID-34CBDBDC96973707D22C",
+      "label": "30"
+    },
+    {
+      "id": "ID-3BF632640BB6ACD92174",
+      "label": "30"
+    },
+    {
+      "id": "ID-4B314F04335556613A53",
+      "label": "30"
+    },
+    {
+      "id": "ID-CD4C918441280F5B9568",
+      "label": "15"
+    },
+    {
+      "id": "ID-1774CB3F313EB5F9EAD7",
+      "label": "50"
+    },
+    {
+      "id": "ID-80B58BE761DC3CAE0BE3",
+      "label": "50"
+    },
+    {
+      "id": "ID-20ED54E020924B975EAC",
+      "label": "50"
+    },
+    {
+      "id": "ID-92075188B3B6BEFD024B",
+      "label": "15"
+    },
+    {
+      "id": "ID-1FD54D7B290E79948042",
+      "label": "50"
+    },
+    {
+      "id": "ID-A2971F43D12A22F815AF",
+      "label": "15"
+    },
+    {
+      "id": "ID-779F17DD9F4A577741A8",
+      "label": "30"
+    },
+    {
+      "id": "ID-7ED8F9C422EE393E9FFA",
+      "label": "50"
+    },
+    {
+      "id": "ID-47693CCFD510E58F9B26",
+      "label": "40"
+    },
+    {
+      "id": "ID-FA6B48EC82919ED5E12E",
+      "label": "20"
+    },
+    {
+      "id": "ID-1387964453952BD51AD2",
+      "label": "30"
+    },
+    {
+      "id": "ID-2AE8DA0CC32FE0B14B8F",
+      "label": "20"
+    },
+    {
+      "id": "ID-7BEA9085A2FDA24E550B",
+      "label": "50"
+    },
+    {
+      "id": "ID-7EBD48914AAC73F3B4EF",
+      "label": "15"
+    },
+    {
+      "id": "ID-F1516A7D62F1A8B68BB6",
+      "label": "15"
+    },
+    {
+      "id": "ID-7F28DF6541917B28A35C",
+      "label": "5"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿id,sample_id,group_id,label,split,context_scope
+ID-12427DF28F51DBC5F1FF,coffee_spectrum_031,coffee_sample_32,Robusta,train,fixed_for_all_queries
+ID-A154F34401336C9A4AC6,coffee_spectrum_000,coffee_sample_1,Arabica,train,fixed_for_all_queries

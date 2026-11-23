@@ -1,0 +1,5 @@
+﻿label,support,precision,recall,f1
+Greece,3,0.25,1.0,0.4
+Italy,3,0.0,0.0,0.0
+Portugal,3,0.0,0.0,0.0
+Spain,3,0.0,0.0,0.0

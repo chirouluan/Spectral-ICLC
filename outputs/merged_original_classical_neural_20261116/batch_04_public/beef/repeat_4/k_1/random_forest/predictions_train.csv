@@ -1,0 +1,6 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-CF71C4D22F0C1C651847,beef_train_000,beef_train_000,1,1,True,in_sample_on_reference_records
+ID-E68F227CF1D09D4F47A1,beef_train_024,beef_train_024,5,5,True,in_sample_on_reference_records
+ID-9FEB7D3A7C0B1BD52034,beef_train_015,beef_train_015,3,3,True,in_sample_on_reference_records
+ID-F6BC729A11881A6FC0D3,beef_train_023,beef_train_023,4,4,True,in_sample_on_reference_records
+ID-D4DA3B03692CBA373065,beef_train_008,beef_train_008,2,2,True,in_sample_on_reference_records

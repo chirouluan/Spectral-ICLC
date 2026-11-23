@@ -1,0 +1,62 @@
+{
+  "run_id": "20261021T121730_1b5b03e3_PUBLIC_2f84aaefac67f848_svm_rbf",
+  "experiment_id": "PUBLIC_2f84aaefac67f848",
+  "web_package": "C:\\Users\\35454\\Desktop\\llm-dl\\Spectral-ICLC\\deepseek_web_test\\four_batches_20261020T143923_1d231230\\batch_04_public\\olive_oils\\repeat_5\\k_1",
+  "model_id": "svm_rbf",
+  "status": "complete",
+  "reason": null,
+  "batch": "batch_04_public",
+  "task": "PUBLIC",
+  "dataset_id": "olive_oils",
+  "repeat": 5,
+  "reference_mode": "context_k",
+  "control": null,
+  "reference_count": 4,
+  "train_fit_ids": [
+    "ID-02105304D91945CDF9FB",
+    "ID-EC85A00E8D5F0B551D45",
+    "ID-8F375D246660A6A618B4",
+    "ID-8499132CA743FFA40E04"
+  ],
+  "train_fit_ids_sha256": "145374811f1ac43b468ae90719cf428afa43a1d2b88dc8b501f5308a9e5060e0",
+  "train_json_sha256": "cf66cb1c767c900314c0568ec84694709502476300dba50d102df3b2451b0fe4",
+  "web_metadata_sha256": "adbc976db660d10513732ac14ca44061006d2c68f0532d112b0cee93a60113fb",
+  "label_budget": "FULL_TRAIN_REPRESENTATION_BANK_CONTEXT_K; supervised PLS uses full Train labels",
+  "source_train_representation_fit_count": 76,
+  "transform_id": "olive_oils_r5_pls_scores",
+  "feature_order": [
+    "PLS1",
+    "PLS2",
+    "PLS3",
+    "PLS4",
+    "PLS5",
+    "PLS6",
+    "PLS7"
+  ],
+  "transform_refitted": false,
+  "estimator_fit_on_reference_only": true,
+  "validation_used_for_representation_dim_selection": true,
+  "validation_or_test_used_for_estimator_selection": false,
+  "comparison_scope": "closed_set_classifier",
+  "hyperparameters": {
+    "C": 1,
+    "gamma": "scale",
+    "scale_on_reference_only": true
+  },
+  "seed": 12349,
+  "fitted_estimator": "_models\\bd2ae2dd678e8e578c13714dd6aa05edd185921fb547f87fe78ada3760429166.joblib",
+  "fit_cache_hit": false,
+  "train_diagnostic": "in_sample on train.json references only",
+  "fit_warnings": [],
+  "elapsed_seconds": 0.015000000000100044,
+  "api_requests": 0,
+  "actual_llm_predictions": 0,
+  "code_sha256": {
+    "C:\\Users\\35454\\Desktop\\llm-dl\\Spectral-ICLC\\src\\spectral_icl\\web_baselines.py": "2cc3d8239410f11d389128289446be55570fb018b357f40a8d9af60503e9d795",
+    "src\\spectral_icl\\models.py": "47bf52ba0c9f22a393b9f7bc4009629d9f57efc013a218176087d571c3d79691",
+    "src\\spectral_icl\\public_validation.py": "d22fb7a66683264531049f8e11fc55ee2cd57096208c5c3901567b8136c10076",
+    "src\\spectral_icl\\web_scoring.py": "6f2d90c00e8d7f2be8de36031b3705ceff73c34bb8814cb58e13b74000509c01"
+  },
+  "sklearn": "1.7.2",
+  "fitted_estimator_sha256": "4daf4e8dad7dce9310f5aee07e26f84014909dc52cea59c59218783b6fec3649"
+}

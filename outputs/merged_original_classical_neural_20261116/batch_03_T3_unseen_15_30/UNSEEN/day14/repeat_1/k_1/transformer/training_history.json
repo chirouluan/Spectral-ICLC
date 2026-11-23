@@ -1,0 +1,156 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.9723323583602905,
+    "validation_loss": 1.7803213596343994,
+    "validation_accuracy": 0.2142857164144516,
+    "optimizer_steps": 1
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.5394841432571411,
+    "validation_loss": 1.7129865884780884,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 2
+  },
+  {
+    "epoch": 3,
+    "train_loss": 1.3696839809417725,
+    "validation_loss": 1.7284631729125977,
+    "validation_accuracy": 0.2857142984867096,
+    "optimizer_steps": 3
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.9301016926765442,
+    "validation_loss": 1.7292518615722656,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 4
+  },
+  {
+    "epoch": 5,
+    "train_loss": 1.0416730642318726,
+    "validation_loss": 1.764525294303894,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 5
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.9615477323532104,
+    "validation_loss": 1.7307175397872925,
+    "validation_accuracy": 0.4285714328289032,
+    "optimizer_steps": 6
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.7143869996070862,
+    "validation_loss": 1.7445342540740967,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 7
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.6340957880020142,
+    "validation_loss": 1.782181739807129,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 8
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.625415027141571,
+    "validation_loss": 1.9020715951919556,
+    "validation_accuracy": 0.2857142984867096,
+    "optimizer_steps": 9
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.5132817029953003,
+    "validation_loss": 2.0157623291015625,
+    "validation_accuracy": 0.2857142984867096,
+    "optimizer_steps": 10
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.4699854850769043,
+    "validation_loss": 2.1060640811920166,
+    "validation_accuracy": 0.2142857164144516,
+    "optimizer_steps": 11
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.4386744797229767,
+    "validation_loss": 2.0737996101379395,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 12
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.3871006667613983,
+    "validation_loss": 2.044994831085205,
+    "validation_accuracy": 0.4285714328289032,
+    "optimizer_steps": 13
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.377424418926239,
+    "validation_loss": 2.1039035320281982,
+    "validation_accuracy": 0.4285714328289032,
+    "optimizer_steps": 14
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.2642388939857483,
+    "validation_loss": 2.185518741607666,
+    "validation_accuracy": 0.4285714328289032,
+    "optimizer_steps": 15
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.31808537244796753,
+    "validation_loss": 2.2326862812042236,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 16
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.28956541419029236,
+    "validation_loss": 2.244035482406616,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 17
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.1656075268983841,
+    "validation_loss": 2.261314868927002,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 18
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.2191695272922516,
+    "validation_loss": 2.2978172302246094,
+    "validation_accuracy": 0.4285714328289032,
+    "optimizer_steps": 19
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.09477625787258148,
+    "validation_loss": 2.3838534355163574,
+    "validation_accuracy": 0.4285714328289032,
+    "optimizer_steps": 20
+  },
+  {
+    "epoch": 21,
+    "train_loss": 0.18169496953487396,
+    "validation_loss": 2.5410537719726562,
+    "validation_accuracy": 0.3571428656578064,
+    "optimizer_steps": 21
+  },
+  {
+    "epoch": 22,
+    "train_loss": 0.20639578998088837,
+    "validation_loss": 2.6474533081054688,
+    "validation_accuracy": 0.2857142984867096,
+    "optimizer_steps": 22
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "type": "merged_original_results",
+  "model_runs": 1280,
+  "metric_rows": 3840,
+  "packages": 435,
+  "source_runs": [
+    "C:\\Users\\35454\\Desktop\\llm-dl\\Spectral-ICLC\\results\\web_matched_baselines\\20261021T121730_1b5b03e3",
+    "C:\\Users\\35454\\Desktop\\llm-dl\\Spectral-ICLC\\results\\web_matched_neural_v2\\20261116T091651_8e09978e"
+  ],
+  "web_manifest_sha256": "d1f3f2308207a956762043cce05b7d46b2523de19dd554fe6d521f09da92c150",
+  "files_copied_sha256_verified": 46510,
+  "copy_verification": "Every copied file was hashed against its source. Source audit reports are preserved separately; there is no new joint model-fit audit.",
+  "result_directory_columns": "Merged paths; original_result_directory preserves original paths",
+  "individual_manifests": "Historical source manifests; model caches are not published, and source paths and task identifiers retain original names.",
+  "excluded_neural_datasets": [
+    "honey_adulteration",
+    "fruit_purees"
+  ],
+  "historical_model_runs_before_scope_revision": 2590,
+  "scope_revision": "2026-11-17: result indexes pruned; remaining predictions and fitted models were not rerun. 2026-11-23: spectral centroid interpolation results and fitted estimators removed; source-run audit counts remain historical. 2026-11-23: removed historical T3 adaptation runs from publication; third batch is named T3 but retains UNSEEN task metadata. Model cache and summaries omitted from publication.",
+  "files_copied_sha256_verified_note": "Historical source copy verification; does not describe the current pruned directory."
+}

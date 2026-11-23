@@ -1,0 +1,4 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-EE125E8DB166D444816D,meat_spectrum_018,Chicken_SupplierB_Sample5,Chicken,Chicken,True,in_sample_on_reference_records
+ID-4F018C9407A5D6549FA6,meat_spectrum_061,Pork_SupplierC_Sample1,Pork,Chicken,True,in_sample_on_reference_records
+ID-1E80A1AFB8CB44531F37,meat_spectrum_113,Turkey_SupplierE_Sample6,Turkey,Chicken,True,in_sample_on_reference_records

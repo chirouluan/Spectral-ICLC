@@ -1,0 +1,189 @@
+{
+  "transform_id": "olive_oils_r4_pls_scores",
+  "train_fit_sample_ids": [
+    "oil_spectrum_002",
+    "oil_spectrum_003",
+    "oil_spectrum_004",
+    "oil_spectrum_005",
+    "oil_spectrum_006",
+    "oil_spectrum_007",
+    "oil_spectrum_008",
+    "oil_spectrum_009",
+    "oil_spectrum_012",
+    "oil_spectrum_013",
+    "oil_spectrum_018",
+    "oil_spectrum_019",
+    "oil_spectrum_020",
+    "oil_spectrum_021",
+    "oil_spectrum_022",
+    "oil_spectrum_023",
+    "oil_spectrum_026",
+    "oil_spectrum_027",
+    "oil_spectrum_028",
+    "oil_spectrum_029",
+    "oil_spectrum_032",
+    "oil_spectrum_033",
+    "oil_spectrum_036",
+    "oil_spectrum_037",
+    "oil_spectrum_038",
+    "oil_spectrum_039",
+    "oil_spectrum_040",
+    "oil_spectrum_041",
+    "oil_spectrum_042",
+    "oil_spectrum_043",
+    "oil_spectrum_044",
+    "oil_spectrum_045",
+    "oil_spectrum_046",
+    "oil_spectrum_047",
+    "oil_spectrum_054",
+    "oil_spectrum_055",
+    "oil_spectrum_056",
+    "oil_spectrum_057",
+    "oil_spectrum_060",
+    "oil_spectrum_061",
+    "oil_spectrum_062",
+    "oil_spectrum_063",
+    "oil_spectrum_066",
+    "oil_spectrum_067",
+    "oil_spectrum_070",
+    "oil_spectrum_071",
+    "oil_spectrum_072",
+    "oil_spectrum_073",
+    "oil_spectrum_078",
+    "oil_spectrum_079",
+    "oil_spectrum_082",
+    "oil_spectrum_083",
+    "oil_spectrum_084",
+    "oil_spectrum_085",
+    "oil_spectrum_086",
+    "oil_spectrum_087",
+    "oil_spectrum_092",
+    "oil_spectrum_093",
+    "oil_spectrum_094",
+    "oil_spectrum_095",
+    "oil_spectrum_096",
+    "oil_spectrum_097",
+    "oil_spectrum_100",
+    "oil_spectrum_101",
+    "oil_spectrum_104",
+    "oil_spectrum_105",
+    "oil_spectrum_106",
+    "oil_spectrum_107",
+    "oil_spectrum_110",
+    "oil_spectrum_111",
+    "oil_spectrum_112",
+    "oil_spectrum_113",
+    "oil_spectrum_116",
+    "oil_spectrum_117",
+    "oil_spectrum_118",
+    "oil_spectrum_119"
+  ],
+  "train_fit_ids_sha256": "1e8d4b09e15394940eb9a6781f1329ad701a627317353631d900d1f540985d53",
+  "validation_selection_sample_ids": [
+    "oil_spectrum_016",
+    "oil_spectrum_017",
+    "oil_spectrum_030",
+    "oil_spectrum_031",
+    "oil_spectrum_050",
+    "oil_spectrum_051",
+    "oil_spectrum_068",
+    "oil_spectrum_069",
+    "oil_spectrum_080",
+    "oil_spectrum_081",
+    "oil_spectrum_090",
+    "oil_spectrum_091",
+    "oil_spectrum_108",
+    "oil_spectrum_109"
+  ],
+  "source_sha256": {
+    "datasets\\公共数据集\\MIR_Fruit_Purees\\FTIR_Spectra_olive_oils.csv": "39ad3db6c04e3ce8c196b00ccd67bec3b044f058ae3fd89cb03a3290585d806b",
+    "datasets\\公共数据集\\MIR_Fruit_Purees\\FTIR Spectroscopy and Multivariate Analysis Can Distinguish the Geographic Origin of Extra Virgin Olive Oils.pdf": "556d2946534648887b445e8debfb23d2f3165a1f9c85ea722321d8d991f33014"
+  },
+  "representation_sha256": "1572ccdf1da9749cf82b802cff64494c3a6cc00d32a6cc7f07b4ee6de7581b30",
+  "test_used_for_fitting_or_selection": false,
+  "method": "pls_scores",
+  "feature_order": [
+    "PLS1",
+    "PLS2",
+    "PLS3",
+    "PLS4",
+    "PLS5",
+    "PLS6"
+  ],
+  "dimensions": 6,
+  "preprocessed_dimensions": 570,
+  "validation_used_for_dimension_selection": true,
+  "dimension_selection": [
+    {
+      "dimensions": 1,
+      "validation_accuracy": 0.7142857142857143
+    },
+    {
+      "dimensions": 2,
+      "validation_accuracy": 0.7142857142857143
+    },
+    {
+      "dimensions": 3,
+      "validation_accuracy": 0.7857142857142857
+    },
+    {
+      "dimensions": 4,
+      "validation_accuracy": 0.9285714285714286
+    },
+    {
+      "dimensions": 5,
+      "validation_accuracy": 0.9285714285714286
+    },
+    {
+      "dimensions": 6,
+      "validation_accuracy": 1.0
+    },
+    {
+      "dimensions": 7,
+      "validation_accuracy": 0.9285714285714286
+    },
+    {
+      "dimensions": 8,
+      "validation_accuracy": 0.9285714285714286
+    },
+    {
+      "dimensions": 9,
+      "validation_accuracy": 0.9285714285714286
+    },
+    {
+      "dimensions": 10,
+      "validation_accuracy": 0.8571428571428571
+    },
+    {
+      "dimensions": 11,
+      "validation_accuracy": 0.9285714285714286
+    },
+    {
+      "dimensions": 12,
+      "validation_accuracy": 0.7857142857142857
+    },
+    {
+      "dimensions": 13,
+      "validation_accuracy": 0.9285714285714286
+    },
+    {
+      "dimensions": 14,
+      "validation_accuracy": 0.9285714285714286
+    },
+    {
+      "dimensions": 15,
+      "validation_accuracy": 0.8571428571428571
+    }
+  ],
+  "fidelity": "paper_whole_spectrum_PLS_LDA_branch_new_split",
+  "caveats": [
+    "Preserve paired spectra of each of 60 oils; 120 spectra are not 120 independent oils.",
+    "Use all 570 native fingerprint points; paper bounds 799-1897 are rounded, native first point is 798.892.",
+    "No extra SNV or baseline correction; paper says baseline correction not essential.",
+    "PLS scores plus Mahalanobis LDA is the implemented paper branch. Alternative GA-8-variable branch is not reproduced and is not replaced with other feature selection.",
+    "PLS dimension chosen by Validation accuracy from 1 to 15 (smaller wins ties), not by the paper leave-one-oil-out protocol."
+  ],
+  "split_path": "_provenance/public_sources/olive_oils/split_repeat_4.csv",
+  "split_sha256": "0a6b9e115297deda01a91627320fa8ad52404269bb6a4a5fd525c9cf19e1389a",
+  "fit_warnings": []
+}

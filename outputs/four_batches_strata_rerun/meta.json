@@ -1,0 +1,22 @@
+{
+  "variant": "four_batches_strata_rerun",
+  "phase": "ALL",
+  "created": "2026-10-28T06:35:22.817219+00:00",
+  "api_base": "http://127.0.0.1:8080/v1",
+  "model": "qwen3.8-flash-next-q2_0",
+  "thinking": false,
+  "temperature": 0.0,
+  "max_tokens": 16384,
+  "decimals": 3,
+  "format": "plain",
+  "hint": "both",
+  "p3_base": "best",
+  "repeats": 1,
+  "max_bytes": 600000,
+  "max_predictions_per_call": 400,
+  "n_ctx": 65536,
+  "thinking_datasets": [],
+  "datasets_filter": "",
+  "response_format": "none",
+  "n_selected": 395
+}

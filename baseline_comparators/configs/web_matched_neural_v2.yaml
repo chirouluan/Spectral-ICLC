@@ -1,0 +1,13 @@
+web_export: ../data_json/four_batches
+output: ../results/neural_baselines_v2
+models: [cnn1d, transformer]
+excluded_datasets: [fresh_meats, turmeric_levels]
+unseen_models: []
+not_run_models: []
+hyperparameters:
+  cnn1d: {epochs: 100, min_epochs: 20, patience: 20, batch_size: 8, learning_rate: 0.001, weight_decay: 0.0001, selection_metric: loss, min_delta: 0.0001, validation_selection: early_stopping}
+  transformer: {epochs: 100, min_epochs: 20, patience: 20, batch_size: 8, learning_rate: 0.001, weight_decay: 0.0001, selection_metric: loss, min_delta: 0.0001, validation_selection: early_stopping}
+bootstrap_draws: 1000
+bootstrap_seed: 12345
+threads: 2
+api_requests: 0

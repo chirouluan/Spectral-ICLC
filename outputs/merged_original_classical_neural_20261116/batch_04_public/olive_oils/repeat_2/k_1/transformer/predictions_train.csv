@@ -1,0 +1,5 @@
+﻿id,sample_id,group_id,y_true,y_pred,prediction_valid,eval_mode
+ID-21F59A4E19D69C512C45,oil_spectrum_072,oil_sample_37,Spain,Spain,True,in_sample_on_reference_records
+ID-77FCC9999C0B76E0B52A,oil_spectrum_000,oil_sample_1,Greece,Portugal,True,in_sample_on_reference_records
+ID-73F5A6FBD39E5BBB10A4,oil_spectrum_052,oil_sample_27,Italy,Spain,True,in_sample_on_reference_records
+ID-0404C064159C7DB380DC,oil_spectrum_068,oil_sample_35,Portugal,Portugal,True,in_sample_on_reference_records
